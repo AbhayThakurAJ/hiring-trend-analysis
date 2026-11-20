@@ -133,7 +133,7 @@ with col1:
     trend_df = get_monthly_trends(st.session_state.filtered_df)
     if len(trend_df) > 0:
         fig_trend = px.line(trend_df, x='posted_month', y='posting_count', markers=True, color_discrete_sequence=['#1F3564'])
-        fig_trend.update_layout(xaxis_title="Month", yaxis_title="Open Postings", margin=dict(l=10, r=10, t=10, b=10))
+        fig_trend.update_layout(xaxis_title="Month", yaxis_title="Open Postings", margin=dict(l=50, r=20, t=25, b=40))
         st.plotly_chart(fig_trend, use_container_width=True)
     else:
         st.warning("No data matches current filters.")
@@ -142,8 +142,8 @@ with col2:
     st.subheader("💼 Top In-Demand Roles")
     roles_df = get_role_demand(st.session_state.filtered_df, top_n=6)
     if len(roles_df) > 0:
-        fig_role = px.bar(roles_df, x='posting_count', y='role_title', orientation='h', color='posting_count', color_continuous_scale='Blues')
-        fig_role.update_layout(xaxis_title="Postings Count", yaxis_title="", yaxis={'categoryorder':'total ascending'}, margin=dict(l=10, r=10, t=10, b=10))
+        fig_role = px.bar(roles_df, x='posting_count', y='role_title', orientation='h', color='role_title', color_discrete_sequence=['#2563EB'])
+        fig_role.update_layout(xaxis_title="Postings Count", yaxis_title="", yaxis={'categoryorder':'total ascending'}, margin=dict(l=150, r=20, t=25, b=40), showlegend=False)
         st.plotly_chart(fig_role, use_container_width=True)
     else:
         st.warning("No data matches current filters.")

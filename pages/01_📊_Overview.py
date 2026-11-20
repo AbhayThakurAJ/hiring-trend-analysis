@@ -21,7 +21,7 @@ with col1:
     trend_df = get_monthly_trends(df)
     if len(trend_df) > 0:
         fig = px.line(trend_df, x='posted_month', y='posting_count', markers=True, color_discrete_sequence=['#1F3564'])
-        fig.update_layout(xaxis_title="Calendar Month", yaxis_title="Open Openings", margin=dict(l=10, r=10, t=10, b=10))
+        fig.update_layout(xaxis_title="Calendar Month", yaxis_title="Open Openings", margin=dict(l=50, r=20, t=25, b=40))
         st.plotly_chart(fig, use_container_width=True)
     else:
         st.warning("No postings match selected filters.")
@@ -30,8 +30,8 @@ with col2:
     st.subheader("💼 Top Demanded Roles")
     roles_df = get_role_demand(df, top_n=6)
     if len(roles_df) > 0:
-        fig = px.bar(roles_df, x='posting_count', y='role_title', orientation='h', color='posting_count', color_continuous_scale='Blues')
-        fig.update_layout(yaxis={'categoryorder':'total ascending'}, xaxis_title="Postings Count", yaxis_title="", margin=dict(l=10, r=10, t=10, b=10))
+        fig = px.bar(roles_df, x='posting_count', y='role_title', orientation='h', color='role_title', color_discrete_sequence=['#2563EB'])
+        fig.update_layout(yaxis={'categoryorder':'total ascending'}, xaxis_title="Postings Count", yaxis_title="", margin=dict(l=150, r=20, t=25, b=40), showlegend=False)
         st.plotly_chart(fig, use_container_width=True)
     else:
         st.warning("No postings match selected filters.")
