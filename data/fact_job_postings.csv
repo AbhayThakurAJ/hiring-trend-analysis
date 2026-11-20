@@ -1,0 +1,653 @@
+job_id,role_id,company_name,industry_id,city_id,job_type,experience_level,salary_min,salary_max,required_skills,skills_count,posted_date,posted_month,posted_year
+1,2,HDFC Bank Analytics,1,5,Full-time,Fresher,490000.0,610000.0,Docker|Java|REST APIs|Python|Kubernetes|Microservices,6,2024-10-31,2024-10,2024
+2,6,Paytm Labs,3,4,Full-time,Mid-level,760000.0,1660000.0,Docker|Node.js|React,3,2022-03-15,2022-03,2022
+3,9,Tata Motors EV Tech,1,1,Full-time,Fresher,560000.0,940000.0,Statistics|SQL,2,2023-08-24,2023-08,2023
+4,5,Unacademy Edutech,5,5,Full-time,Mid-level,1050000.0,1230000.0,Python|Docker|React,3,2024-07-17,2024-07,2024
+5,2,State Bank of India Tech,1,2,Hybrid,Mid-level,820000.0,1560000.0,Git|Spring Boot|C++,3,2024-08-04,2024-08,2024
+6,5,Havells India Tech,3,14,Full-time,Mid-level,810000.0,1150000.0,Node.js|Docker,2,2024-08-03,2024-08,2024
+7,3,Bajaj Auto R&D,3,2,Full-time,Fresher,500000.0,990000.0,Scikit-Learn|Excel|R|Pandas|Power BI|Statistics,6,2024-02-12,2024-02,2024
+8,9,Cyient Digital,4,3,Full-time,Mid-level,1380000.0,2110000.0,Statistics|Scikit-Learn,2,2024-08-16,2024-08,2024
+9,1,upGrad Education,5,14,Full-time,Senior,2390000.0,2770000.0,SQL|Excel|Power BI|Scikit-Learn,4,2024-09-18,2024-09,2024
+10,1,Cognizant India,2,2,Hybrid,Fresher,520000.0,750000.0,Power BI|Tableau|Pandas|SQL|Excel|Python,6,2023-10-26,2023-10,2023
+11,12,Bajaj Finserv Health,1,1,Full-time,Fresher,500000.0,620000.0,ISO 27001|Cryptography,2,2022-05-22,2022-05,2022
+12,6,Cipla Digital,1,4,Full-time,Mid-level,1190000.0,1400000.0,Spring Boot|React|Docker|Node.js|Microservices|REST APIs,6,2022-02-13,2022-02,2022
+13,2,HDFC Bank Analytics,2,2,Full-time,Mid-level,810000.0,1150000.0,Java|Node.js,2,2022-05-26,2022-05,2022
+14,5,upGrad Education,2,2,Contract,Mid-level,1250000.0,1480000.0,Docker|Spring Boot|Python|Git|Node.js,5,2024-06-01,2024-06,2024
+15,1,Bajaj Auto R&D,5,3,Part-time,Fresher,460000.0,750000.0,SQL|Power BI|Scikit-Learn|Statistics,4,2023-02-07,2023-02,2023
+16,1,Cipla Digital,5,3,Full-time,Mid-level,770000.0,970000.0,Tableau|Statistics|Power BI,3,2022-07-12,2022-07,2022
+17,3,Meesho Commerce,1,1,Full-time,Mid-level,1520000.0,2130000.0,Power BI|Excel|SQL,3,2022-04-30,2022-04,2022
+18,1,Biocon Research,4,4,Full-time,Senior,2160000.0,2590000.0,Scikit-Learn|SQL,2,2024-01-16,2024-01,2024
+19,11,Lupin Innovations,1,9,Full-time,Mid-level,840000.0,1380000.0,REST APIs|Git|Node.js|React|Python|Microservices,6,2022-07-06,2022-07,2022
+20,2,Zee Entertainment Tech,1,5,Contract,Fresher,510000.0,760000.0,Python|Git,2,2023-03-13,2023-03,2023
+21,1,ICICI Bank Technology,1,1,Full-time,Fresher,490000.0,770000.0,Scikit-Learn|Python|R|Excel,4,2023-09-06,2023-09,2023
+22,2,Cognizant India,5,1,Hybrid,Fresher,420000.0,630000.0,Spring Boot|React|Git|Kubernetes,4,2023-05-30,2023-05,2023
+23,3,State Bank of India Tech,1,8,Full-time,Fresher,470000.0,900000.0,Tableau|Pandas|Excel|R,4,2024-05-25,2024-05,2024
+24,6,Cyient Digital,7,1,Full-time,Senior,2210000.0,2890000.0,Docker|C++|Java,3,2023-09-24,2023-09,2023
+25,1,Adani Digital Labs,8,12,Full-time,Fresher,380000.0,670000.0,Statistics|Tableau|SQL|Scikit-Learn|R|Power BI,6,2023-03-20,2023-03,2023
+26,8,State Bank of India Tech,5,8,Full-time,Mid-level,1340000.0,1480000.0,Spring Boot|Microservices|Kubernetes|Node.js|C++,5,2022-09-12,2022-09,2022
+27,1,NDTV Convergence,1,3,Full-time,Mid-level,1170000.0,1630000.0,R|Python|Pandas|Tableau|SQL|Scikit-Learn,6,2023-07-20,2023-07,2023
+28,5,Fortis Healthcare Tech,1,6,Full-time,Senior,1800000.0,2430000.0,Docker|Java,2,2024-11-30,2024-11,2024
+29,7,Larsen & Toubro Infotech,3,4,Full-time,Mid-level,1630000.0,2210000.0,Stakeholder Management|A/B Testing|Agile|Jira,4,2024-11-04,2024-11,2024
+30,2,Mphasis India,1,3,Full-time,Mid-level,1150000.0,1610000.0,REST APIs|Microservices|React,3,2024-04-11,2024-04,2024
+31,3,Biocon Research,1,1,Hybrid,Fresher,550000.0,880000.0,Scikit-Learn|Pandas|Statistics,3,2022-12-14,2022-12,2022
+32,6,LTIMindtree,3,2,Hybrid,Mid-level,1080000.0,1420000.0,C++|Java|REST APIs,3,2023-05-17,2023-05,2023
+33,4,Maruti Suzuki Connected,4,5,Full-time,Mid-level,1150000.0,1510000.0,Power BI|Tableau|R|Statistics|Python,5,2022-08-07,2022-08,2022
+34,6,Meesho Commerce,5,1,Full-time,Fresher,380000.0,720000.0,Kubernetes|Git|REST APIs,3,2023-10-12,2023-10,2023
+35,6,Fortis Healthcare Tech,3,10,Full-time,Senior,2070000.0,2500000.0,Kubernetes|React|Spring Boot|REST APIs|Docker,5,2024-12-03,2024-12,2024
+36,6,ICICI Bank Technology,2,2,Full-time,Fresher,490000.0,610000.0,C++|Spring Boot|Docker,3,2022-11-09,2022-11,2022
+37,5,Paytm Labs,1,1,Full-time,Senior,2010000.0,3330000.0,REST APIs|Docker,2,2023-03-03,2023-03,2023
+38,11,Paytm Labs,5,7,Full-time,Mid-level,980000.0,1590000.0,React|Docker|Kubernetes,3,2022-03-01,2022-03,2022
+39,6,Meesho Commerce,4,5,Remote,Senior,2160000.0,2320000.0,REST APIs|Microservices|Java|Python|Node.js,5,2022-07-27,2022-07,2022
+40,2,Reliance Jio Platforms,1,1,Full-time,Senior,1890000.0,2870000.0,Python|Kubernetes|Java|Git,4,2024-01-18,2024-01,2024
+41,2,Infosys Technologies,1,1,Hybrid,Fresher,470000.0,750000.0,REST APIs|Spring Boot,2,2024-08-10,2024-08,2024
+42,5,Vedantu Innovations,1,7,Hybrid,Mid-level,920000.0,1350000.0,REST APIs|Java,2,2023-10-01,2023-10,2023
+43,11,KPIT Technologies,1,10,Full-time,Mid-level,1000000.0,5800000.0,Microservices|REST APIs|Python|Java,4,2023-12-13,2023-12,2023
+44,6,Tata Consultancy Services,1,5,Remote,Senior,1710000.0,2720000.0,Microservices|Kubernetes|C++|Docker,4,2022-12-27,2022-12,2022
+45,8,Sun Pharma R&D,1,13,Remote,Mid-level,1560000.0,1940000.0,Spring Boot|Python|React|Kubernetes,4,2023-05-15,2023-05,2023
+46,2,Apollo Hospitals Digital,3,4,Hybrid,Fresher,410000.0,700000.0,Node.js|React|REST APIs|Java,4,2024-11-24,2024-11,2024
+47,4,Zee Entertainment Tech,4,1,Full-time,Mid-level,1260000.0,1590000.0,SQL|Excel,2,2023-03-30,2023-03,2023
+48,3,Cipla Digital,3,2,Full-time,Mid-level,1510000.0,1960000.0,Pandas|Excel|Tableau|Statistics,4,2023-02-18,2023-02,2023
+49,7,Zensar Technologies,2,1,Full-time,Mid-level,1230000.0,2090000.0,User Stories|Agile|Scrum|Jira|Stakeholder Management|Product Roadmapping,6,2023-01-03,2023-01,2023
+50,1,HCL Technologies,1,6,Hybrid,Mid-level,880000.0,1650000.0,SQL|Python|Excel|Tableau|Power BI,5,2024-09-07,2024-09,2024
+51,11,Nykaa E-Retail,1,1,Full-time,Fresher,480000.0,600000.0,Microservices|Java|C++|Git|Docker|React,6,2022-02-15,2022-02,2022
+52,5,Mahindra & Mahindra Digital,1,4,Full-time,Mid-level,1220000.0,1550000.0,REST APIs|Docker|React|Java,4,2022-07-23,2022-07,2022
+53,6,Birlasoft,1,1,Full-time,Mid-level,910000.0,1010000.0,Kubernetes|REST APIs|Microservices|React|Java,5,2023-04-20,2023-04,2023
+54,1,HDFC Bank Analytics,5,2,Remote,Mid-level,960000.0,1510000.0,Scikit-Learn|Power BI,2,2022-11-02,2022-11,2022
+55,1,Bajaj Finserv Health,1,8,Hybrid,Senior,1900000.0,2920000.0,Pandas|Excel,2,2024-04-04,2024-04,2024
+56,1,Wipro Limited,2,4,Remote,Mid-level,1010000.0,1140000.0,Power BI|Python,2,2023-07-06,2023-07,2023
+57,4,Ola Electric Mobility,1,7,Remote,Fresher,500000.0,710000.0,SQL|Pandas|Tableau|Power BI|Statistics,5,2023-10-20,2023-10,2023
+58,6,Kotak Mahindra Innovations,1,9,Hybrid,Mid-level,790000.0,1370000.0,Node.js|React,2,2024-07-25,2024-07,2024
+59,9,Meesho Commerce,1,8,Full-time,Fresher,530000.0,960000.0,Pandas|Python|SQL|Tableau|Excel,5,2022-09-26,2022-09,2022
+60,1,Maruti Suzuki Connected,3,3,Full-time,Fresher,390000.0,650000.0,Python|Statistics|Scikit-Learn|SQL|Pandas|Power BI,6,2022-08-29,2022-08,2022
+61,2,Unacademy Edutech,7,1,Full-time,Senior,2100000.0,2710000.0,Git|C++|Docker|Spring Boot|React,5,2024-11-06,2024-11,2024
+62,7,Paytm Labs,1,1,Full-time,Mid-level,1220000.0,2180000.0,User Stories|Stakeholder Management,2,2023-09-04,2023-09,2023
+63,9,Ola Electric Mobility,3,4,Full-time,Fresher,580000.0,960000.0,Pandas|R|Statistics|SQL|Scikit-Learn,5,2022-07-24,2022-07,2022
+64,10,Swiggy Engineering,2,2,Full-time,Mid-level,910000.0,1530000.0,Adobe XD|Prototyping,2,2023-11-11,2023-11,2023
+65,4,Meesho Commerce,2,9,Full-time,Fresher,390000.0,530000.0,Excel|R|Scikit-Learn|Pandas|Power BI,5,2022-06-14,2022-06,2022
+66,3,Reliance Jio Platforms,5,9,Full-time,Senior,3020000.0,4250000.0,SQL|Power BI,2,2023-08-12,2023-08,2023
+67,1,Maruti Suzuki Connected,2,7,Hybrid,Fresher,390000.0,650000.0,Python|R,2,2022-04-25,2022-04,2022
+68,5,Lupin Innovations,1,2,Hybrid,Fresher,400000.0,540000.0,Docker|REST APIs|Spring Boot|Kubernetes|React|Python,6,2023-04-21,2023-04,2023
+69,1,Meesho Commerce,1,2,Remote,Mid-level,920000.0,1100000.0,R|Excel|Scikit-Learn|Power BI|Tableau,5,2024-07-24,2024-07,2024
+70,4,ICICI Bank Technology,1,1,Full-time,Fresher,430000.0,680000.0,Statistics|Excel,2,2022-01-17,2022-01,2022
+71,1,Tata Motors EV Tech,4,6,Hybrid,Senior,2550000.0,2950000.0,R|Power BI|Scikit-Learn,3,2023-01-25,2023-01,2023
+72,6,Mphasis India,4,5,Full-time,Senior,2280000.0,2420000.0,Kubernetes|Java|Node.js|C++,4,2022-07-04,2022-07,2022
+73,2,Sun Pharma R&D,1,2,Remote,Fresher,480000.0,650000.0,React|Kubernetes|Microservices,3,2023-11-25,2023-11,2023
+74,7,HDFC Bank Analytics,1,3,Remote,Mid-level,1350000.0,2030000.0,Scrum|Data Analysis|Product Roadmapping|Agile,4,2023-06-26,2023-06,2023
+75,6,Biocon Research,3,3,Full-time,Mid-level,1140000.0,1300000.0,Kubernetes|Java|Git,3,2023-11-03,2023-11,2023
+76,9,Byju's Learning Systems,1,2,Full-time,Mid-level,1080000.0,1280000.0,Excel|Pandas,2,2022-08-26,2022-08,2022
+77,11,Byju's Learning Systems,1,3,Contract,Mid-level,910000.0,1450000.0,Kubernetes|REST APIs,2,2024-04-15,2024-04,2024
+78,2,Ola Electric Mobility,3,2,Contract,Senior,1700000.0,3240000.0,Git|Node.js|Java|Docker,4,2023-01-20,2023-01,2023
+79,6,Infosys Technologies,1,1,Full-time,Fresher,380000.0,780000.0,Python|Git|Spring Boot,3,2023-03-19,2023-03,2023
+80,8,Tata Motors EV Tech,4,2,Full-time,Senior,2300000.0,2670000.0,React|C++|Python|Java|Git|Kubernetes,6,2024-01-04,2024-01,2024
+81,1,HCL Technologies,1,2,Full-time,Mid-level,870000.0,1040000.0,Pandas|R|Excel|Statistics|Python,5,2024-07-14,2024-07,2024
+82,8,Larsen & Toubro Infotech,1,12,Hybrid,Mid-level,970000.0,1200000.0,Docker|Microservices|Python|Kubernetes|Node.js,5,2023-01-27,2023-01,2023
+83,2,Maruti Suzuki Connected,1,5,Hybrid,Mid-level,1150000.0,1560000.0,React|Kubernetes|Git|Docker|Java|Node.js,6,2022-08-23,2022-08,2022
+84,6,Hexaware,4,5,Full-time,Senior,2030000.0,2840000.0,Docker|Microservices|Python|Node.js|Spring Boot,5,2023-10-03,2023-10,2023
+85,11,Tech Mahindra,1,2,Full-time,Fresher,460000.0,590000.0,C++|Git|Java|Node.js,4,2022-09-08,2022-09,2022
+86,3,upGrad Education,7,9,Full-time,Fresher,520000.0,800000.0,Scikit-Learn|Power BI,2,2022-11-13,2022-11,2022
+87,9,Flipkart Internet,1,2,Full-time,Fresher,500000.0,820000.0,Scikit-Learn|Python|Excel|R|Tableau|Pandas,6,2023-01-05,2023-01,2023
+88,3,Zensar Technologies,6,7,Hybrid,Mid-level,1360000.0,1530000.0,Python|SQL|R,3,2023-07-22,2023-07,2023
+89,6,NDTV Convergence,1,2,Contract,Mid-level,810000.0,1070000.0,REST APIs|Java|Python,3,2023-07-12,2023-07,2023
+90,3,Hexaware,3,3,Hybrid,Fresher,550000.0,710000.0,Pandas|Excel|Python|SQL,4,2024-03-20,2024-03,2024
+91,11,NDTV Convergence,1,1,Full-time,Fresher,440000.0,570000.0,Kubernetes|Docker,2,2024-08-26,2024-08,2024
+92,6,Adani Digital Labs,2,2,Full-time,Senior,1640000.0,2650000.0,Kubernetes|Python,2,2023-10-04,2023-10,2023
+93,3,Persistent Systems,3,4,Full-time,Senior,2360000.0,4140000.0,Pandas|R|Python|Power BI|Statistics|SQL,6,2024-06-11,2024-06,2024
+94,2,Bharti Airtel Tech,1,4,Full-time,Mid-level,830000.0,1470000.0,Git|Microservices,2,2023-02-02,2023-02,2023
+95,8,Cyient Digital,4,2,Full-time,Fresher,490000.0,680000.0,C++|Python|Microservices|Kubernetes|Spring Boot|React,6,2024-07-08,2024-07,2024
+96,12,Reliance Jio Platforms,3,10,Hybrid,Mid-level,,1470000.0,ISO 27001|Python,2,2023-09-13,2023-09,2023
+97,1,Meesho Commerce,1,4,Hybrid,Fresher,430000.0,570000.0,Scikit-Learn|Statistics,2,2024-08-05,2024-08,2024
+98,1,Lupin Innovations,4,13,Full-time,Fresher,470000.0,700000.0,Python|Pandas|Scikit-Learn,3,2023-12-05,2023-12,2023
+99,1,Unacademy Edutech,3,1,Full-time,Mid-level,920000.0,1400000.0,Excel|Statistics|Power BI|Tableau,4,2022-04-18,2022-04,2022
+100,1,Havells India Tech,1,5,Full-time,Fresher,510000.0,650000.0,SQL|Tableau|Pandas|Statistics,4,2022-09-13,2022-09,2022
+101,8,Mphasis India,1,2,Hybrid,Senior,3100000.0,3400000.0,Git|Node.js|Java|REST APIs|C++,5,2023-01-05,2023-01,2023
+102,2,Mphasis India,4,2,Full-time,Fresher,380000.0,750000.0,Git|Java|Node.js|C++|React|Spring Boot,6,2024-09-12,2024-09,2024
+103,3,Paytm Labs,1,8,Full-time,Mid-level,1400000.0,2140000.0,Pandas|Power BI|Excel|SQL,4,2023-09-26,2023-09,2023
+104,2,Havells India Tech,6,7,Contract,Senior,2080000.0,2770000.0,Git|Microservices|Docker|C++|REST APIs,5,2023-02-13,2023-02,2023
+105,6,Flipkart Internet,1,1,Hybrid,Fresher,490000.0,620000.0,Python|C++|React|Kubernetes,4,2022-07-17,2022-07,2022
+106,4,Adani Digital Labs,1,12,Contract,Mid-level,1170000.0,1530000.0,Power BI|Statistics|Python|Tableau,4,2024-01-05,2024-01,2024
+107,1,Kotak Mahindra Innovations,4,5,Remote,Mid-level,900000.0,1740000.0,Pandas|Python|Scikit-Learn|Statistics|Tableau,5,2023-03-18,2023-03,2023
+108,4,Persistent Systems,4,4,Hybrid,Fresher,380000.0,510000.0,Statistics|Pandas|Python,3,2022-08-16,2022-08,2022
+109,6,Lupin Innovations,2,3,Full-time,Fresher,460000.0,560000.0,Node.js|Spring Boot|Docker|C++|Microservices|Git,6,2022-06-25,2022-06,2022
+110,5,Fortis Healthcare Tech,7,2,Full-time,Mid-level,1240000.0,1360000.0,Node.js|React|Java|Microservices|Docker,5,2022-05-19,2022-05,2022
+111,7,Vedantu Innovations,3,6,Hybrid,Fresher,530000.0,920000.0,Jira|Data Analysis|Stakeholder Management|Product Roadmapping,4,2024-09-07,2024-09,2024
+112,7,Meesho Commerce,1,8,Full-time,Fresher,640000.0,790000.0,Stakeholder Management|Jira,2,2024-11-21,2024-11,2024
+113,1,Bajaj Auto R&D,2,8,Full-time,Fresher,360000.0,630000.0,SQL|R|Power BI|Statistics,4,2024-06-19,2024-06,2024
+114,4,Apollo Hospitals Digital,8,3,Full-time,Mid-level,1030000.0,1220000.0,SQL|Statistics|Excel|Scikit-Learn|Pandas,5,2023-08-25,2023-08,2023
+115,2,Tata Motors EV Tech,3,1,Hybrid,Fresher,470000.0,660000.0,Java|Node.js|Docker|React|REST APIs,5,2023-09-28,2023-09,2023
+116,6,Infosys Technologies,5,2,Full-time,Mid-level,1210000.0,1330000.0,Python|Spring Boot|Node.js,3,2024-01-12,2024-01,2024
+117,6,Flipkart Internet,3,4,Full-time,Mid-level,890000.0,1550000.0,Docker|Node.js|React|Spring Boot,4,2023-02-21,2023-02,2023
+118,1,NDTV Convergence,6,4,Full-time,Mid-level,1050000.0,1670000.0,SQL|Tableau|Statistics,3,2022-06-01,2022-06,2022
+119,1,Havells India Tech,2,10,Contract,Senior,2300000.0,2760000.0,Scikit-Learn|Excel,2,2023-09-07,2023-09,2023
+120,6,Flipkart Internet,6,6,Full-time,Fresher,400000.0,570000.0,Kubernetes|Java|Node.js,3,2024-01-26,2024-01,2024
+121,10,Tech Mahindra,1,14,Full-time,Senior,2350000.0,2950000.0,User Research|HTML/CSS|Prototyping|Figma|Design Systems|Adobe XD,6,2022-06-01,2022-06,2022
+122,9,NDTV Convergence,1,6,Hybrid,Mid-level,1070000.0,2080000.0,Python|SQL|Excel|Pandas|Tableau|R,6,2022-11-28,2022-11,2022
+123,11,Kotak Mahindra Innovations,1,6,Remote,Fresher,520000.0,760000.0,C++|React|Git|Python,4,2024-10-26,2024-10,2024
+124,1,Mahindra & Mahindra Digital,2,4,Hybrid,Mid-level,790000.0,920000.0,Python|Excel,2,2023-03-08,2023-03,2023
+125,4,Maruti Suzuki Connected,3,3,Full-time,Mid-level,1070000.0,1680000.0,Statistics|Excel|Power BI,3,2022-05-30,2022-05,2022
+126,4,Bharti Airtel Tech,1,1,Hybrid,Fresher,430000.0,710000.0,Tableau|R|Excel|Statistics|Python,5,2023-01-16,2023-01,2023
+127,1,Swiggy Engineering,1,3,Remote,Mid-level,920000.0,1360000.0,R|Power BI|Statistics|SQL|Pandas|Excel,6,2024-10-18,2024-10,2024
+128,3,Meesho Commerce,1,3,Contract,Fresher,530000.0,660000.0,Excel|Pandas,2,2024-08-21,2024-08,2024
+129,1,Axis Bank Digital,1,1,Hybrid,Mid-level,1130000.0,1250000.0,Python|Power BI|Tableau|Excel|Statistics,5,2022-05-31,2022-05,2022
+130,9,Mahindra & Mahindra Digital,2,3,Full-time,Fresher,460000.0,770000.0,R|Scikit-Learn|Statistics|SQL,4,2023-02-12,2023-02,2023
+131,1,Unacademy Edutech,1,3,Full-time,Mid-level,1230000.0,1410000.0,Scikit-Learn|Tableau|Pandas|Excel|Statistics|SQL,6,2024-03-15,2024-03,2024
+132,2,Fortis Healthcare Tech,1,6,Hybrid,Mid-level,1060000.0,1660000.0,Node.js|Microservices,2,2022-08-13,2022-08,2022
+133,6,Byju's Learning Systems,4,4,Full-time,Mid-level,1030000.0,1740000.0,Spring Boot|Java|Kubernetes|C++|React|Node.js,6,2022-09-18,2022-09,2022
+134,1,Infosys Technologies,7,1,Full-time,Mid-level,1180000.0,1640000.0,Statistics|Pandas|Scikit-Learn,3,2022-05-08,2022-05,2022
+135,12,Nykaa E-Retail,2,4,Full-time,Fresher,400000.0,740000.0,Penetration Testing|Linux|SIEM|ISO 27001|Python|Network Security,6,2023-05-20,2023-05,2023
+136,12,NDTV Convergence,7,2,Full-time,Fresher,480000.0,660000.0,Penetration Testing|Linux|ISO 27001|SIEM|Cryptography,5,2022-09-07,2022-09,2022
+137,3,Adani Digital Labs,6,4,Contract,Mid-level,1240000.0,1380000.0,SQL|R|Power BI|Pandas,4,2023-06-10,2023-06,2023
+138,2,Cipla Digital,5,1,Full-time,Fresher,510000.0,760000.0,Spring Boot|Java|Git,3,2023-04-08,2023-04,2023
+139,6,Cognizant India,1,1,Hybrid,Fresher,490000.0,630000.0,Microservices|Kubernetes|REST APIs|Spring Boot|Docker,5,2023-08-12,2023-08,2023
+140,1,Lupin Innovations,6,5,Full-time,Mid-level,790000.0,1070000.0,Tableau|Python|Statistics|Power BI|R,5,2023-01-17,2023-01,2023
+141,9,Tata Consultancy Services,6,13,Full-time,Mid-level,1290000.0,1690000.0,Scikit-Learn|Pandas|SQL|Excel|Power BI,5,2023-01-13,2023-01,2023
+142,2,Zensar Technologies,2,1,Full-time,Fresher,430000.0,630000.0,REST APIs|Docker|Microservices,3,2024-11-21,2024-11,2024
+143,12,Nykaa E-Retail,1,3,Full-time,Fresher,420000.0,720000.0,ISO 27001|Cryptography|SIEM,3,2023-11-07,2023-11,2023
+144,6,Byju's Learning Systems,1,6,Full-time,Mid-level,1240000.0,1500000.0,Docker|Git|React,3,2022-08-29,2022-08,2022
+145,2,Mphasis India,1,12,Hybrid,Mid-level,1140000.0,1460000.0,Kubernetes|Git|Spring Boot|REST APIs|Node.js|React,6,2022-06-17,2022-06,2022
+146,10,Persistent Systems,1,4,Full-time,Mid-level,960000.0,1660000.0,Adobe XD|HTML/CSS|Wireframing|User Research|Figma|Prototyping,6,2023-08-28,2023-08,2023
+147,4,Meesho Commerce,2,8,Full-time,Mid-level,1070000.0,1190000.0,Excel|Python|R|SQL|Scikit-Learn,5,2024-03-30,2024-03,2024
+148,11,Tech Mahindra,8,1,Part-time,Mid-level,1050000.0,1580000.0,C++|Docker|Node.js,3,2024-02-23,2024-02,2024
+149,1,Larsen & Toubro Infotech,1,11,Remote,Fresher,440000.0,570000.0,Scikit-Learn|Statistics|Excel,3,2022-09-18,2022-09,2022
+150,1,Bajaj Finserv Health,1,2,Hybrid,Mid-level,1190000.0,1570000.0,Power BI|Scikit-Learn|Pandas|Tableau|SQL,5,2022-09-19,2022-09,2022
+151,6,Infosys Technologies,3,1,Full-time,Fresher,510000.0,620000.0,REST APIs|Java|Spring Boot|Microservices|Git,5,2022-02-17,2022-02,2022
+152,2,upGrad Education,8,1,Full-time,Mid-level,,1440000.0,C++|Git|Spring Boot|Docker,4,2023-09-08,2023-09,2023
+153,7,Zensar Technologies,2,4,Full-time,Mid-level,1460000.0,1610000.0,Data Analysis|A/B Testing|User Stories|Jira,4,2024-05-02,2024-05,2024
+154,5,ICICI Bank Technology,1,2,Remote,Fresher,390000.0,730000.0,Git|Docker,2,2024-05-03,2024-05,2024
+155,2,Bajaj Auto R&D,1,1,Full-time,Mid-level,1140000.0,1290000.0,Spring Boot|Java|React|Docker|Node.js|Git,6,2022-03-22,2022-03,2022
+156,6,Cipla Digital,4,1,Full-time,Fresher,440000.0,620000.0,Spring Boot|Microservices,2,2022-08-29,2022-08,2022
+157,6,Unacademy Edutech,6,7,Full-time,Senior,2180000.0,2950000.0,Docker|Kubernetes|Git|Node.js,4,2023-09-24,2023-09,2023
+158,1,upGrad Education,2,4,Full-time,Senior,2560000.0,2870000.0,R|Statistics|Python|Excel,4,2023-03-30,2023-03,2023
+159,5,upGrad Education,2,1,Full-time,Fresher,440000.0,600000.0,REST APIs|Spring Boot|Kubernetes|Node.js|C++,5,2024-09-27,2024-09,2024
+160,1,Adani Digital Labs,2,5,Full-time,Mid-level,,1460000.0,Python|Scikit-Learn|Statistics|Pandas|R|Excel,6,2022-09-24,2022-09,2022
+161,2,Meesho Commerce,1,1,Full-time,Mid-level,1260000.0,1710000.0,Java|Microservices|Git|Docker|REST APIs,5,2022-02-04,2022-02,2022
+162,1,Byju's Learning Systems,8,2,Full-time,Mid-level,940000.0,1150000.0,Scikit-Learn|Tableau,2,2023-08-09,2023-08,2023
+163,3,Flipkart Internet,1,8,Contract,Mid-level,1190000.0,2020000.0,Excel|SQL|R,3,2023-07-06,2023-07,2023
+164,1,Birlasoft,1,4,Full-time,Senior,2280000.0,3200000.0,SQL|Python|Scikit-Learn|Statistics,4,2024-08-31,2024-08,2024
+165,2,Sun Pharma R&D,3,11,Full-time,Fresher,430000.0,540000.0,REST APIs|C++|Docker,3,2022-06-07,2022-06,2022
+166,9,Havells India Tech,2,4,Remote,Fresher,640000.0,930000.0,SQL|R|Python,3,2022-07-20,2022-07,2022
+167,7,Tata Motors EV Tech,1,8,Full-time,Mid-level,970000.0,1640000.0,A/B Testing|Scrum|Jira|User Stories|Product Roadmapping,5,2024-08-03,2024-08,2024
+168,2,ICICI Bank Technology,4,3,Hybrid,Fresher,390000.0,690000.0,Docker|Node.js|REST APIs,3,2023-03-07,2023-03,2023
+169,1,Zensar Technologies,1,2,Full-time,Mid-level,1180000.0,1330000.0,SQL|R,2,2022-07-10,2022-07,2022
+170,1,Paytm Labs,5,7,Full-time,Fresher,500000.0,660000.0,Scikit-Learn|Tableau|R|Power BI|SQL|Excel,6,2023-07-05,2023-07,2023
+171,3,Paytm Labs,1,3,Full-time,Mid-level,1320000.0,1680000.0,Pandas|Power BI|Scikit-Learn,3,2023-01-08,2023-01,2023
+172,8,Bharti Airtel Tech,3,2,Full-time,Mid-level,1620000.0,2030000.0,React|Node.js|Spring Boot,3,2024-09-08,2024-09,2024
+173,2,Byju's Learning Systems,7,13,Full-time,Senior,2420000.0,2770000.0,Docker|React|Microservices|Node.js,4,2022-08-22,2022-08,2022
+174,1,NDTV Convergence,8,1,Full-time,Senior,2080000.0,2620000.0,Excel|SQL|Statistics|Power BI|R,5,2022-10-13,2022-10,2022
+175,6,Swiggy Engineering,3,2,Full-time,Senior,2100000.0,3040000.0,Git|Docker|Microservices|Java|REST APIs|C++,6,2024-02-24,2024-02,2024
+176,6,Lupin Innovations,1,5,Part-time,Mid-level,1170000.0,1660000.0,Docker|Python|Java|REST APIs,4,2024-09-14,2024-09,2024
+177,2,Flipkart Internet,3,4,Full-time,Mid-level,1270000.0,1450000.0,Java|Kubernetes|Python|React,4,2024-05-01,2024-05,2024
+178,7,Adani Digital Labs,5,1,Full-time,Mid-level,1150000.0,1800000.0,Stakeholder Management|Product Roadmapping|Agile|Data Analysis|User Stories,5,2024-01-16,2024-01,2024
+179,6,Havells India Tech,5,1,Hybrid,Senior,2380000.0,2740000.0,C++|Git|Microservices|Node.js|React|Spring Boot,6,2024-07-04,2024-07,2024
+180,3,Infosys Technologies,3,1,Hybrid,Senior,2940000.0,4280000.0,Statistics|Python|R|SQL|Scikit-Learn,5,2023-07-25,2023-07,2023
+181,1,Sun Pharma R&D,1,8,Full-time,Fresher,470000.0,600000.0,Pandas|R|Excel|Power BI,4,2024-03-14,2024-03,2024
+182,6,Havells India Tech,5,2,Hybrid,Fresher,510000.0,760000.0,Microservices|C++,2,2022-03-04,2022-03,2022
+183,4,Paytm Labs,3,1,Full-time,Mid-level,1190000.0,1390000.0,Scikit-Learn|Tableau|Excel|SQL|Power BI,5,2023-03-15,2023-03,2023
+184,11,Apollo Hospitals Digital,5,5,Full-time,Mid-level,1280000.0,1720000.0,Docker|Kubernetes|Microservices|REST APIs|Spring Boot,5,2022-01-09,2022-01,2022
+185,5,Birlasoft,1,2,Remote,Mid-level,1270000.0,1660000.0,Python|REST APIs|Microservices|React|Docker|Kubernetes,6,2024-01-22,2024-01,2024
+186,4,Hexaware,4,7,Part-time,Fresher,410000.0,5800000.0,Pandas|Excel,2,2023-12-15,2023-12,2023
+187,1,ICICI Bank Technology,5,1,Full-time,Mid-level,1120000.0,1670000.0,Tableau|Power BI|Statistics,3,2023-02-28,2023-02,2023
+188,5,Birlasoft,2,4,Full-time,Mid-level,1050000.0,1430000.0,Microservices|Python|C++|Docker|Java|Git,6,2022-09-17,2022-09,2022
+189,2,ICICI Bank Technology,1,1,Remote,Mid-level,1260000.0,1430000.0,Microservices|React|Docker|Git|Spring Boot|Java,6,2022-07-10,2022-07,2022
+190,9,Meesho Commerce,3,7,Contract,Fresher,440000.0,950000.0,Pandas|R,2,2022-05-10,2022-05,2022
+191,9,Apollo Hospitals Digital,7,3,Full-time,Senior,2710000.0,3960000.0,Tableau|Pandas|Statistics|Scikit-Learn|Python|Excel,6,2022-07-23,2022-07,2022
+192,11,Birlasoft,1,8,Full-time,Fresher,460000.0,610000.0,Microservices|React|C++,3,2023-03-16,2023-03,2023
+193,6,HCL Technologies,3,1,Full-time,Fresher,410000.0,740000.0,Python|Java,2,2023-03-14,2023-03,2023
+194,6,Tata Consultancy Services,1,1,Full-time,Fresher,380000.0,700000.0,Kubernetes|Python|Spring Boot,3,2022-01-24,2022-01,2022
+195,1,NDTV Convergence,6,2,Hybrid,Senior,2270000.0,3080000.0,SQL|Python|Excel,3,2022-12-03,2022-12,2022
+196,1,Paytm Labs,3,6,Full-time,Mid-level,980000.0,1170000.0,Tableau|SQL,2,2024-02-26,2024-02,2024
+197,2,Bajaj Auto R&D,4,3,Full-time,Mid-level,1050000.0,1180000.0,Spring Boot|Git|REST APIs|Microservices,4,2024-03-13,2024-03,2024
+198,11,Apollo Hospitals Digital,6,1,Full-time,Fresher,520000.0,780000.0,Git|Java,2,2024-01-10,2024-01,2024
+199,5,Flipkart Internet,5,1,Full-time,Fresher,470000.0,770000.0,Java|REST APIs,2,2022-02-19,2022-02,2022
+200,3,Kotak Mahindra Innovations,7,11,Full-time,Mid-level,1370000.0,1910000.0,SQL|Tableau|Pandas|Python|Statistics,5,2022-06-11,2022-06,2022
+201,5,Zomato Technologies,5,1,Full-time,Mid-level,820000.0,1250000.0,Spring Boot|Java|Microservices|Python|Git,5,2022-08-26,2022-08,2022
+202,7,Vedantu Innovations,1,5,Full-time,Fresher,470000.0,940000.0,Jira|Product Roadmapping,2,2023-12-12,2023-12,2023
+203,1,Mphasis India,4,7,Hybrid,Senior,2370000.0,2590000.0,R|Statistics,2,2023-07-12,2023-07,2023
+204,6,Apollo Hospitals Digital,8,2,Full-time,Fresher,480000.0,730000.0,Node.js|C++|React,3,2022-07-30,2022-07,2022
+205,7,Tata Consultancy Services,1,5,Full-time,Senior,2510000.0,2710000.0,Stakeholder Management|Product Roadmapping|Scrum|A/B Testing|Agile,5,2023-02-08,2023-02,2023
+206,9,Lupin Innovations,1,11,Full-time,Mid-level,990000.0,1470000.0,Scikit-Learn|Python|Power BI,3,2022-05-22,2022-05,2022
+207,2,LTIMindtree,4,9,Full-time,Fresher,400000.0,650000.0,React|REST APIs|Spring Boot|Kubernetes|C++|Microservices,6,2024-10-07,2024-10,2024
+208,5,ICICI Bank Technology,4,7,Full-time,Senior,1630000.0,2220000.0,Node.js|Java|Microservices|REST APIs|Docker|Git,6,2024-02-10,2024-02,2024
+209,4,ICICI Bank Technology,1,6,Full-time,Senior,1750000.0,3340000.0,SQL|Python|Scikit-Learn|Excel,4,2024-04-25,2024-04,2024
+210,1,Cognizant India,8,2,Full-time,Mid-level,1160000.0,1300000.0,Python|Statistics|R|SQL|Pandas|Tableau,6,2023-06-19,2023-06,2023
+211,9,Reliance Jio Platforms,1,11,Full-time,Fresher,460000.0,670000.0,SQL|Tableau|Python,3,2022-12-03,2022-12,2022
+212,3,NDTV Convergence,1,2,Full-time,Fresher,510000.0,670000.0,Tableau|Excel,2,2022-03-24,2022-03,2022
+213,3,Fortis Healthcare Tech,1,1,Full-time,Fresher,650000.0,800000.0,Statistics|Pandas,2,2022-01-27,2022-01,2022
+214,8,HDFC Bank Analytics,1,1,Full-time,Senior,2780000.0,4200000.0,REST APIs|Microservices,2,2023-06-15,2023-06,2023
+215,2,Bajaj Auto R&D,8,1,Full-time,Fresher,440000.0,570000.0,Kubernetes|Java,2,2022-12-11,2022-12,2022
+216,4,Swiggy Engineering,4,3,Full-time,Fresher,410000.0,610000.0,Excel|Pandas|SQL|Python,4,2023-05-19,2023-05,2023
+217,4,LTIMindtree,6,3,Full-time,Fresher,400000.0,780000.0,Scikit-Learn|Python|Power BI,3,2024-01-06,2024-01,2024
+218,5,Reliance Jio Platforms,1,7,Full-time,Fresher,430000.0,640000.0,React|Java,2,2024-08-24,2024-08,2024
+219,12,Cognizant India,8,7,Full-time,Fresher,490000.0,800000.0,Python|Linux,2,2024-03-06,2024-03,2024
+220,1,Biocon Research,5,8,Full-time,Mid-level,1130000.0,1710000.0,Python|R|Excel|Statistics|SQL|Pandas,6,2024-10-05,2024-10,2024
+221,1,Tata Motors EV Tech,1,1,Full-time,Mid-level,750000.0,1200000.0,Power BI|Tableau|Pandas|R|SQL|Statistics,6,2024-08-02,2024-08,2024
+222,9,Flipkart Internet,4,11,Contract,Fresher,610000.0,920000.0,SQL|R|Tableau|Statistics|Scikit-Learn|Excel,6,2024-06-13,2024-06,2024
+223,1,Cipla Digital,3,13,Full-time,Senior,2430000.0,2900000.0,Tableau|Statistics|Scikit-Learn,3,2022-09-27,2022-09,2022
+224,3,NDTV Convergence,7,12,Contract,Fresher,600000.0,870000.0,Power BI|SQL|Scikit-Learn|Pandas|Tableau|Python,6,2023-05-03,2023-05,2023
+225,11,Unacademy Edutech,3,2,Full-time,Mid-level,1100000.0,1670000.0,React|Spring Boot,2,2023-05-27,2023-05,2023
+226,6,HCL Technologies,4,2,Full-time,Mid-level,920000.0,1450000.0,Docker|Node.js|Git|Microservices|Java,5,2024-09-08,2024-09,2024
+227,2,Ola Electric Mobility,4,4,Full-time,Senior,1910000.0,2050000.0,React|Python|REST APIs|Node.js,4,2022-12-15,2022-12,2022
+228,11,LTIMindtree,1,1,Full-time,Senior,2540000.0,3150000.0,Docker|C++,2,2023-01-08,2023-01,2023
+229,6,upGrad Education,1,1,Remote,Mid-level,1050000.0,1460000.0,Python|Java|Docker,3,2022-03-02,2022-03,2022
+230,6,Tata Motors EV Tech,1,3,Hybrid,Fresher,400000.0,590000.0,Python|Kubernetes|Microservices|React,4,2024-03-25,2024-03,2024
+231,6,Swiggy Engineering,1,10,Full-time,Senior,1990000.0,2480000.0,Java|React|Kubernetes|Git|C++,5,2023-04-09,2023-04,2023
+232,6,Cognizant India,1,4,Full-time,Fresher,490000.0,700000.0,Spring Boot|Git|Java|Docker|Kubernetes|React,6,2024-05-07,2024-05,2024
+233,5,ICICI Bank Technology,7,6,Full-time,Fresher,360000.0,720000.0,Git|REST APIs|C++|Python|Docker|Spring Boot,6,2022-12-21,2022-12,2022
+234,2,Wipro Limited,1,1,Full-time,Senior,2060000.0,2580000.0,REST APIs|React|Node.js,3,2023-08-18,2023-08,2023
+235,4,Tata Consultancy Services,5,4,Hybrid,Mid-level,1190000.0,1350000.0,Tableau|Scikit-Learn|Excel|Statistics|R,5,2022-07-25,2022-07,2022
+236,2,Sun Pharma R&D,1,4,Remote,Senior,1880000.0,2780000.0,REST APIs|Microservices|Kubernetes|Java|Python,5,2023-07-19,2023-07,2023
+237,3,Zomato Technologies,3,5,Remote,Fresher,500000.0,630000.0,Excel|R|Python|Tableau|Pandas,5,2023-09-29,2023-09,2023
+238,1,HDFC Bank Analytics,3,3,Full-time,Senior,,2830000.0,Statistics|SQL|Pandas|Power BI,4,2023-03-09,2023-03,2023
+239,4,Flipkart Internet,2,3,Hybrid,Mid-level,920000.0,1090000.0,Scikit-Learn|Statistics|SQL|Excel,4,2022-02-01,2022-02,2022
+240,10,Unacademy Edutech,2,2,Full-time,Fresher,470000.0,700000.0,Design Systems|Figma|HTML/CSS|Adobe XD|User Research,5,2024-09-28,2024-09,2024
+241,5,Adani Digital Labs,5,1,Full-time,Senior,1870000.0,2160000.0,Java|Docker|Microservices|C++,4,2023-03-15,2023-03,2023
+242,2,Paytm Labs,3,5,Full-time,Senior,2400000.0,3220000.0,Kubernetes|C++,2,2022-12-21,2022-12,2022
+243,8,Bajaj Finserv Health,1,1,Hybrid,Mid-level,1230000.0,1770000.0,Node.js|Kubernetes|React|Spring Boot|REST APIs,5,2023-09-11,2023-09,2023
+244,1,Fortis Healthcare Tech,1,8,Part-time,Senior,2480000.0,2970000.0,Excel|Scikit-Learn|R|Python|Power BI|Statistics,6,2023-11-20,2023-11,2023
+245,2,Unacademy Edutech,5,5,Contract,Mid-level,950000.0,1210000.0,Spring Boot|Java|Docker|Node.js|Kubernetes|Python,6,2022-02-22,2022-02,2022
+246,3,Swiggy Engineering,1,15,Hybrid,Mid-level,1540000.0,1840000.0,Power BI|Pandas|R|Tableau,4,2024-11-04,2024-11,2024
+247,5,Kotak Mahindra Innovations,3,1,Full-time,Fresher,420000.0,620000.0,Microservices|Python|Spring Boot|Node.js,4,2023-04-03,2023-04,2023
+248,2,Axis Bank Digital,4,2,Full-time,Mid-level,870000.0,1460000.0,Microservices|REST APIs,2,2022-05-26,2022-05,2022
+249,6,Dr. Reddy's Laboratories,1,1,Full-time,Fresher,390000.0,560000.0,Node.js|Docker|Kubernetes,3,2022-10-21,2022-10,2022
+250,4,Maruti Suzuki Connected,4,6,Part-time,Fresher,370000.0,470000.0,Excel|Power BI|Statistics|SQL|Scikit-Learn,5,2022-11-21,2022-11,2022
+251,6,Maruti Suzuki Connected,1,7,Full-time,Mid-level,1250000.0,1550000.0,Java|Git,2,2023-02-13,2023-02,2023
+252,7,Dr. Reddy's Laboratories,6,13,Full-time,Mid-level,1590000.0,1950000.0,Stakeholder Management|Jira|Scrum,3,2022-07-30,2022-07,2022
+253,9,Bajaj Finserv Health,1,4,Contract,Mid-level,1480000.0,2210000.0,R|Statistics|Scikit-Learn|SQL|Tableau|Power BI,6,2024-01-06,2024-01,2024
+254,8,Infosys Technologies,6,1,Full-time,Mid-level,1080000.0,1620000.0,REST APIs|Git,2,2024-09-13,2024-09,2024
+255,6,NDTV Convergence,1,7,Hybrid,Fresher,360000.0,520000.0,Java|Python,2,2024-05-03,2024-05,2024
+256,6,Hexaware,1,1,Hybrid,Mid-level,1070000.0,1610000.0,Microservices|Git,2,2023-07-07,2023-07,2023
+257,10,Fortis Healthcare Tech,1,6,Hybrid,Fresher,380000.0,540000.0,Adobe XD|Prototyping|HTML/CSS|Wireframing|User Research,5,2023-02-18,2023-02,2023
+258,5,Hexaware,1,3,Hybrid,Mid-level,1000000.0,1100000.0,Microservices|Python,2,2022-08-15,2022-08,2022
+259,1,Fortis Healthcare Tech,1,5,Full-time,Mid-level,1020000.0,1360000.0,Excel|Scikit-Learn|Power BI|Python|R,5,2022-12-24,2022-12,2022
+260,6,Razorpay Software,1,9,Hybrid,Fresher,360000.0,470000.0,Microservices|C++|Node.js,3,2024-01-03,2024-01,2024
+261,7,Flipkart Internet,1,13,Remote,Fresher,540000.0,850000.0,User Stories|Data Analysis|Product Roadmapping|Stakeholder Management|A/B Testing,5,2024-09-08,2024-09,2024
+262,1,Paytm Labs,7,1,Remote,Mid-level,1210000.0,1410000.0,Statistics|R|Excel|Python|SQL|Power BI,6,2023-07-26,2023-07,2023
+263,2,Unacademy Edutech,1,1,Remote,Mid-level,980000.0,1430000.0,Git|REST APIs|Python|Docker|Node.js|Kubernetes,6,2023-05-25,2023-05,2023
+264,1,Cipla Digital,3,5,Remote,Mid-level,760000.0,1530000.0,Scikit-Learn|Pandas|Statistics,3,2024-10-12,2024-10,2024
+265,2,State Bank of India Tech,2,1,Full-time,Fresher,520000.0,720000.0,Spring Boot|Python|Kubernetes|Git|Docker,5,2023-07-06,2023-07,2023
+266,7,Infosys Technologies,8,2,Full-time,Mid-level,1520000.0,2200000.0,Scrum|Data Analysis,2,2023-09-16,2023-09,2023
+267,4,Bharti Airtel Tech,3,4,Full-time,Fresher,410000.0,750000.0,Scikit-Learn|Pandas|R|Statistics,4,2024-01-15,2024-01,2024
+268,2,Bharti Airtel Tech,4,1,Full-time,Mid-level,1060000.0,1730000.0,Node.js|Python|Java|C++|Spring Boot|REST APIs,6,2022-08-18,2022-08,2022
+269,3,Meesho Commerce,7,1,Hybrid,Fresher,530000.0,690000.0,Python|SQL|Statistics|Power BI|R,5,2022-07-29,2022-07,2022
+270,11,Biocon Research,1,4,Hybrid,Mid-level,940000.0,1650000.0,C++|Python|Docker,3,2023-10-22,2023-10,2023
+271,10,Zee Entertainment Tech,8,3,Full-time,Mid-level,1110000.0,1520000.0,HTML/CSS|Adobe XD|Design Systems|User Research|Wireframing,5,2024-11-15,2024-11,2024
+272,6,Cipla Digital,5,6,Full-time,Fresher,510000.0,800000.0,Microservices|Node.js|C++|Git,4,2024-10-28,2024-10,2024
+273,7,Cipla Digital,3,5,Full-time,Mid-level,1640000.0,2110000.0,User Stories|Data Analysis|Product Roadmapping|Agile|A/B Testing,5,2022-02-21,2022-02,2022
+274,2,Birlasoft,1,1,Part-time,Mid-level,900000.0,1070000.0,Spring Boot|Git|Java|Node.js,4,2024-09-15,2024-09,2024
+275,6,Swiggy Engineering,1,4,Full-time,Mid-level,1050000.0,1200000.0,Docker|Microservices|Node.js|Java|Kubernetes,5,2022-07-30,2022-07,2022
+276,6,Zee Entertainment Tech,3,11,Full-time,Mid-level,960000.0,1260000.0,Kubernetes|C++|Python|REST APIs,4,2022-12-22,2022-12,2022
+277,2,Axis Bank Digital,1,1,Full-time,Mid-level,1020000.0,1130000.0,Kubernetes|C++|Java|REST APIs,4,2023-10-23,2023-10,2023
+278,9,Bajaj Finserv Health,3,7,Full-time,Mid-level,1310000.0,1490000.0,Scikit-Learn|Power BI|SQL|Excel,4,2022-05-20,2022-05,2022
+279,3,Adani Digital Labs,2,1,Full-time,Fresher,520000.0,790000.0,Excel|Power BI|Statistics|Scikit-Learn,4,2024-12-22,2024-12,2024
+280,6,Persistent Systems,4,4,Full-time,Mid-level,1010000.0,1150000.0,Docker|Python|Microservices|React,4,2023-08-03,2023-08,2023
+281,4,Kotak Mahindra Innovations,2,4,Remote,Fresher,480000.0,600000.0,Tableau|Python,2,2022-09-15,2022-09,2022
+282,1,Sun Pharma R&D,2,9,Hybrid,Senior,2380000.0,3290000.0,SQL|Tableau|Python|Power BI|Pandas,5,2022-01-19,2022-01,2022
+283,5,HDFC Bank Analytics,2,7,Remote,Mid-level,1220000.0,1650000.0,Docker|Node.js|Java|Microservices|REST APIs,5,2022-08-31,2022-08,2022
+284,7,Biocon Research,3,5,Full-time,Senior,2750000.0,3900000.0,User Stories|Data Analysis,2,2023-09-10,2023-09,2023
+285,3,Larsen & Toubro Infotech,6,2,Full-time,Fresher,500000.0,670000.0,Scikit-Learn|Excel|R|SQL|Tableau,5,2024-02-04,2024-02,2024
+286,1,Wipro Limited,5,1,Full-time,Mid-level,840000.0,1260000.0,R|Power BI|Pandas,3,2022-02-15,2022-02,2022
+287,1,Larsen & Toubro Infotech,1,5,Remote,Senior,2490000.0,3170000.0,Scikit-Learn|SQL|Tableau|R|Python,5,2024-09-29,2024-09,2024
+288,1,Bajaj Auto R&D,1,3,Full-time,Fresher,370000.0,570000.0,Pandas|Scikit-Learn|Tableau|Excel,4,2023-09-19,2023-09,2023
+289,8,Razorpay Software,2,1,Full-time,Fresher,640000.0,800000.0,React|Node.js|C++|REST APIs|Spring Boot,5,2024-08-05,2024-08,2024
+290,1,Bajaj Auto R&D,2,7,Full-time,Senior,2500000.0,2750000.0,Power BI|Excel|R|Statistics|Python|Pandas,6,2022-02-08,2022-02,2022
+291,5,NDTV Convergence,5,5,Full-time,Senior,2180000.0,2830000.0,Git|Kubernetes|C++|Node.js|Spring Boot|Python,6,2024-08-19,2024-08,2024
+292,1,ICICI Bank Technology,1,1,Remote,Mid-level,920000.0,1560000.0,Pandas|Tableau|SQL,3,2022-10-27,2022-10,2022
+293,2,Apollo Hospitals Digital,1,3,Full-time,Fresher,410000.0,530000.0,Git|Node.js|Docker,3,2024-08-19,2024-08,2024
+294,6,Cognizant India,1,10,Hybrid,Mid-level,1040000.0,1420000.0,Git|REST APIs|C++|Docker|Node.js|Spring Boot,6,2024-01-19,2024-01,2024
+295,2,HDFC Bank Analytics,1,10,Hybrid,Fresher,440000.0,670000.0,REST APIs|Java|Git|C++|Spring Boot,5,2024-08-06,2024-08,2024
+296,1,Tata Motors EV Tech,1,2,Hybrid,Fresher,410000.0,730000.0,SQL|Pandas|R|Power BI,4,2024-02-08,2024-02,2024
+297,1,Lupin Innovations,1,8,Hybrid,Fresher,480000.0,590000.0,Tableau|Python|SQL|Scikit-Learn|Statistics|Power BI,6,2022-02-08,2022-02,2022
+298,11,Hexaware,5,6,Full-time,Senior,2510000.0,3120000.0,Spring Boot|Docker|C++,3,2023-01-08,2023-01,2023
+299,6,Meesho Commerce,1,4,Hybrid,Fresher,450000.0,650000.0,Python|Java|Spring Boot,3,2024-12-06,2024-12,2024
+300,1,Cognizant India,1,4,Full-time,Senior,2230000.0,2370000.0,Scikit-Learn|SQL|Python|Power BI|Pandas|Statistics,6,2024-06-02,2024-06,2024
+301,4,HDFC Bank Analytics,1,2,Contract,Mid-level,1150000.0,1430000.0,SQL|Statistics|Scikit-Learn|Tableau|Power BI|Pandas,6,2022-06-21,2022-06,2022
+302,2,Unacademy Edutech,1,9,Hybrid,Fresher,490000.0,620000.0,Java|Docker|Spring Boot|Node.js|Git|C++,6,2024-09-07,2024-09,2024
+303,3,Flipkart Internet,5,2,Full-time,Senior,2830000.0,3360000.0,Scikit-Learn|Pandas|SQL|Tableau|Excel,5,2024-09-17,2024-09,2024
+304,6,Vedantu Innovations,1,2,Full-time,Senior,1720000.0,2300000.0,C++|Python|Spring Boot|Docker|Kubernetes,5,2023-11-25,2023-11,2023
+305,1,Swiggy Engineering,3,5,Contract,Fresher,370000.0,550000.0,Statistics|SQL|Python|Tableau|Pandas,5,2024-01-30,2024-01,2024
+306,6,Dr. Reddy's Laboratories,8,3,Full-time,Senior,1660000.0,2130000.0,Kubernetes|Java|Spring Boot|React|Python,5,2022-03-10,2022-03,2022
+307,6,Havells India Tech,3,4,Full-time,Fresher,350000.0,530000.0,React|Docker,2,2023-12-25,2023-12,2023
+308,1,Unacademy Edutech,1,3,Full-time,Fresher,420000.0,700000.0,Excel|Power BI|Scikit-Learn|SQL,4,2024-07-20,2024-07,2024
+309,3,Cognizant India,1,4,Hybrid,Mid-level,1290000.0,1510000.0,Excel|Scikit-Learn|R|Power BI|Statistics|Pandas,6,2023-05-14,2023-05,2023
+310,4,Biocon Research,2,13,Hybrid,Mid-level,1020000.0,1190000.0,Power BI|Scikit-Learn|Statistics|Tableau|Pandas,5,2023-12-25,2023-12,2023
+311,2,LTIMindtree,5,1,Full-time,Mid-level,1110000.0,1290000.0,C++|Kubernetes|Node.js|Git|Python|React,6,2024-09-06,2024-09,2024
+312,7,ICICI Bank Technology,1,12,Hybrid,Senior,2430000.0,3010000.0,Product Roadmapping|Data Analysis|User Stories,3,2022-01-31,2022-01,2022
+313,6,Mahindra & Mahindra Digital,3,11,Full-time,Senior,1640000.0,2750000.0,REST APIs|Node.js|Kubernetes|React,4,2023-08-02,2023-08,2023
+314,1,Dr. Reddy's Laboratories,4,3,Hybrid,Mid-level,780000.0,1410000.0,Statistics|Tableau|Power BI|Python,4,2024-11-27,2024-11,2024
+315,2,Biocon Research,1,6,Full-time,Fresher,420000.0,620000.0,React|Spring Boot|Microservices|Kubernetes|Git|C++,6,2022-07-20,2022-07,2022
+316,3,Zomato Technologies,4,3,Full-time,Fresher,470000.0,870000.0,SQL|Excel|Statistics,3,2023-04-28,2023-04,2023
+317,8,Vedantu Innovations,1,9,Full-time,Mid-level,1120000.0,1660000.0,C++|Git|REST APIs|Node.js|Docker,5,2024-09-23,2024-09,2024
+318,3,Byju's Learning Systems,2,4,Full-time,Fresher,500000.0,850000.0,Pandas|R,2,2023-06-17,2023-06,2023
+319,2,Infosys Technologies,7,4,Full-time,Fresher,510000.0,660000.0,REST APIs|Git|C++|React|Microservices|Docker,6,2024-11-11,2024-11,2024
+320,3,Kotak Mahindra Innovations,6,6,Full-time,Senior,2350000.0,3790000.0,Statistics|Scikit-Learn|Pandas|Python,4,2023-02-12,2023-02,2023
+321,2,Bajaj Auto R&D,1,2,Full-time,Senior,2420000.0,2900000.0,Git|Kubernetes|Docker|C++|Python|Java,6,2022-09-14,2022-09,2022
+322,6,LTIMindtree,7,5,Full-time,Mid-level,850000.0,1020000.0,Git|Java|REST APIs|Docker|React,5,2022-08-20,2022-08,2022
+323,3,HDFC Bank Analytics,7,1,Full-time,Fresher,600000.0,770000.0,Scikit-Learn|Tableau|Python,3,2022-03-13,2022-03,2022
+324,4,Sun Pharma R&D,1,9,Contract,Mid-level,890000.0,1720000.0,Tableau|Pandas|R|Statistics|Excel|Power BI,6,2024-12-08,2024-12,2024
+325,4,HDFC Bank Analytics,6,4,Hybrid,Mid-level,1130000.0,1450000.0,Tableau|Excel|Python|Statistics,4,2024-12-07,2024-12,2024
+326,4,Tata Consultancy Services,1,8,Hybrid,Mid-level,1250000.0,1510000.0,Statistics|Excel,2,2023-04-19,2023-04,2023
+327,10,Razorpay Software,1,4,Full-time,Fresher,520000.0,720000.0,Adobe XD|Wireframing|Figma|User Research|Design Systems,5,2023-05-06,2023-05,2023
+328,6,State Bank of India Tech,3,7,Full-time,Mid-level,1030000.0,1560000.0,Python|C++|REST APIs,3,2024-07-17,2024-07,2024
+329,4,Reliance Jio Platforms,3,3,Full-time,Fresher,490000.0,600000.0,SQL|Excel|Tableau,3,2022-09-14,2022-09,2022
+330,1,Apollo Hospitals Digital,1,6,Full-time,Mid-level,1270000.0,1560000.0,Python|R|Scikit-Learn|SQL|Statistics,5,2023-06-30,2023-06,2023
+331,2,Axis Bank Digital,2,1,Hybrid,Senior,1730000.0,3330000.0,Docker|Kubernetes|Spring Boot,3,2022-09-10,2022-09,2022
+332,4,Havells India Tech,8,4,Contract,Senior,1770000.0,3190000.0,Scikit-Learn|SQL,2,2023-06-03,2023-06,2023
+333,1,Larsen & Toubro Infotech,1,2,Full-time,Fresher,520000.0,730000.0,Python|Tableau|Statistics|Pandas,4,2022-09-03,2022-09,2022
+334,5,Byju's Learning Systems,7,2,Full-time,Mid-level,1140000.0,1640000.0,Spring Boot|C++,2,2023-08-20,2023-08,2023
+335,6,HCL Technologies,8,12,Full-time,Fresher,490000.0,800000.0,C++|Kubernetes,2,2023-04-22,2023-04,2023
+336,3,Ola Electric Mobility,3,4,Hybrid,Fresher,540000.0,830000.0,Excel|Python|Power BI,3,2024-06-15,2024-06,2024
+337,5,Sun Pharma R&D,2,4,Full-time,Mid-level,1040000.0,1720000.0,Python|Git|C++,3,2024-07-09,2024-07,2024
+338,1,Maruti Suzuki Connected,1,2,Hybrid,Mid-level,770000.0,1520000.0,Power BI|R|Pandas|Python,4,2023-09-04,2023-09,2023
+339,2,Paytm Labs,1,7,Hybrid,Fresher,490000.0,760000.0,Java|C++,2,2023-01-01,2023-01,2023
+340,1,Lupin Innovations,2,1,Full-time,Mid-level,1260000.0,1640000.0,Excel|Python|Tableau|SQL|Scikit-Learn|Pandas,6,2022-01-27,2022-01,2022
+341,10,LTIMindtree,2,1,Full-time,Mid-level,1130000.0,1520000.0,HTML/CSS|Wireframing|Figma|Design Systems|User Research,5,2022-03-25,2022-03,2022
+342,2,Dr. Reddy's Laboratories,1,8,Full-time,Mid-level,1150000.0,1350000.0,Git|Spring Boot|C++,3,2024-04-30,2024-04,2024
+343,6,Byju's Learning Systems,2,7,Full-time,Senior,1770000.0,2250000.0,Docker|Git|Node.js|C++|React|Microservices,6,2024-06-26,2024-06,2024
+344,12,Flipkart Internet,2,10,Full-time,Mid-level,1090000.0,1440000.0,Python|ISO 27001|Linux|SIEM|Penetration Testing|Ethical Hacking,6,2024-07-05,2024-07,2024
+345,2,Infosys Technologies,1,1,Hybrid,Senior,1920000.0,2030000.0,Spring Boot|Microservices|Node.js|Java,4,2023-07-20,2023-07,2023
+346,5,Cognizant India,2,4,Full-time,Fresher,390000.0,630000.0,REST APIs|Spring Boot|Microservices|React,4,2024-07-08,2024-07,2024
+347,6,Nykaa E-Retail,4,11,Full-time,Senior,2320000.0,3160000.0,Python|REST APIs|React|Java|Node.js|Git,6,2023-01-21,2023-01,2023
+348,3,Persistent Systems,5,2,Hybrid,Fresher,610000.0,720000.0,Python|Excel|Pandas|Scikit-Learn|Tableau,5,2022-11-03,2022-11,2022
+349,6,Zomato Technologies,1,6,Contract,Mid-level,1280000.0,1430000.0,Docker|React|Microservices,3,2023-01-31,2023-01,2023
+350,3,LTIMindtree,1,4,Full-time,Mid-level,1070000.0,1450000.0,Scikit-Learn|Power BI|Pandas|Statistics|Excel,5,2023-02-06,2023-02,2023
+351,2,State Bank of India Tech,2,15,Hybrid,Fresher,500000.0,620000.0,Microservices|Docker,2,2024-05-17,2024-05,2024
+352,6,NDTV Convergence,1,1,Full-time,Senior,2250000.0,3210000.0,REST APIs|C++|Kubernetes|Java|Docker,5,2022-03-24,2022-03,2022
+353,1,HCL Technologies,5,7,Full-time,Mid-level,900000.0,1300000.0,R|SQL,2,2023-09-17,2023-09,2023
+354,5,Hexaware,1,1,Hybrid,Mid-level,1260000.0,1690000.0,Microservices|Java|Docker,3,2022-02-14,2022-02,2022
+355,6,HCL Technologies,4,2,Full-time,Senior,1670000.0,2590000.0,Microservices|Node.js|Python|Java,4,2023-08-23,2023-08,2023
+356,3,Unacademy Edutech,1,5,Full-time,Fresher,660000.0,920000.0,SQL|Tableau|Scikit-Learn|Excel|Power BI|Python,6,2023-08-23,2023-08,2023
+357,1,Adani Digital Labs,1,2,Hybrid,Fresher,430000.0,650000.0,Excel|Python|R|Tableau|Power BI|Pandas,6,2023-03-28,2023-03,2023
+358,3,Havells India Tech,1,5,Hybrid,Mid-level,1180000.0,1720000.0,Tableau|Statistics|Scikit-Learn,3,2023-11-06,2023-11,2023
+359,5,Havells India Tech,3,1,Hybrid,Senior,1920000.0,3120000.0,Docker|C++|REST APIs,3,2024-08-13,2024-08,2024
+360,9,upGrad Education,1,1,Full-time,Fresher,550000.0,870000.0,Pandas|Excel|SQL|Statistics,4,2024-01-07,2024-01,2024
+361,6,Tata Motors EV Tech,3,5,Full-time,Mid-level,1130000.0,1270000.0,C++|Git|Kubernetes|Node.js|Python,5,2024-03-04,2024-03,2024
+362,1,Zee Entertainment Tech,1,1,Contract,Senior,2030000.0,2600000.0,Power BI|SQL|Pandas,3,2024-06-18,2024-06,2024
+363,4,ICICI Bank Technology,1,3,Full-time,Mid-level,1150000.0,1630000.0,Statistics|Python|Excel|Pandas,4,2024-07-13,2024-07,2024
+364,2,Sun Pharma R&D,5,9,Full-time,Mid-level,1160000.0,1530000.0,Spring Boot|React,2,2024-06-19,2024-06,2024
+365,4,Razorpay Software,5,2,Full-time,Senior,2320000.0,2960000.0,Pandas|Scikit-Learn|Python,3,2024-08-22,2024-08,2024
+366,2,Infosys Technologies,1,4,Full-time,Mid-level,960000.0,1540000.0,React|Node.js,2,2022-12-02,2022-12,2022
+367,4,Flipkart Internet,1,1,Full-time,Mid-level,920000.0,1420000.0,Statistics|Python|Scikit-Learn|SQL|Tableau|R,6,2022-11-29,2022-11,2022
+368,3,Bajaj Finserv Health,3,1,Hybrid,Senior,2610000.0,4020000.0,SQL|Tableau|Scikit-Learn,3,2022-01-08,2022-01,2022
+369,9,Sun Pharma R&D,2,2,Hybrid,Mid-level,1450000.0,1800000.0,Pandas|Scikit-Learn|Power BI,3,2022-08-23,2022-08,2022
+370,6,Cipla Digital,2,2,Hybrid,Fresher,400000.0,580000.0,Microservices|Node.js,2,2024-01-17,2024-01,2024
+371,2,LTIMindtree,3,4,Full-time,Mid-level,940000.0,1210000.0,REST APIs|Microservices|Git|C++,4,2024-07-21,2024-07,2024
+372,7,Reliance Jio Platforms,1,2,Full-time,Fresher,460000.0,960000.0,Scrum|Jira|Product Roadmapping|A/B Testing|Agile,5,2023-07-17,2023-07,2023
+373,2,HCL Technologies,1,3,Full-time,Mid-level,840000.0,1450000.0,React|Docker|Node.js|Microservices|Kubernetes|REST APIs,6,2023-12-26,2023-12,2023
+374,6,Apollo Hospitals Digital,2,5,Full-time,Fresher,510000.0,670000.0,Spring Boot|Java|Python|REST APIs,4,2024-08-10,2024-08,2024
+375,8,Paytm Labs,5,1,Full-time,Fresher,580000.0,790000.0,Microservices|Spring Boot,2,2023-07-31,2023-07,2023
+376,5,NDTV Convergence,1,1,Full-time,Mid-level,1110000.0,1630000.0,REST APIs|Java|C++|Spring Boot|Git|Docker,6,2024-09-08,2024-09,2024
+377,4,Maruti Suzuki Connected,3,7,Full-time,Senior,2540000.0,2990000.0,Statistics|Python|Scikit-Learn|Excel|Tableau,5,2023-10-09,2023-10,2023
+378,2,Adani Digital Labs,2,1,Full-time,Fresher,,640000.0,Microservices|Git|C++|Docker|Python,5,2022-08-28,2022-08,2022
+379,2,Wipro Limited,3,7,Full-time,Fresher,410000.0,700000.0,React|Spring Boot|Git|Microservices|Python,5,2022-08-18,2022-08,2022
+380,1,Fortis Healthcare Tech,1,1,Full-time,Mid-level,1270000.0,1450000.0,R|Pandas|Scikit-Learn,3,2024-12-08,2024-12,2024
+381,1,Dr. Reddy's Laboratories,4,2,Full-time,Fresher,360000.0,700000.0,Scikit-Learn|SQL|Python|Tableau|Statistics,5,2022-06-28,2022-06,2022
+382,7,Vedantu Innovations,1,10,Full-time,Mid-level,1260000.0,2030000.0,Stakeholder Management|Scrum|Data Analysis,3,2023-08-10,2023-08,2023
+383,1,Cyient Digital,2,2,Full-time,Fresher,510000.0,760000.0,SQL|Power BI|Excel|Tableau|Statistics|R,6,2023-09-10,2023-09,2023
+384,2,Bharti Airtel Tech,1,4,Hybrid,Fresher,360000.0,710000.0,Python|Docker,2,2022-07-21,2022-07,2022
+385,6,Byju's Learning Systems,6,6,Full-time,Mid-level,1080000.0,1530000.0,Microservices|Git|Python,3,2024-08-11,2024-08,2024
+386,6,Cognizant India,5,1,Full-time,Mid-level,1240000.0,1590000.0,Spring Boot|C++|React,3,2024-01-15,2024-01,2024
+387,8,Reliance Jio Platforms,3,6,Full-time,Fresher,560000.0,720000.0,Kubernetes|Microservices|C++|React,4,2023-12-15,2023-12,2023
+388,8,Cognizant India,1,1,Full-time,Mid-level,1250000.0,1910000.0,Docker|REST APIs|Microservices|Spring Boot|React,5,2023-05-15,2023-05,2023
+389,3,Byju's Learning Systems,1,14,Hybrid,Mid-level,1390000.0,2080000.0,Scikit-Learn|Power BI|SQL|R,4,2022-06-09,2022-06,2022
+390,1,Tata Motors EV Tech,5,6,Full-time,Mid-level,1220000.0,1410000.0,Statistics|SQL|Excel|Python,4,2024-02-16,2024-02,2024
+391,2,Mphasis India,1,5,Remote,Senior,2270000.0,3220000.0,C++|Microservices,2,2024-07-16,2024-07,2024
+392,2,Havells India Tech,2,3,Hybrid,Fresher,430000.0,760000.0,Python|REST APIs|Java|Docker,4,2022-09-19,2022-09,2022
+393,11,Tata Consultancy Services,6,1,Hybrid,Senior,1980000.0,2310000.0,Java|Spring Boot|Docker|Git,4,2023-10-14,2023-10,2023
+394,2,Zensar Technologies,2,3,Full-time,Fresher,450000.0,770000.0,Docker|C++|React|REST APIs,4,2022-09-03,2022-09,2022
+395,6,Mphasis India,6,1,Full-time,Mid-level,1190000.0,1740000.0,REST APIs|Docker|C++|Kubernetes|React,5,2024-05-18,2024-05,2024
+396,2,Tata Motors EV Tech,1,3,Full-time,Mid-level,1000000.0,1630000.0,Docker|Git|Node.js|Java,4,2022-03-19,2022-03,2022
+397,4,Byju's Learning Systems,1,6,Full-time,Mid-level,1040000.0,1630000.0,SQL|Scikit-Learn|Pandas|Power BI|Python|Tableau,6,2022-04-19,2022-04,2022
+398,4,Nykaa E-Retail,1,4,Hybrid,Fresher,440000.0,790000.0,Excel|Tableau|Python|R,4,2023-09-15,2023-09,2023
+399,4,Birlasoft,1,4,Hybrid,Mid-level,1060000.0,1190000.0,Pandas|SQL|Scikit-Learn|Excel,4,2022-06-07,2022-06,2022
+400,2,Axis Bank Digital,1,2,Full-time,Fresher,400000.0,580000.0,Node.js|C++|React|Spring Boot|Kubernetes,5,2023-01-06,2023-01,2023
+401,1,Cyient Digital,1,9,Hybrid,Senior,2480000.0,3100000.0,Statistics|Power BI|R|Pandas|SQL,5,2023-03-08,2023-03,2023
+402,2,Persistent Systems,1,8,Full-time,Mid-level,1250000.0,1510000.0,Git|Spring Boot|Docker|Microservices|REST APIs,5,2022-07-22,2022-07,2022
+403,3,Reliance Jio Platforms,4,2,Contract,Mid-level,980000.0,1280000.0,R|Statistics|Excel|Scikit-Learn|Tableau|Pandas,6,2023-07-08,2023-07,2023
+404,3,NDTV Convergence,3,1,Full-time,Fresher,610000.0,810000.0,R|Tableau|Pandas|Excel|Python|Scikit-Learn,6,2024-01-20,2024-01,2024
+405,2,Kotak Mahindra Innovations,2,1,Full-time,Fresher,,630000.0,REST APIs|Spring Boot,2,2022-09-07,2022-09,2022
+406,1,Larsen & Toubro Infotech,5,1,Hybrid,Mid-level,940000.0,1160000.0,Excel|Scikit-Learn|Power BI,3,2022-06-05,2022-06,2022
+407,3,Larsen & Toubro Infotech,1,11,Remote,Fresher,480000.0,990000.0,Excel|Python,2,2024-02-23,2024-02,2024
+408,8,Zensar Technologies,1,15,Full-time,Mid-level,1150000.0,1890000.0,C++|Kubernetes|Python|Microservices|React,5,2022-09-02,2022-09,2022
+409,1,Tech Mahindra,3,11,Full-time,Mid-level,1220000.0,1330000.0,Tableau|Python|Pandas|R|Power BI,5,2023-03-30,2023-03,2023
+410,11,Apollo Hospitals Digital,2,4,Full-time,Mid-level,820000.0,1490000.0,Java|Docker|Kubernetes,3,2022-09-06,2022-09,2022
+411,6,Zomato Technologies,1,12,Full-time,Senior,2280000.0,5800000.0,Git|Node.js|Python|Kubernetes,4,2023-08-17,2023-08,2023
+412,3,KPIT Technologies,1,1,Full-time,Mid-level,1050000.0,1900000.0,SQL|Pandas|R|Scikit-Learn|Statistics,5,2024-09-15,2024-09,2024
+413,8,Bajaj Auto R&D,1,2,Full-time,Mid-level,1410000.0,1530000.0,Node.js|Java,2,2023-11-23,2023-11,2023
+414,8,Larsen & Toubro Infotech,1,1,Hybrid,Senior,3130000.0,3540000.0,Spring Boot|Python|Java|C++|Microservices|Node.js,6,2022-02-09,2022-02,2022
+415,6,Mphasis India,1,11,Full-time,Mid-level,1070000.0,1270000.0,REST APIs|C++|Python|Git|Java,5,2024-10-15,2024-10,2024
+416,2,Bharti Airtel Tech,1,5,Remote,Senior,2310000.0,2830000.0,Python|REST APIs|Git|C++,4,2023-10-21,2023-10,2023
+417,5,Bharti Airtel Tech,4,7,Full-time,Fresher,460000.0,600000.0,Git|C++|Kubernetes|Spring Boot,4,2024-09-25,2024-09,2024
+418,9,LTIMindtree,1,2,Full-time,Fresher,460000.0,930000.0,Excel|Statistics|R|Power BI|SQL|Scikit-Learn,6,2022-10-21,2022-10,2022
+419,11,Mahindra & Mahindra Digital,1,4,Hybrid,Mid-level,1270000.0,1690000.0,Microservices|React,2,2023-12-14,2023-12,2023
+420,12,Cognizant India,1,4,Hybrid,Senior,2170000.0,3330000.0,ISO 27001|Cryptography|Penetration Testing,3,2023-03-03,2023-03,2023
+421,6,Nykaa E-Retail,4,1,Full-time,Fresher,360000.0,490000.0,React|Spring Boot|Docker|Microservices,4,2023-11-16,2023-11,2023
+422,1,HCL Technologies,2,10,Remote,Fresher,360000.0,710000.0,SQL|Scikit-Learn|Pandas|R|Power BI|Tableau,6,2023-09-08,2023-09,2023
+423,2,ICICI Bank Technology,1,2,Hybrid,Senior,1990000.0,2550000.0,Kubernetes|REST APIs,2,2022-07-19,2022-07,2022
+424,1,Flipkart Internet,3,1,Full-time,Mid-level,1130000.0,1740000.0,Power BI|R|SQL|Python,4,2022-05-03,2022-05,2022
+425,3,Zee Entertainment Tech,2,1,Full-time,Senior,3270000.0,3530000.0,Tableau|Power BI|Python|Pandas|Excel|R,6,2023-03-20,2023-03,2023
+426,7,Vedantu Innovations,1,8,Remote,Fresher,550000.0,950000.0,Jira|User Stories|Agile,3,2024-05-05,2024-05,2024
+427,7,Wipro Limited,2,1,Full-time,Mid-level,1040000.0,2090000.0,Product Roadmapping|Agile|User Stories|Data Analysis|A/B Testing,5,2022-03-23,2022-03,2022
+428,4,Bajaj Finserv Health,1,5,Full-time,Mid-level,780000.0,1360000.0,Tableau|Statistics|SQL|Scikit-Learn|Power BI,5,2022-01-03,2022-01,2022
+429,2,Wipro Limited,6,1,Full-time,Mid-level,970000.0,1150000.0,Node.js|Java|Git|Microservices|REST APIs|Docker,6,2024-02-24,2024-02,2024
+430,1,Cipla Digital,1,5,Hybrid,Mid-level,960000.0,1210000.0,Power BI|SQL|R|Scikit-Learn,4,2023-03-06,2023-03,2023
+431,10,Fortis Healthcare Tech,1,7,Hybrid,Fresher,370000.0,670000.0,User Research|HTML/CSS|Prototyping|Figma,4,2024-08-20,2024-08,2024
+432,2,Mahindra & Mahindra Digital,2,5,Full-time,Mid-level,820000.0,1120000.0,Python|Microservices|Docker|C++|Kubernetes,5,2022-03-07,2022-03,2022
+433,9,Dr. Reddy's Laboratories,2,6,Contract,Fresher,550000.0,930000.0,Pandas|R|Power BI,3,2024-06-28,2024-06,2024
+434,1,HDFC Bank Analytics,1,1,Remote,Mid-level,1100000.0,1630000.0,R|Scikit-Learn|Power BI|Excel|Pandas|Statistics,6,2024-07-26,2024-07,2024
+435,1,Axis Bank Digital,4,1,Full-time,Fresher,430000.0,550000.0,R|Excel|Power BI,3,2022-12-07,2022-12,2022
+436,2,Zensar Technologies,2,1,Hybrid,Mid-level,910000.0,1180000.0,Python|Java|Node.js,3,2022-09-17,2022-09,2022
+437,6,Larsen & Toubro Infotech,1,2,Full-time,Fresher,450000.0,670000.0,C++|Git|React|Python|Java|Spring Boot,6,2024-10-19,2024-10,2024
+438,1,Vedantu Innovations,6,12,Full-time,Mid-level,1060000.0,1660000.0,Tableau|Pandas|Scikit-Learn|R,4,2022-08-19,2022-08,2022
+439,5,Bajaj Finserv Health,1,10,Full-time,Mid-level,980000.0,1550000.0,Python|Node.js|Java|Spring Boot,4,2022-03-14,2022-03,2022
+440,4,Larsen & Toubro Infotech,2,1,Contract,Senior,2010000.0,2520000.0,R|Python|Scikit-Learn|Tableau|Power BI,5,2022-10-30,2022-10,2022
+441,1,Adani Digital Labs,1,3,Full-time,Senior,2520000.0,3210000.0,Power BI|Pandas,2,2024-05-01,2024-05,2024
+442,12,Razorpay Software,5,2,Hybrid,Mid-level,840000.0,1090000.0,Linux|Python|ISO 27001,3,2023-08-18,2023-08,2023
+443,10,Paytm Labs,1,1,Full-time,Mid-level,890000.0,1200000.0,HTML/CSS|User Research|Wireframing,3,2024-03-01,2024-03,2024
+444,4,Infosys Technologies,2,2,Hybrid,Fresher,430000.0,780000.0,Excel|Statistics,2,2023-01-03,2023-01,2023
+445,1,State Bank of India Tech,1,6,Hybrid,Senior,,3110000.0,Pandas|Statistics|Scikit-Learn|Tableau,4,2024-09-01,2024-09,2024
+446,7,Infosys Technologies,1,8,Remote,Fresher,450000.0,630000.0,A/B Testing|Stakeholder Management|Scrum|Jira,4,2023-03-01,2023-03,2023
+447,1,Kotak Mahindra Innovations,7,5,Full-time,Senior,2140000.0,2650000.0,SQL|Tableau|Excel,3,2023-10-23,2023-10,2023
+448,2,Havells India Tech,3,8,Full-time,Fresher,490000.0,740000.0,C++|Java|Microservices|React,4,2024-02-03,2024-02,2024
+449,1,Hexaware,6,3,Full-time,Fresher,400000.0,790000.0,Scikit-Learn|SQL|Power BI|Statistics|Python|Excel,6,2022-09-26,2022-09,2022
+450,3,Ola Electric Mobility,1,3,Remote,Mid-level,1300000.0,1580000.0,Python|SQL|Pandas|Statistics,4,2022-10-19,2022-10,2022
+451,12,Razorpay Software,1,2,Hybrid,Mid-level,830000.0,950000.0,Cryptography|Network Security|Ethical Hacking|ISO 27001|Linux,5,2024-11-17,2024-11,2024
+452,1,Bajaj Finserv Health,6,3,Full-time,Mid-level,880000.0,1610000.0,Power BI|Tableau|R,3,2024-02-21,2024-02,2024
+453,3,Birlasoft,7,12,Hybrid,Mid-level,1580000.0,1930000.0,SQL|Scikit-Learn|Statistics|Excel|Python|Pandas,6,2023-01-28,2023-01,2023
+454,1,upGrad Education,4,1,Full-time,Fresher,480000.0,770000.0,R|Tableau|Power BI|Scikit-Learn|Python,5,2023-01-06,2023-01,2023
+455,4,Paytm Labs,2,14,Full-time,Senior,1730000.0,2810000.0,Scikit-Learn|Tableau,2,2024-10-12,2024-10,2024
+456,1,Reliance Jio Platforms,2,6,Full-time,Mid-level,1230000.0,1640000.0,Pandas|Power BI|Excel|Scikit-Learn,4,2023-08-19,2023-08,2023
+457,10,Nykaa E-Retail,5,3,Contract,Fresher,,710000.0,User Research|HTML/CSS,2,2024-12-06,2024-12,2024
+458,3,Biocon Research,1,1,Contract,Mid-level,1110000.0,1280000.0,Power BI|R|SQL|Excel,4,2024-07-07,2024-07,2024
+459,7,Biocon Research,4,3,Full-time,Mid-level,1610000.0,2200000.0,Stakeholder Management|Product Roadmapping|A/B Testing|User Stories|Data Analysis,5,2024-09-19,2024-09,2024
+460,1,Apollo Hospitals Digital,2,1,Full-time,Mid-level,890000.0,1020000.0,Python|SQL,2,2024-10-17,2024-10,2024
+461,6,Cyient Digital,1,14,Full-time,Mid-level,830000.0,1620000.0,Kubernetes|Microservices|Spring Boot|React|Node.js|Git,6,2024-10-01,2024-10,2024
+462,5,Infosys Technologies,5,4,Contract,Fresher,460000.0,790000.0,Docker|Kubernetes,2,2023-10-07,2023-10,2023
+463,1,Larsen & Toubro Infotech,1,3,Remote,Fresher,390000.0,750000.0,Tableau|Excel|R|Power BI|Statistics,5,2022-08-13,2022-08,2022
+464,5,Nykaa E-Retail,2,3,Full-time,Senior,2130000.0,2350000.0,React|Kubernetes|Docker|Node.js|Git,5,2023-08-06,2023-08,2023
+465,9,Adani Digital Labs,1,1,Remote,Mid-level,1590000.0,2050000.0,SQL|Statistics|Tableau|Pandas|Power BI,5,2022-02-21,2022-02,2022
+466,1,Byju's Learning Systems,1,2,Full-time,Fresher,440000.0,580000.0,Scikit-Learn|R,2,2022-03-18,2022-03,2022
+467,10,State Bank of India Tech,2,9,Full-time,Mid-level,770000.0,1200000.0,Prototyping|User Research|Wireframing|Figma|Adobe XD,5,2022-07-24,2022-07,2022
+468,8,Larsen & Toubro Infotech,2,1,Full-time,Mid-level,1320000.0,1880000.0,Kubernetes|Python|Git,3,2023-03-15,2023-03,2023
+469,3,HDFC Bank Analytics,8,1,Full-time,Senior,3210000.0,3410000.0,R|Excel|Python|Pandas|Scikit-Learn|Power BI,6,2024-01-24,2024-01,2024
+470,2,Larsen & Toubro Infotech,2,8,Full-time,Fresher,460000.0,630000.0,Git|Kubernetes|Microservices|C++|Java|Node.js,6,2024-11-23,2024-11,2024
+471,11,Vedantu Innovations,1,4,Contract,Fresher,520000.0,760000.0,Docker|REST APIs|Java|Spring Boot|C++|Kubernetes,6,2024-09-30,2024-09,2024
+472,3,Tech Mahindra,5,7,Full-time,Senior,2560000.0,3260000.0,Excel|Power BI|Pandas,3,2022-02-04,2022-02,2022
+473,4,Cipla Digital,5,2,Part-time,Mid-level,790000.0,1100000.0,Excel|Tableau|Python,3,2023-06-14,2023-06,2023
+474,6,Wipro Limited,2,2,Contract,Mid-level,770000.0,930000.0,Node.js|REST APIs,2,2023-09-03,2023-09,2023
+475,3,Larsen & Toubro Infotech,1,10,Remote,Mid-level,1080000.0,1680000.0,Scikit-Learn|SQL,2,2024-12-04,2024-12,2024
+476,4,Apollo Hospitals Digital,4,4,Remote,Fresher,380000.0,640000.0,Statistics|Power BI|Pandas|SQL,4,2023-02-23,2023-02,2023
+477,5,Apollo Hospitals Digital,1,3,Hybrid,Mid-level,870000.0,1300000.0,Docker|Kubernetes|Spring Boot|React|Microservices|Python,6,2024-01-14,2024-01,2024
+478,6,Tata Motors EV Tech,1,2,Full-time,Mid-level,810000.0,1630000.0,React|Git|Docker,3,2023-09-26,2023-09,2023
+479,6,Sun Pharma R&D,6,6,Hybrid,Senior,2010000.0,2130000.0,React|Microservices|Python|Spring Boot|C++,5,2023-03-07,2023-03,2023
+480,2,NDTV Convergence,2,1,Full-time,Mid-level,1040000.0,1220000.0,Kubernetes|Docker|Node.js|REST APIs|Microservices,5,2022-07-25,2022-07,2022
+481,3,Tata Motors EV Tech,2,6,Hybrid,Mid-level,1280000.0,1860000.0,Python|Tableau,2,2024-06-27,2024-06,2024
+482,6,Reliance Jio Platforms,1,1,Hybrid,Fresher,420000.0,790000.0,REST APIs|Docker|Node.js,3,2024-07-13,2024-07,2024
+483,6,Reliance Jio Platforms,1,6,Remote,Fresher,460000.0,660000.0,Docker|Microservices|Spring Boot,3,2022-02-12,2022-02,2022
+484,6,LTIMindtree,3,11,Contract,Fresher,390000.0,520000.0,REST APIs|Docker|React|C++|Java,5,2022-08-24,2022-08,2022
+485,7,Meesho Commerce,2,1,Hybrid,Mid-level,1170000.0,2020000.0,Product Roadmapping|Data Analysis|Jira,3,2023-08-13,2023-08,2023
+486,2,Hexaware,2,3,Part-time,Fresher,400000.0,720000.0,Docker|C++|Java,3,2023-08-18,2023-08,2023
+487,2,Biocon Research,2,2,Full-time,Mid-level,760000.0,1350000.0,Node.js|Docker|Spring Boot,3,2024-02-25,2024-02,2024
+488,1,HCL Technologies,1,6,Full-time,Senior,2090000.0,2930000.0,Python|Scikit-Learn|Tableau|Excel|R|Power BI,6,2023-09-12,2023-09,2023
+489,10,Wipro Limited,1,5,Hybrid,Fresher,480000.0,710000.0,User Research|Adobe XD|Figma|Wireframing,4,2024-12-22,2024-12,2024
+490,12,Apollo Hospitals Digital,1,2,Remote,Senior,2380000.0,2860000.0,Linux|SIEM|ISO 27001|Cryptography|Penetration Testing,5,2024-06-11,2024-06,2024
+491,7,Cyient Digital,8,2,Full-time,Senior,,3130000.0,Jira|Agile|Scrum,3,2022-03-11,2022-03,2022
+492,12,Apollo Hospitals Digital,2,6,Full-time,Fresher,500000.0,730000.0,ISO 27001|Network Security|Penetration Testing|Ethical Hacking|Cryptography,5,2022-03-17,2022-03,2022
+493,9,Lupin Innovations,4,8,Remote,Mid-level,1550000.0,1650000.0,Tableau|Statistics|Python|SQL|Power BI|Pandas,6,2024-09-05,2024-09,2024
+494,11,Cognizant India,1,1,Remote,Fresher,370000.0,710000.0,Kubernetes|React|Java|Node.js|Git,5,2024-07-16,2024-07,2024
+495,11,Lupin Innovations,4,6,Full-time,Senior,2440000.0,3210000.0,Node.js|Java|Python|Docker,4,2022-07-09,2022-07,2022
+496,9,LTIMindtree,7,1,Full-time,Fresher,540000.0,850000.0,Tableau|SQL|Scikit-Learn|Power BI,4,2024-06-04,2024-06,2024
+497,5,Adani Digital Labs,6,11,Full-time,Senior,2140000.0,2660000.0,Kubernetes|Docker|Microservices|React|Git,5,2023-07-16,2023-07,2023
+498,3,Wipro Limited,2,5,Full-time,Senior,2470000.0,3930000.0,Pandas|SQL|Tableau,3,2024-08-16,2024-08,2024
+499,1,Mphasis India,2,10,Full-time,Fresher,420000.0,790000.0,Excel|Python|Scikit-Learn|Pandas|R,5,2023-07-17,2023-07,2023
+500,5,Axis Bank Digital,3,1,Full-time,Mid-level,1280000.0,1390000.0,Microservices|Kubernetes,2,2023-01-03,2023-01,2023
+501,3,Unacademy Edutech,1,8,Full-time,Mid-level,1410000.0,2210000.0,Excel|R|Statistics|SQL|Pandas,5,2023-08-15,2023-08,2023
+502,5,Tata Consultancy Services,1,9,Full-time,Fresher,480000.0,700000.0,Microservices|REST APIs|Kubernetes|React|Git,5,2024-01-09,2024-01,2024
+503,8,LTIMindtree,3,13,Full-time,Fresher,470000.0,580000.0,Java|Spring Boot|Kubernetes,3,2022-10-25,2022-10,2022
+504,8,KPIT Technologies,3,3,Full-time,Mid-level,1090000.0,1690000.0,Java|Python|C++|Git|Node.js,5,2024-06-30,2024-06,2024
+505,5,KPIT Technologies,5,3,Full-time,Senior,2010000.0,2220000.0,Java|Python|Docker|Git,4,2024-10-12,2024-10,2024
+506,2,Apollo Hospitals Digital,2,4,Full-time,Mid-level,1260000.0,1480000.0,Git|Java,2,2024-05-14,2024-05,2024
+507,6,Nykaa E-Retail,1,4,Full-time,Mid-level,1110000.0,1680000.0,Java|C++|React|Spring Boot|Kubernetes,5,2023-12-06,2023-12,2023
+508,6,Tata Motors EV Tech,2,4,Hybrid,Mid-level,,1410000.0,Docker|Microservices|Node.js|Kubernetes,4,2022-11-28,2022-11,2022
+509,6,Mphasis India,4,2,Full-time,Fresher,480000.0,610000.0,Kubernetes|React|Spring Boot|Git|REST APIs,5,2022-04-07,2022-04,2022
+510,6,Zensar Technologies,1,2,Remote,Senior,1630000.0,1860000.0,Docker|Python|Spring Boot|REST APIs,4,2023-04-04,2023-04,2023
+511,7,NDTV Convergence,4,15,Hybrid,Fresher,480000.0,940000.0,Scrum|Stakeholder Management|Agile|Product Roadmapping|User Stories|Data Analysis,6,2022-08-05,2022-08,2022
+512,1,Cipla Digital,5,5,Full-time,Fresher,520000.0,650000.0,R|Tableau|Scikit-Learn,3,2023-08-22,2023-08,2023
+513,9,Cyient Digital,2,7,Full-time,Fresher,470000.0,630000.0,Pandas|Statistics|Scikit-Learn,3,2023-07-14,2023-07,2023
+514,2,Unacademy Edutech,1,2,Remote,Fresher,410000.0,590000.0,Docker|Spring Boot|C++|Microservices|REST APIs|Kubernetes,6,2024-07-28,2024-07,2024
+515,11,Ola Electric Mobility,3,4,Full-time,Fresher,490000.0,610000.0,Node.js|Microservices,2,2024-04-02,2024-04,2024
+516,7,Larsen & Toubro Infotech,1,1,Remote,Fresher,590000.0,720000.0,User Stories|Product Roadmapping|Data Analysis|A/B Testing|Jira|Stakeholder Management,6,2023-10-05,2023-10,2023
+517,4,Cyient Digital,1,1,Hybrid,Mid-level,970000.0,1640000.0,Pandas|R|Statistics|Scikit-Learn|Power BI|SQL,6,2023-08-10,2023-08,2023
+518,9,Dr. Reddy's Laboratories,3,3,Part-time,Fresher,460000.0,830000.0,Excel|R|Statistics|Pandas|SQL|Python,6,2022-02-27,2022-02,2022
+519,9,Bajaj Finserv Health,1,4,Hybrid,Senior,2230000.0,3870000.0,R|Excel,2,2024-11-05,2024-11,2024
+520,1,Bajaj Finserv Health,3,1,Full-time,Fresher,440000.0,800000.0,Scikit-Learn|Power BI|Tableau,3,2023-09-05,2023-09,2023
+521,6,Unacademy Edutech,3,7,Full-time,Mid-level,860000.0,1300000.0,REST APIs|Spring Boot|Node.js|Kubernetes|Java|Python,6,2024-05-21,2024-05,2024
+522,10,Nykaa E-Retail,1,1,Full-time,Fresher,490000.0,700000.0,Prototyping|HTML/CSS|User Research|Wireframing|Design Systems|Adobe XD,6,2024-05-17,2024-05,2024
+523,7,Paytm Labs,7,6,Hybrid,Fresher,470000.0,820000.0,Jira|Stakeholder Management|User Stories|Data Analysis|Agile,5,2023-03-12,2023-03,2023
+524,5,Persistent Systems,1,1,Hybrid,Mid-level,880000.0,1370000.0,React|Java|Git|C++|REST APIs|Kubernetes,6,2023-09-17,2023-09,2023
+525,8,Cyient Digital,2,2,Hybrid,Mid-level,1260000.0,1660000.0,C++|Kubernetes|Java,3,2022-09-08,2022-09,2022
+526,4,Bajaj Finserv Health,1,1,Hybrid,Senior,2420000.0,2920000.0,Tableau|Scikit-Learn|Excel|R|Power BI,5,2024-07-10,2024-07,2024
+527,1,Mahindra & Mahindra Digital,4,1,Full-time,Mid-level,990000.0,1500000.0,Scikit-Learn|Python|R|Power BI,4,2023-07-23,2023-07,2023
+528,5,NDTV Convergence,3,9,Hybrid,Mid-level,880000.0,1660000.0,Python|Spring Boot|Git|Java|React|Docker,6,2023-01-23,2023-01,2023
+529,6,Sun Pharma R&D,1,4,Full-time,Fresher,400000.0,630000.0,Kubernetes|Python|Git|Node.js|Spring Boot|React,6,2022-04-03,2022-04,2022
+530,2,Infosys Technologies,1,12,Remote,Fresher,420000.0,570000.0,Python|Git,2,2022-12-11,2022-12,2022
+531,1,Paytm Labs,4,1,Full-time,Fresher,440000.0,590000.0,Python|Excel,2,2023-02-09,2023-02,2023
+532,11,Persistent Systems,1,10,Full-time,Fresher,510000.0,760000.0,Kubernetes|Git|REST APIs,3,2024-02-28,2024-02,2024
+533,5,Tech Mahindra,1,2,Hybrid,Mid-level,1000000.0,1120000.0,Git|REST APIs|Python|Spring Boot,4,2022-09-15,2022-09,2022
+534,6,Hexaware,1,3,Remote,Fresher,490000.0,630000.0,Git|Docker|Microservices,3,2024-07-14,2024-07,2024
+535,1,Nykaa E-Retail,8,2,Full-time,Fresher,450000.0,640000.0,Scikit-Learn|Excel|Python,3,2022-11-27,2022-11,2022
+536,3,Persistent Systems,1,4,Remote,Mid-level,1230000.0,1780000.0,Scikit-Learn|R|Pandas,3,2023-12-03,2023-12,2023
+537,2,Larsen & Toubro Infotech,3,14,Part-time,Fresher,470000.0,730000.0,Java|C++|Microservices|Kubernetes,4,2022-01-09,2022-01,2022
+538,10,Unacademy Edutech,1,5,Hybrid,Mid-level,840000.0,1620000.0,Prototyping|Figma,2,2024-06-30,2024-06,2024
+539,9,Adani Digital Labs,5,2,Full-time,Senior,2020000.0,2640000.0,R|Power BI|Pandas|Python|SQL,5,2022-02-10,2022-02,2022
+540,2,Mahindra & Mahindra Digital,3,6,Full-time,Mid-level,980000.0,1330000.0,Node.js|Java|React|Kubernetes|Microservices,5,2023-09-05,2023-09,2023
+541,4,Birlasoft,1,1,Hybrid,Mid-level,930000.0,1100000.0,Tableau|SQL|Pandas|Scikit-Learn|Excel|Statistics,6,2024-12-07,2024-12,2024
+542,1,Byju's Learning Systems,5,2,Full-time,Mid-level,1230000.0,1330000.0,Python|R|Power BI|Statistics|Tableau,5,2022-09-07,2022-09,2022
+543,7,upGrad Education,1,3,Full-time,Fresher,550000.0,930000.0,Stakeholder Management|Agile|Product Roadmapping|Scrum|Jira,5,2022-06-17,2022-06,2022
+544,2,Byju's Learning Systems,8,8,Full-time,Fresher,420000.0,620000.0,Node.js|React|Python,3,2022-07-18,2022-07,2022
+545,2,Axis Bank Digital,3,4,Full-time,Mid-level,1110000.0,1270000.0,Git|Spring Boot|Python|Kubernetes,4,2022-07-15,2022-07,2022
+546,1,Wipro Limited,1,4,Full-time,Senior,2330000.0,2500000.0,Python|Pandas|Scikit-Learn,3,2023-09-10,2023-09,2023
+547,1,HCL Technologies,1,3,Full-time,Mid-level,850000.0,1600000.0,Power BI|Python|Scikit-Learn|Statistics|R,5,2024-05-26,2024-05,2024
+548,11,Infosys Technologies,1,5,Hybrid,Fresher,400000.0,560000.0,Java|REST APIs,2,2022-05-19,2022-05,2022
+549,1,Fortis Healthcare Tech,6,8,Full-time,Mid-level,1220000.0,1420000.0,Tableau|Python|Pandas,3,2022-09-19,2022-09,2022
+550,7,Bajaj Finserv Health,7,3,Full-time,Mid-level,1090000.0,1340000.0,User Stories|A/B Testing|Jira|Stakeholder Management|Data Analysis,5,2022-01-17,2022-01,2022
+551,2,Cipla Digital,1,5,Remote,Mid-level,950000.0,1260000.0,Python|Node.js|Spring Boot,3,2024-09-01,2024-09,2024
+552,2,Biocon Research,2,14,Full-time,Fresher,430000.0,750000.0,C++|Python|Kubernetes|Java,4,2024-01-12,2024-01,2024
+553,6,ICICI Bank Technology,1,2,Hybrid,Mid-level,1100000.0,1590000.0,Docker|C++|Java,3,2022-03-14,2022-03,2022
+554,4,Maruti Suzuki Connected,1,4,Hybrid,Mid-level,800000.0,930000.0,Power BI|Excel|SQL,3,2023-03-25,2023-03,2023
+555,5,Zensar Technologies,1,6,Full-time,Fresher,420000.0,570000.0,Microservices|C++,2,2024-02-16,2024-02,2024
+556,2,Meesho Commerce,1,10,Full-time,Mid-level,930000.0,1580000.0,Docker|Python|REST APIs|C++|Git|Microservices,6,2023-01-28,2023-01,2023
+557,3,Maruti Suzuki Connected,1,6,Full-time,Fresher,600000.0,800000.0,Excel|Tableau|Pandas|SQL|Python|Statistics,6,2022-09-16,2022-09,2022
+558,2,LTIMindtree,6,13,Hybrid,Mid-level,820000.0,1100000.0,Docker|Git|Node.js|Kubernetes|React|Spring Boot,6,2023-01-02,2023-01,2023
+559,6,Apollo Hospitals Digital,3,2,Full-time,Mid-level,790000.0,1110000.0,Spring Boot|Kubernetes|Microservices,3,2023-07-21,2023-07,2023
+560,3,Cipla Digital,7,4,Full-time,Mid-level,1250000.0,1820000.0,R|Power BI|Excel|Python|Pandas|Tableau,6,2024-05-22,2024-05,2024
+561,4,State Bank of India Tech,1,3,Full-time,Fresher,410000.0,650000.0,R|SQL,2,2023-08-27,2023-08,2023
+562,8,HDFC Bank Analytics,3,4,Full-time,Fresher,450000.0,840000.0,Node.js|Spring Boot|Microservices,3,2023-05-28,2023-05,2023
+563,2,Unacademy Edutech,3,8,Full-time,Fresher,490000.0,660000.0,React|Microservices,2,2023-12-11,2023-12,2023
+564,5,Bajaj Auto R&D,1,3,Full-time,Mid-level,910000.0,1430000.0,Spring Boot|Microservices|Kubernetes,3,2023-04-24,2023-04,2023
+565,6,Meesho Commerce,4,7,Full-time,Fresher,400000.0,720000.0,Spring Boot|Kubernetes|REST APIs|Java|C++,5,2022-10-12,2022-10,2022
+566,1,Larsen & Toubro Infotech,7,1,Hybrid,Fresher,460000.0,670000.0,Scikit-Learn|Excel|Tableau|Pandas|Python,5,2022-03-07,2022-03,2022
+567,2,Maruti Suzuki Connected,7,1,Hybrid,Senior,2200000.0,3120000.0,Spring Boot|Docker|Python|REST APIs|Git,5,2023-08-30,2023-08,2023
+568,1,Havells India Tech,1,5,Hybrid,Fresher,510000.0,740000.0,Tableau|Power BI,2,2022-05-23,2022-05,2022
+569,2,Dr. Reddy's Laboratories,1,3,Full-time,Fresher,490000.0,590000.0,Node.js|Docker|REST APIs,3,2022-11-18,2022-11,2022
+570,7,Swiggy Engineering,1,1,Contract,Senior,2270000.0,4200000.0,User Stories|Product Roadmapping|Stakeholder Management,3,2023-08-30,2023-08,2023
+571,6,State Bank of India Tech,2,4,Full-time,Senior,2070000.0,2300000.0,REST APIs|Spring Boot|Git|Node.js|React,5,2024-10-02,2024-10,2024
+572,2,Meesho Commerce,4,4,Full-time,Senior,2430000.0,2840000.0,REST APIs|C++|Docker|Spring Boot|Python,5,2024-06-03,2024-06,2024
+573,5,Zomato Technologies,1,11,Hybrid,Fresher,390000.0,630000.0,React|Python|Spring Boot|Kubernetes|Git|Microservices,6,2022-09-06,2022-09,2022
+574,7,Reliance Jio Platforms,1,1,Full-time,Fresher,490000.0,860000.0,A/B Testing|Agile,2,2022-05-30,2022-05,2022
+575,3,Zomato Technologies,2,5,Hybrid,Mid-level,950000.0,1580000.0,Tableau|R,2,2024-08-08,2024-08,2024
+576,2,Ola Electric Mobility,2,1,Full-time,Senior,2480000.0,2750000.0,Java|REST APIs|Python,3,2022-12-29,2022-12,2022
+577,1,Zee Entertainment Tech,1,4,Full-time,Fresher,470000.0,660000.0,Power BI|Python|R,3,2022-09-26,2022-09,2022
+578,6,Unacademy Edutech,5,8,Full-time,Fresher,430000.0,760000.0,REST APIs|Java,2,2022-04-10,2022-04,2022
+579,3,ICICI Bank Technology,6,7,Full-time,Fresher,440000.0,550000.0,Power BI|SQL|Pandas|Python,4,2022-12-10,2022-12,2022
+580,8,Reliance Jio Platforms,2,1,Full-time,Fresher,490000.0,870000.0,Docker|Python|Spring Boot|Git|Java,5,2024-01-01,2024-01,2024
+581,1,Hexaware,3,1,Full-time,Fresher,420000.0,710000.0,SQL|Power BI,2,2024-04-21,2024-04,2024
+582,1,Sun Pharma R&D,8,4,Hybrid,Senior,2200000.0,2660000.0,SQL|R|Pandas|Statistics,4,2024-03-06,2024-03,2024
+583,2,Maruti Suzuki Connected,3,14,Hybrid,Mid-level,1260000.0,1400000.0,Java|REST APIs|Kubernetes|Docker,4,2024-11-12,2024-11,2024
+584,12,HDFC Bank Analytics,2,2,Full-time,Mid-level,880000.0,1300000.0,Cryptography|ISO 27001|Ethical Hacking,3,2023-03-12,2023-03,2023
+585,2,Wipro Limited,1,2,Full-time,Mid-level,1220000.0,1710000.0,C++|React|Node.js|Java,4,2024-12-02,2024-12,2024
+586,7,HDFC Bank Analytics,5,3,Hybrid,Fresher,500000.0,710000.0,Agile|Stakeholder Management|Scrum|Data Analysis|Product Roadmapping|Jira,6,2022-09-21,2022-09,2022
+587,11,HCL Technologies,2,1,Full-time,Fresher,400000.0,570000.0,C++|REST APIs,2,2023-01-23,2023-01,2023
+588,6,ICICI Bank Technology,1,6,Full-time,Mid-level,1070000.0,1470000.0,Kubernetes|Spring Boot|React|Microservices|Java|C++,6,2024-03-26,2024-03,2024
+589,5,Razorpay Software,2,3,Hybrid,Mid-level,1260000.0,1370000.0,Docker|Python|React|C++|Git,5,2022-12-26,2022-12,2022
+590,3,Tata Motors EV Tech,2,3,Full-time,Fresher,620000.0,970000.0,Tableau|Power BI|Python,3,2022-01-27,2022-01,2022
+591,3,Paytm Labs,1,6,Contract,Senior,2780000.0,3690000.0,Excel|SQL|Power BI|Python|R,5,2024-02-28,2024-02,2024
+592,11,NDTV Convergence,4,1,Remote,Mid-level,1260000.0,1690000.0,Java|Docker|REST APIs|Spring Boot,4,2023-05-12,2023-05,2023
+593,6,Infosys Technologies,1,11,Hybrid,Mid-level,1020000.0,1600000.0,React|Spring Boot|C++,3,2024-01-26,2024-01,2024
+594,6,LTIMindtree,1,6,Hybrid,Fresher,460000.0,600000.0,React|Microservices|Git|Docker|REST APIs,5,2023-09-23,2023-09,2023
+595,9,Cognizant India,6,7,Full-time,Mid-level,1300000.0,1550000.0,Power BI|Statistics|R|Tableau,4,2022-01-14,2022-01,2022
+596,1,Byju's Learning Systems,1,8,Full-time,Mid-level,,1600000.0,Tableau|R|SQL,3,2024-02-03,2024-02,2024
+597,8,Zensar Technologies,2,12,Full-time,Mid-level,1140000.0,1510000.0,Kubernetes|REST APIs|Python|C++|Java,5,2023-01-24,2023-01,2023
+598,2,Apollo Hospitals Digital,1,1,Hybrid,Fresher,370000.0,610000.0,Microservices|REST APIs,2,2022-08-27,2022-08,2022
+599,11,State Bank of India Tech,2,2,Contract,Mid-level,1100000.0,1650000.0,Node.js|Microservices|REST APIs|Spring Boot,4,2024-01-10,2024-01,2024
+600,3,Bharti Airtel Tech,1,2,Remote,Fresher,670000.0,950000.0,Tableau|Python|Excel|Pandas|Statistics,5,2023-07-27,2023-07,2023
+601,4,Havells India Tech,1,7,Hybrid,Mid-level,1180000.0,1630000.0,Python|R|Scikit-Learn,3,2024-01-08,2024-01,2024
+602,6,HDFC Bank Analytics,4,13,Full-time,Mid-level,840000.0,1310000.0,Kubernetes|Python|Docker|React|Microservices,5,2023-02-04,2023-02,2023
+603,8,Unacademy Edutech,5,9,Full-time,Fresher,650000.0,770000.0,Microservices|Git|Kubernetes|C++,4,2024-07-02,2024-07,2024
+604,2,Birlasoft,2,3,Hybrid,Mid-level,840000.0,1050000.0,Java|C++|Node.js|Docker|Kubernetes,5,2024-03-29,2024-03,2024
+605,1,Mphasis India,6,3,Remote,Mid-level,1270000.0,1420000.0,Power BI|SQL|R|Tableau,4,2024-02-12,2024-02,2024
+606,6,Cipla Digital,4,7,Contract,Mid-level,990000.0,1320000.0,Python|React|Microservices|Git,4,2022-07-02,2022-07,2022
+607,11,Lupin Innovations,1,4,Full-time,Senior,2000000.0,3310000.0,React|Java,2,2023-01-24,2023-01,2023
+608,3,Havells India Tech,1,14,Contract,Fresher,610000.0,830000.0,Statistics|Python,2,2024-08-01,2024-08,2024
+609,2,Havells India Tech,1,8,Hybrid,Mid-level,900000.0,1700000.0,REST APIs|Node.js,2,2023-09-25,2023-09,2023
+610,9,Lupin Innovations,1,6,Hybrid,Senior,3040000.0,3750000.0,Python|R|SQL|Pandas|Statistics,5,2023-04-06,2023-04,2023
+611,1,Apollo Hospitals Digital,5,1,Hybrid,Fresher,390000.0,500000.0,Statistics|R|Power BI|Pandas|Scikit-Learn|Tableau,6,2024-03-12,2024-03,2024
+612,6,KPIT Technologies,1,4,Hybrid,Mid-level,850000.0,1090000.0,REST APIs|Java|React|Kubernetes,4,2022-12-02,2022-12,2022
+613,10,Hexaware,2,3,Full-time,Mid-level,760000.0,1240000.0,Figma|Design Systems|Adobe XD|User Research|Prototyping|HTML/CSS,6,2022-07-26,2022-07,2022
+614,4,Bharti Airtel Tech,1,12,Hybrid,Senior,2260000.0,3120000.0,Power BI|Python|Pandas|SQL|Scikit-Learn,5,2024-09-27,2024-09,2024
+615,7,NDTV Convergence,1,4,Hybrid,Mid-level,1630000.0,1780000.0,Data Analysis|Jira|Stakeholder Management|Product Roadmapping|A/B Testing,5,2022-01-24,2022-01,2022
+616,4,Infosys Technologies,3,3,Full-time,Senior,2100000.0,2770000.0,Tableau|Statistics,2,2024-09-18,2024-09,2024
+617,1,Reliance Jio Platforms,1,6,Full-time,Senior,2430000.0,3090000.0,Statistics|Python|Power BI,3,2024-12-21,2024-12,2024
+618,6,Bajaj Auto R&D,2,4,Full-time,Mid-level,870000.0,1160000.0,C++|Java|Git|Kubernetes|Docker|Microservices,6,2022-08-09,2022-08,2022
+619,2,Zee Entertainment Tech,1,5,Full-time,Senior,2130000.0,2860000.0,Git|C++|Docker|Java,4,2023-05-24,2023-05,2023
+620,8,Larsen & Toubro Infotech,2,12,Full-time,Fresher,570000.0,830000.0,Node.js|REST APIs|Git|Spring Boot|Microservices|Java,6,2022-02-02,2022-02,2022
+621,11,Tata Motors EV Tech,5,2,Full-time,Mid-level,1040000.0,1270000.0,Docker|Python|Git|React|C++|Spring Boot,6,2022-12-01,2022-12,2022
+622,3,Byju's Learning Systems,1,1,Full-time,Fresher,600000.0,840000.0,R|Tableau|Power BI,3,2022-11-11,2022-11,2022
+623,11,ICICI Bank Technology,1,7,Full-time,Fresher,380000.0,770000.0,Python|Node.js|Microservices|REST APIs|C++,5,2023-02-14,2023-02,2023
+624,11,Swiggy Engineering,1,1,Contract,Mid-level,880000.0,1160000.0,React|REST APIs|Kubernetes|Python|Microservices|C++,6,2023-08-01,2023-08,2023
+625,1,Zee Entertainment Tech,6,5,Full-time,Fresher,490000.0,730000.0,Statistics|Pandas|Excel|SQL|Tableau|Python,6,2024-11-17,2024-11,2024
+626,5,State Bank of India Tech,1,5,Full-time,Mid-level,1140000.0,1610000.0,Microservices|REST APIs|Docker,3,2023-03-26,2023-03,2023
+627,3,Unacademy Edutech,1,4,Remote,Mid-level,1260000.0,2030000.0,Excel|Statistics,2,2023-10-03,2023-10,2023
+628,2,LTIMindtree,1,5,Full-time,Fresher,420000.0,780000.0,Docker|Git,2,2022-10-07,2022-10,2022
+629,10,Byju's Learning Systems,8,4,Full-time,Fresher,400000.0,500000.0,Design Systems|Prototyping|Wireframing|Adobe XD|HTML/CSS,5,2024-12-17,2024-12,2024
+630,1,Zee Entertainment Tech,2,1,Full-time,Fresher,370000.0,660000.0,Scikit-Learn|R|Python,3,2024-05-15,2024-05,2024
+631,2,Havells India Tech,7,1,Full-time,Mid-level,870000.0,1270000.0,Kubernetes|React|REST APIs|Spring Boot,4,2022-01-05,2022-01,2022
+632,2,Bajaj Auto R&D,1,4,Hybrid,Senior,2090000.0,3210000.0,Node.js|Java,2,2024-07-31,2024-07,2024
+633,10,Zensar Technologies,1,2,Full-time,Fresher,460000.0,690000.0,Figma|Prototyping|Design Systems,3,2022-11-11,2022-11,2022
+634,7,Axis Bank Digital,1,11,Full-time,Mid-level,1250000.0,1730000.0,Jira|User Stories|A/B Testing|Agile|Product Roadmapping,5,2024-03-18,2024-03,2024
+635,9,KPIT Technologies,1,3,Full-time,Fresher,470000.0,780000.0,R|Python|SQL|Scikit-Learn|Statistics,5,2024-09-08,2024-09,2024
+636,4,Apollo Hospitals Digital,1,14,Remote,Mid-level,1090000.0,1610000.0,Statistics|Tableau|Python|Scikit-Learn|R|SQL,6,2022-11-15,2022-11,2022
+637,1,Bharti Airtel Tech,3,1,Full-time,Mid-level,760000.0,1320000.0,Excel|Scikit-Learn|Power BI|Python|Statistics,5,2023-05-23,2023-05,2023
+638,2,Persistent Systems,1,6,Remote,Senior,1860000.0,2860000.0,Kubernetes|Python|Git,3,2024-08-07,2024-08,2024
+639,1,Wipro Limited,1,5,Full-time,Fresher,390000.0,710000.0,Power BI|SQL,2,2022-04-15,2022-04,2022
+640,12,HDFC Bank Analytics,3,4,Full-time,Mid-level,1200000.0,1640000.0,Linux|Network Security,2,2023-07-06,2023-07,2023
+641,2,HCL Technologies,3,12,Full-time,Fresher,430000.0,640000.0,Kubernetes|React|Python|Docker,4,2023-01-14,2023-01,2023
+642,1,Larsen & Toubro Infotech,1,3,Full-time,Mid-level,890000.0,1340000.0,R|Scikit-Learn|SQL|Pandas,4,2022-07-20,2022-07,2022
+643,7,Persistent Systems,1,10,Full-time,Senior,2400000.0,2900000.0,Scrum|Agile|User Stories|Stakeholder Management|Jira,5,2023-09-10,2023-09,2023
+644,6,Wipro Limited,1,14,Full-time,Mid-level,1010000.0,1700000.0,Node.js|Kubernetes|Python|Docker,4,2022-05-19,2022-05,2022
+645,8,Birlasoft,7,4,Full-time,Mid-level,,1780000.0,REST APIs|Java,2,2023-01-25,2023-01,2023
+646,9,Tech Mahindra,3,3,Full-time,Mid-level,1340000.0,2030000.0,Statistics|Excel|SQL|Scikit-Learn|Python,5,2022-11-24,2022-11,2022
+647,11,Fortis Healthcare Tech,1,4,Hybrid,Mid-level,1020000.0,1440000.0,React|Microservices|Git,3,2024-01-01,2024-01,2024
+648,1,State Bank of India Tech,1,2,Remote,Fresher,360000.0,800000.0,Power BI|SQL|Python,3,2023-12-13,2023-12,2023
+649,11,Cipla Digital,1,14,Full-time,Fresher,510000.0,690000.0,Java|Microservices|Node.js|Spring Boot,4,2024-01-27,2024-01,2024
+650,11,Biocon Research,5,5,Full-time,Mid-level,1150000.0,1750000.0,Microservices|REST APIs|Git|Spring Boot,4,2022-03-24,2022-03,2022
+651,1,Cipla Digital,5,3,Full-time,Mid-level,770000.0,970000.0,Tableau|Statistics|Power BI,3,2022-07-12,2022-07,2022
+652,6,NDTV Convergence,1,2,Contract,Mid-level,810000.0,1070000.0,REST APIs|Java|Python,3,2023-07-12,2023-07,2023

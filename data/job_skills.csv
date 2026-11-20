@@ -1,0 +1,2602 @@
+skill_id,job_id,skill_name,is_primary
+1,1,Docker,1
+2,1,Java,0
+3,1,REST APIs,0
+4,1,Python,0
+5,1,Kubernetes,0
+6,1,Microservices,0
+7,2,Docker,1
+8,2,Node.js,0
+9,2,React,0
+10,3,Statistics,1
+11,3,SQL,0
+12,4,Python,1
+13,4,Docker,0
+14,4,React,0
+15,5,Git,1
+16,5,Spring Boot,0
+17,5,C++,0
+18,6,Node.js,1
+19,6,Docker,0
+20,7,Scikit-Learn,1
+21,7,Excel,0
+22,7,R,0
+23,7,Pandas,0
+24,7,Power BI,0
+25,7,Statistics,0
+26,8,Statistics,1
+27,8,Scikit-Learn,0
+28,9,SQL,1
+29,9,Excel,0
+30,9,Power BI,0
+31,9,Scikit-Learn,0
+32,10,Power BI,1
+33,10,Tableau,0
+34,10,Pandas,0
+35,10,SQL,0
+36,10,Excel,0
+37,10,Python,0
+38,11,ISO 27001,1
+39,11,Cryptography,0
+40,12,Spring Boot,1
+41,12,React,0
+42,12,Docker,0
+43,12,Node.js,0
+44,12,Microservices,0
+45,12,REST APIs,0
+46,13,Java,1
+47,13,Node.js,0
+48,14,Docker,1
+49,14,Spring Boot,0
+50,14,Python,0
+51,14,Git,0
+52,14,Node.js,0
+53,15,SQL,1
+54,15,Power BI,0
+55,15,Scikit-Learn,0
+56,15,Statistics,0
+57,16,Tableau,1
+58,16,Statistics,0
+59,16,Power BI,0
+60,17,Power BI,1
+61,17,Excel,0
+62,17,SQL,0
+63,18,Scikit-Learn,1
+64,18,SQL,0
+65,19,REST APIs,1
+66,19,Git,0
+67,19,Node.js,0
+68,19,React,0
+69,19,Python,0
+70,19,Microservices,0
+71,20,Python,1
+72,20,Git,0
+73,21,Scikit-Learn,1
+74,21,Python,0
+75,21,R,0
+76,21,Excel,0
+77,22,Spring Boot,1
+78,22,React,0
+79,22,Git,0
+80,22,Kubernetes,0
+81,23,Tableau,1
+82,23,Pandas,0
+83,23,Excel,0
+84,23,R,0
+85,24,Docker,1
+86,24,C++,0
+87,24,Java,0
+88,25,Statistics,1
+89,25,Tableau,0
+90,25,SQL,0
+91,25,Scikit-Learn,0
+92,25,R,0
+93,25,Power BI,0
+94,26,Spring Boot,1
+95,26,Microservices,0
+96,26,Kubernetes,0
+97,26,Node.js,0
+98,26,C++,0
+99,27,R,1
+100,27,Python,0
+101,27,Pandas,0
+102,27,Tableau,0
+103,27,SQL,0
+104,27,Scikit-Learn,0
+105,28,Docker,1
+106,28,Java,0
+107,29,Stakeholder Management,1
+108,29,A/B Testing,0
+109,29,Agile,0
+110,29,Jira,0
+111,30,REST APIs,1
+112,30,Microservices,0
+113,30,React,0
+114,31,Scikit-Learn,1
+115,31,Pandas,0
+116,31,Statistics,0
+117,32,C++,1
+118,32,Java,0
+119,32,REST APIs,0
+120,33,Power BI,1
+121,33,Tableau,0
+122,33,R,0
+123,33,Statistics,0
+124,33,Python,0
+125,34,Kubernetes,1
+126,34,Git,0
+127,34,REST APIs,0
+128,35,Kubernetes,1
+129,35,React,0
+130,35,Spring Boot,0
+131,35,REST APIs,0
+132,35,Docker,0
+133,36,C++,1
+134,36,Spring Boot,0
+135,36,Docker,0
+136,37,REST APIs,1
+137,37,Docker,0
+138,38,React,1
+139,38,Docker,0
+140,38,Kubernetes,0
+141,39,REST APIs,1
+142,39,Microservices,0
+143,39,Java,0
+144,39,Python,0
+145,39,Node.js,0
+146,40,Python,1
+147,40,Kubernetes,0
+148,40,Java,0
+149,40,Git,0
+150,41,REST APIs,1
+151,41,Spring Boot,0
+152,42,REST APIs,1
+153,42,Java,0
+154,43,Microservices,1
+155,43,REST APIs,0
+156,43,Python,0
+157,43,Java,0
+158,44,Microservices,1
+159,44,Kubernetes,0
+160,44,C++,0
+161,44,Docker,0
+162,45,Spring Boot,1
+163,45,Python,0
+164,45,React,0
+165,45,Kubernetes,0
+166,46,Node.js,1
+167,46,React,0
+168,46,REST APIs,0
+169,46,Java,0
+170,47,SQL,1
+171,47,Excel,0
+172,48,Pandas,1
+173,48,Excel,0
+174,48,Tableau,0
+175,48,Statistics,0
+176,49,User Stories,1
+177,49,Agile,0
+178,49,Scrum,0
+179,49,Jira,0
+180,49,Stakeholder Management,0
+181,49,Product Roadmapping,0
+182,50,SQL,1
+183,50,Python,0
+184,50,Excel,0
+185,50,Tableau,0
+186,50,Power BI,0
+187,51,Microservices,1
+188,51,Java,0
+189,51,C++,0
+190,51,Git,0
+191,51,Docker,0
+192,51,React,0
+193,52,REST APIs,1
+194,52,Docker,0
+195,52,React,0
+196,52,Java,0
+197,53,Kubernetes,1
+198,53,REST APIs,0
+199,53,Microservices,0
+200,53,React,0
+201,53,Java,0
+202,54,Scikit-Learn,1
+203,54,Power BI,0
+204,55,Pandas,1
+205,55,Excel,0
+206,56,Power BI,1
+207,56,Python,0
+208,57,SQL,1
+209,57,Pandas,0
+210,57,Tableau,0
+211,57,Power BI,0
+212,57,Statistics,0
+213,58,Node.js,1
+214,58,React,0
+215,59,Pandas,1
+216,59,Python,0
+217,59,SQL,0
+218,59,Tableau,0
+219,59,Excel,0
+220,60,Python,1
+221,60,Statistics,0
+222,60,Scikit-Learn,0
+223,60,SQL,0
+224,60,Pandas,0
+225,60,Power BI,0
+226,61,Git,1
+227,61,C++,0
+228,61,Docker,0
+229,61,Spring Boot,0
+230,61,React,0
+231,62,User Stories,1
+232,62,Stakeholder Management,0
+233,63,Pandas,1
+234,63,R,0
+235,63,Statistics,0
+236,63,SQL,0
+237,63,Scikit-Learn,0
+238,64,Adobe XD,1
+239,64,Prototyping,0
+240,65,Excel,1
+241,65,R,0
+242,65,Scikit-Learn,0
+243,65,Pandas,0
+244,65,Power BI,0
+245,66,SQL,1
+246,66,Power BI,0
+247,67,Python,1
+248,67,R,0
+249,68,Docker,1
+250,68,REST APIs,0
+251,68,Spring Boot,0
+252,68,Kubernetes,0
+253,68,React,0
+254,68,Python,0
+255,69,R,1
+256,69,Excel,0
+257,69,Scikit-Learn,0
+258,69,Power BI,0
+259,69,Tableau,0
+260,70,Statistics,1
+261,70,Excel,0
+262,71,R,1
+263,71,Power BI,0
+264,71,Scikit-Learn,0
+265,72,Kubernetes,1
+266,72,Java,0
+267,72,Node.js,0
+268,72,C++,0
+269,73,React,1
+270,73,Kubernetes,0
+271,73,Microservices,0
+272,74,Scrum,1
+273,74,Data Analysis,0
+274,74,Product Roadmapping,0
+275,74,Agile,0
+276,75,Kubernetes,1
+277,75,Java,0
+278,75,Git,0
+279,76,Excel,1
+280,76,Pandas,0
+281,77,Kubernetes,1
+282,77,REST APIs,0
+283,78,Git,1
+284,78,Node.js,0
+285,78,Java,0
+286,78,Docker,0
+287,79,Python,1
+288,79,Git,0
+289,79,Spring Boot,0
+290,80,React,1
+291,80,C++,0
+292,80,Python,0
+293,80,Java,0
+294,80,Git,0
+295,80,Kubernetes,0
+296,81,Pandas,1
+297,81,R,0
+298,81,Excel,0
+299,81,Statistics,0
+300,81,Python,0
+301,82,Docker,1
+302,82,Microservices,0
+303,82,Python,0
+304,82,Kubernetes,0
+305,82,Node.js,0
+306,83,React,1
+307,83,Kubernetes,0
+308,83,Git,0
+309,83,Docker,0
+310,83,Java,0
+311,83,Node.js,0
+312,84,Docker,1
+313,84,Microservices,0
+314,84,Python,0
+315,84,Node.js,0
+316,84,Spring Boot,0
+317,85,C++,1
+318,85,Git,0
+319,85,Java,0
+320,85,Node.js,0
+321,86,Scikit-Learn,1
+322,86,Power BI,0
+323,87,Scikit-Learn,1
+324,87,Python,0
+325,87,Excel,0
+326,87,R,0
+327,87,Tableau,0
+328,87,Pandas,0
+329,88,Python,1
+330,88,SQL,0
+331,88,R,0
+332,89,REST APIs,1
+333,89,Java,0
+334,89,Python,0
+335,90,Pandas,1
+336,90,Excel,0
+337,90,Python,0
+338,90,SQL,0
+339,91,Kubernetes,1
+340,91,Docker,0
+341,92,Kubernetes,1
+342,92,Python,0
+343,93,Pandas,1
+344,93,R,0
+345,93,Python,0
+346,93,Power BI,0
+347,93,Statistics,0
+348,93,SQL,0
+349,94,Git,1
+350,94,Microservices,0
+351,95,C++,1
+352,95,Python,0
+353,95,Microservices,0
+354,95,Kubernetes,0
+355,95,Spring Boot,0
+356,95,React,0
+357,96,ISO 27001,1
+358,96,Python,0
+359,97,Scikit-Learn,1
+360,97,Statistics,0
+361,98,Python,1
+362,98,Pandas,0
+363,98,Scikit-Learn,0
+364,99,Excel,1
+365,99,Statistics,0
+366,99,Power BI,0
+367,99,Tableau,0
+368,100,SQL,1
+369,100,Tableau,0
+370,100,Pandas,0
+371,100,Statistics,0
+372,101,Git,1
+373,101,Node.js,0
+374,101,Java,0
+375,101,REST APIs,0
+376,101,C++,0
+377,102,Git,1
+378,102,Java,0
+379,102,Node.js,0
+380,102,C++,0
+381,102,React,0
+382,102,Spring Boot,0
+383,103,Pandas,1
+384,103,Power BI,0
+385,103,Excel,0
+386,103,SQL,0
+387,104,Git,1
+388,104,Microservices,0
+389,104,Docker,0
+390,104,C++,0
+391,104,REST APIs,0
+392,105,Python,1
+393,105,C++,0
+394,105,React,0
+395,105,Kubernetes,0
+396,106,Power BI,1
+397,106,Statistics,0
+398,106,Python,0
+399,106,Tableau,0
+400,107,Pandas,1
+401,107,Python,0
+402,107,Scikit-Learn,0
+403,107,Statistics,0
+404,107,Tableau,0
+405,108,Statistics,1
+406,108,Pandas,0
+407,108,Python,0
+408,109,Node.js,1
+409,109,Spring Boot,0
+410,109,Docker,0
+411,109,C++,0
+412,109,Microservices,0
+413,109,Git,0
+414,110,Node.js,1
+415,110,React,0
+416,110,Java,0
+417,110,Microservices,0
+418,110,Docker,0
+419,111,Jira,1
+420,111,Data Analysis,0
+421,111,Stakeholder Management,0
+422,111,Product Roadmapping,0
+423,112,Stakeholder Management,1
+424,112,Jira,0
+425,113,SQL,1
+426,113,R,0
+427,113,Power BI,0
+428,113,Statistics,0
+429,114,SQL,1
+430,114,Statistics,0
+431,114,Excel,0
+432,114,Scikit-Learn,0
+433,114,Pandas,0
+434,115,Java,1
+435,115,Node.js,0
+436,115,Docker,0
+437,115,React,0
+438,115,REST APIs,0
+439,116,Python,1
+440,116,Spring Boot,0
+441,116,Node.js,0
+442,117,Docker,1
+443,117,Node.js,0
+444,117,React,0
+445,117,Spring Boot,0
+446,118,SQL,1
+447,118,Tableau,0
+448,118,Statistics,0
+449,119,Scikit-Learn,1
+450,119,Excel,0
+451,120,Kubernetes,1
+452,120,Java,0
+453,120,Node.js,0
+454,121,User Research,1
+455,121,HTML/CSS,0
+456,121,Prototyping,0
+457,121,Figma,0
+458,121,Design Systems,0
+459,121,Adobe XD,0
+460,122,Python,1
+461,122,SQL,0
+462,122,Excel,0
+463,122,Pandas,0
+464,122,Tableau,0
+465,122,R,0
+466,123,C++,1
+467,123,React,0
+468,123,Git,0
+469,123,Python,0
+470,124,Python,1
+471,124,Excel,0
+472,125,Statistics,1
+473,125,Excel,0
+474,125,Power BI,0
+475,126,Tableau,1
+476,126,R,0
+477,126,Excel,0
+478,126,Statistics,0
+479,126,Python,0
+480,127,R,1
+481,127,Power BI,0
+482,127,Statistics,0
+483,127,SQL,0
+484,127,Pandas,0
+485,127,Excel,0
+486,128,Excel,1
+487,128,Pandas,0
+488,129,Python,1
+489,129,Power BI,0
+490,129,Tableau,0
+491,129,Excel,0
+492,129,Statistics,0
+493,130,R,1
+494,130,Scikit-Learn,0
+495,130,Statistics,0
+496,130,SQL,0
+497,131,Scikit-Learn,1
+498,131,Tableau,0
+499,131,Pandas,0
+500,131,Excel,0
+501,131,Statistics,0
+502,131,SQL,0
+503,132,Node.js,1
+504,132,Microservices,0
+505,133,Spring Boot,1
+506,133,Java,0
+507,133,Kubernetes,0
+508,133,C++,0
+509,133,React,0
+510,133,Node.js,0
+511,134,Statistics,1
+512,134,Pandas,0
+513,134,Scikit-Learn,0
+514,135,Penetration Testing,1
+515,135,Linux,0
+516,135,SIEM,0
+517,135,ISO 27001,0
+518,135,Python,0
+519,135,Network Security,0
+520,136,Penetration Testing,1
+521,136,Linux,0
+522,136,ISO 27001,0
+523,136,SIEM,0
+524,136,Cryptography,0
+525,137,SQL,1
+526,137,R,0
+527,137,Power BI,0
+528,137,Pandas,0
+529,138,Spring Boot,1
+530,138,Java,0
+531,138,Git,0
+532,139,Microservices,1
+533,139,Kubernetes,0
+534,139,REST APIs,0
+535,139,Spring Boot,0
+536,139,Docker,0
+537,140,Tableau,1
+538,140,Python,0
+539,140,Statistics,0
+540,140,Power BI,0
+541,140,R,0
+542,141,Scikit-Learn,1
+543,141,Pandas,0
+544,141,SQL,0
+545,141,Excel,0
+546,141,Power BI,0
+547,142,REST APIs,1
+548,142,Docker,0
+549,142,Microservices,0
+550,143,ISO 27001,1
+551,143,Cryptography,0
+552,143,SIEM,0
+553,144,Docker,1
+554,144,Git,0
+555,144,React,0
+556,145,Kubernetes,1
+557,145,Git,0
+558,145,Spring Boot,0
+559,145,REST APIs,0
+560,145,Node.js,0
+561,145,React,0
+562,146,Adobe XD,1
+563,146,HTML/CSS,0
+564,146,Wireframing,0
+565,146,User Research,0
+566,146,Figma,0
+567,146,Prototyping,0
+568,147,Excel,1
+569,147,Python,0
+570,147,R,0
+571,147,SQL,0
+572,147,Scikit-Learn,0
+573,148,C++,1
+574,148,Docker,0
+575,148,Node.js,0
+576,149,Scikit-Learn,1
+577,149,Statistics,0
+578,149,Excel,0
+579,150,Power BI,1
+580,150,Scikit-Learn,0
+581,150,Pandas,0
+582,150,Tableau,0
+583,150,SQL,0
+584,151,REST APIs,1
+585,151,Java,0
+586,151,Spring Boot,0
+587,151,Microservices,0
+588,151,Git,0
+589,152,C++,1
+590,152,Git,0
+591,152,Spring Boot,0
+592,152,Docker,0
+593,153,Data Analysis,1
+594,153,A/B Testing,0
+595,153,User Stories,0
+596,153,Jira,0
+597,154,Git,1
+598,154,Docker,0
+599,155,Spring Boot,1
+600,155,Java,0
+601,155,React,0
+602,155,Docker,0
+603,155,Node.js,0
+604,155,Git,0
+605,156,Spring Boot,1
+606,156,Microservices,0
+607,157,Docker,1
+608,157,Kubernetes,0
+609,157,Git,0
+610,157,Node.js,0
+611,158,R,1
+612,158,Statistics,0
+613,158,Python,0
+614,158,Excel,0
+615,159,REST APIs,1
+616,159,Spring Boot,0
+617,159,Kubernetes,0
+618,159,Node.js,0
+619,159,C++,0
+620,160,Python,1
+621,160,Scikit-Learn,0
+622,160,Statistics,0
+623,160,Pandas,0
+624,160,R,0
+625,160,Excel,0
+626,161,Java,1
+627,161,Microservices,0
+628,161,Git,0
+629,161,Docker,0
+630,161,REST APIs,0
+631,162,Scikit-Learn,1
+632,162,Tableau,0
+633,163,Excel,1
+634,163,SQL,0
+635,163,R,0
+636,164,SQL,1
+637,164,Python,0
+638,164,Scikit-Learn,0
+639,164,Statistics,0
+640,165,REST APIs,1
+641,165,C++,0
+642,165,Docker,0
+643,166,SQL,1
+644,166,R,0
+645,166,Python,0
+646,167,A/B Testing,1
+647,167,Scrum,0
+648,167,Jira,0
+649,167,User Stories,0
+650,167,Product Roadmapping,0
+651,168,Docker,1
+652,168,Node.js,0
+653,168,REST APIs,0
+654,169,SQL,1
+655,169,R,0
+656,170,Scikit-Learn,1
+657,170,Tableau,0
+658,170,R,0
+659,170,Power BI,0
+660,170,SQL,0
+661,170,Excel,0
+662,171,Pandas,1
+663,171,Power BI,0
+664,171,Scikit-Learn,0
+665,172,React,1
+666,172,Node.js,0
+667,172,Spring Boot,0
+668,173,Docker,1
+669,173,React,0
+670,173,Microservices,0
+671,173,Node.js,0
+672,174,Excel,1
+673,174,SQL,0
+674,174,Statistics,0
+675,174,Power BI,0
+676,174,R,0
+677,175,Git,1
+678,175,Docker,0
+679,175,Microservices,0
+680,175,Java,0
+681,175,REST APIs,0
+682,175,C++,0
+683,176,Docker,1
+684,176,Python,0
+685,176,Java,0
+686,176,REST APIs,0
+687,177,Java,1
+688,177,Kubernetes,0
+689,177,Python,0
+690,177,React,0
+691,178,Stakeholder Management,1
+692,178,Product Roadmapping,0
+693,178,Agile,0
+694,178,Data Analysis,0
+695,178,User Stories,0
+696,179,C++,1
+697,179,Git,0
+698,179,Microservices,0
+699,179,Node.js,0
+700,179,React,0
+701,179,Spring Boot,0
+702,180,Statistics,1
+703,180,Python,0
+704,180,R,0
+705,180,SQL,0
+706,180,Scikit-Learn,0
+707,181,Pandas,1
+708,181,R,0
+709,181,Excel,0
+710,181,Power BI,0
+711,182,Microservices,1
+712,182,C++,0
+713,183,Scikit-Learn,1
+714,183,Tableau,0
+715,183,Excel,0
+716,183,SQL,0
+717,183,Power BI,0
+718,184,Docker,1
+719,184,Kubernetes,0
+720,184,Microservices,0
+721,184,REST APIs,0
+722,184,Spring Boot,0
+723,185,Python,1
+724,185,REST APIs,0
+725,185,Microservices,0
+726,185,React,0
+727,185,Docker,0
+728,185,Kubernetes,0
+729,186,Pandas,1
+730,186,Excel,0
+731,187,Tableau,1
+732,187,Power BI,0
+733,187,Statistics,0
+734,188,Microservices,1
+735,188,Python,0
+736,188,C++,0
+737,188,Docker,0
+738,188,Java,0
+739,188,Git,0
+740,189,Microservices,1
+741,189,React,0
+742,189,Docker,0
+743,189,Git,0
+744,189,Spring Boot,0
+745,189,Java,0
+746,190,Pandas,1
+747,190,R,0
+748,191,Tableau,1
+749,191,Pandas,0
+750,191,Statistics,0
+751,191,Scikit-Learn,0
+752,191,Python,0
+753,191,Excel,0
+754,192,Microservices,1
+755,192,React,0
+756,192,C++,0
+757,193,Python,1
+758,193,Java,0
+759,194,Kubernetes,1
+760,194,Python,0
+761,194,Spring Boot,0
+762,195,SQL,1
+763,195,Python,0
+764,195,Excel,0
+765,196,Tableau,1
+766,196,SQL,0
+767,197,Spring Boot,1
+768,197,Git,0
+769,197,REST APIs,0
+770,197,Microservices,0
+771,198,Git,1
+772,198,Java,0
+773,199,Java,1
+774,199,REST APIs,0
+775,200,SQL,1
+776,200,Tableau,0
+777,200,Pandas,0
+778,200,Python,0
+779,200,Statistics,0
+780,201,Spring Boot,1
+781,201,Java,0
+782,201,Microservices,0
+783,201,Python,0
+784,201,Git,0
+785,202,Jira,1
+786,202,Product Roadmapping,0
+787,203,R,1
+788,203,Statistics,0
+789,204,Node.js,1
+790,204,C++,0
+791,204,React,0
+792,205,Stakeholder Management,1
+793,205,Product Roadmapping,0
+794,205,Scrum,0
+795,205,A/B Testing,0
+796,205,Agile,0
+797,206,Scikit-Learn,1
+798,206,Python,0
+799,206,Power BI,0
+800,207,React,1
+801,207,REST APIs,0
+802,207,Spring Boot,0
+803,207,Kubernetes,0
+804,207,C++,0
+805,207,Microservices,0
+806,208,Node.js,1
+807,208,Java,0
+808,208,Microservices,0
+809,208,REST APIs,0
+810,208,Docker,0
+811,208,Git,0
+812,209,SQL,1
+813,209,Python,0
+814,209,Scikit-Learn,0
+815,209,Excel,0
+816,210,Python,1
+817,210,Statistics,0
+818,210,R,0
+819,210,SQL,0
+820,210,Pandas,0
+821,210,Tableau,0
+822,211,SQL,1
+823,211,Tableau,0
+824,211,Python,0
+825,212,Tableau,1
+826,212,Excel,0
+827,213,Statistics,1
+828,213,Pandas,0
+829,214,REST APIs,1
+830,214,Microservices,0
+831,215,Kubernetes,1
+832,215,Java,0
+833,216,Excel,1
+834,216,Pandas,0
+835,216,SQL,0
+836,216,Python,0
+837,217,Scikit-Learn,1
+838,217,Python,0
+839,217,Power BI,0
+840,218,React,1
+841,218,Java,0
+842,219,Python,1
+843,219,Linux,0
+844,220,Python,1
+845,220,R,0
+846,220,Excel,0
+847,220,Statistics,0
+848,220,SQL,0
+849,220,Pandas,0
+850,221,Power BI,1
+851,221,Tableau,0
+852,221,Pandas,0
+853,221,R,0
+854,221,SQL,0
+855,221,Statistics,0
+856,222,SQL,1
+857,222,R,0
+858,222,Tableau,0
+859,222,Statistics,0
+860,222,Scikit-Learn,0
+861,222,Excel,0
+862,223,Tableau,1
+863,223,Statistics,0
+864,223,Scikit-Learn,0
+865,224,Power BI,1
+866,224,SQL,0
+867,224,Scikit-Learn,0
+868,224,Pandas,0
+869,224,Tableau,0
+870,224,Python,0
+871,225,React,1
+872,225,Spring Boot,0
+873,226,Docker,1
+874,226,Node.js,0
+875,226,Git,0
+876,226,Microservices,0
+877,226,Java,0
+878,227,React,1
+879,227,Python,0
+880,227,REST APIs,0
+881,227,Node.js,0
+882,228,Docker,1
+883,228,C++,0
+884,229,Python,1
+885,229,Java,0
+886,229,Docker,0
+887,230,Python,1
+888,230,Kubernetes,0
+889,230,Microservices,0
+890,230,React,0
+891,231,Java,1
+892,231,React,0
+893,231,Kubernetes,0
+894,231,Git,0
+895,231,C++,0
+896,232,Spring Boot,1
+897,232,Git,0
+898,232,Java,0
+899,232,Docker,0
+900,232,Kubernetes,0
+901,232,React,0
+902,233,Git,1
+903,233,REST APIs,0
+904,233,C++,0
+905,233,Python,0
+906,233,Docker,0
+907,233,Spring Boot,0
+908,234,REST APIs,1
+909,234,React,0
+910,234,Node.js,0
+911,235,Tableau,1
+912,235,Scikit-Learn,0
+913,235,Excel,0
+914,235,Statistics,0
+915,235,R,0
+916,236,REST APIs,1
+917,236,Microservices,0
+918,236,Kubernetes,0
+919,236,Java,0
+920,236,Python,0
+921,237,Excel,1
+922,237,R,0
+923,237,Python,0
+924,237,Tableau,0
+925,237,Pandas,0
+926,238,Statistics,1
+927,238,SQL,0
+928,238,Pandas,0
+929,238,Power BI,0
+930,239,Scikit-Learn,1
+931,239,Statistics,0
+932,239,SQL,0
+933,239,Excel,0
+934,240,Design Systems,1
+935,240,Figma,0
+936,240,HTML/CSS,0
+937,240,Adobe XD,0
+938,240,User Research,0
+939,241,Java,1
+940,241,Docker,0
+941,241,Microservices,0
+942,241,C++,0
+943,242,Kubernetes,1
+944,242,C++,0
+945,243,Node.js,1
+946,243,Kubernetes,0
+947,243,React,0
+948,243,Spring Boot,0
+949,243,REST APIs,0
+950,244,Excel,1
+951,244,Scikit-Learn,0
+952,244,R,0
+953,244,Python,0
+954,244,Power BI,0
+955,244,Statistics,0
+956,245,Spring Boot,1
+957,245,Java,0
+958,245,Docker,0
+959,245,Node.js,0
+960,245,Kubernetes,0
+961,245,Python,0
+962,246,Power BI,1
+963,246,Pandas,0
+964,246,R,0
+965,246,Tableau,0
+966,247,Microservices,1
+967,247,Python,0
+968,247,Spring Boot,0
+969,247,Node.js,0
+970,248,Microservices,1
+971,248,REST APIs,0
+972,249,Node.js,1
+973,249,Docker,0
+974,249,Kubernetes,0
+975,250,Excel,1
+976,250,Power BI,0
+977,250,Statistics,0
+978,250,SQL,0
+979,250,Scikit-Learn,0
+980,251,Java,1
+981,251,Git,0
+982,252,Stakeholder Management,1
+983,252,Jira,0
+984,252,Scrum,0
+985,253,R,1
+986,253,Statistics,0
+987,253,Scikit-Learn,0
+988,253,SQL,0
+989,253,Tableau,0
+990,253,Power BI,0
+991,254,REST APIs,1
+992,254,Git,0
+993,255,Java,1
+994,255,Python,0
+995,256,Microservices,1
+996,256,Git,0
+997,257,Adobe XD,1
+998,257,Prototyping,0
+999,257,HTML/CSS,0
+1000,257,Wireframing,0
+1001,257,User Research,0
+1002,258,Microservices,1
+1003,258,Python,0
+1004,259,Excel,1
+1005,259,Scikit-Learn,0
+1006,259,Power BI,0
+1007,259,Python,0
+1008,259,R,0
+1009,260,Microservices,1
+1010,260,C++,0
+1011,260,Node.js,0
+1012,261,User Stories,1
+1013,261,Data Analysis,0
+1014,261,Product Roadmapping,0
+1015,261,Stakeholder Management,0
+1016,261,A/B Testing,0
+1017,262,Statistics,1
+1018,262,R,0
+1019,262,Excel,0
+1020,262,Python,0
+1021,262,SQL,0
+1022,262,Power BI,0
+1023,263,Git,1
+1024,263,REST APIs,0
+1025,263,Python,0
+1026,263,Docker,0
+1027,263,Node.js,0
+1028,263,Kubernetes,0
+1029,264,Scikit-Learn,1
+1030,264,Pandas,0
+1031,264,Statistics,0
+1032,265,Spring Boot,1
+1033,265,Python,0
+1034,265,Kubernetes,0
+1035,265,Git,0
+1036,265,Docker,0
+1037,266,Scrum,1
+1038,266,Data Analysis,0
+1039,267,Scikit-Learn,1
+1040,267,Pandas,0
+1041,267,R,0
+1042,267,Statistics,0
+1043,268,Node.js,1
+1044,268,Python,0
+1045,268,Java,0
+1046,268,C++,0
+1047,268,Spring Boot,0
+1048,268,REST APIs,0
+1049,269,Python,1
+1050,269,SQL,0
+1051,269,Statistics,0
+1052,269,Power BI,0
+1053,269,R,0
+1054,270,C++,1
+1055,270,Python,0
+1056,270,Docker,0
+1057,271,HTML/CSS,1
+1058,271,Adobe XD,0
+1059,271,Design Systems,0
+1060,271,User Research,0
+1061,271,Wireframing,0
+1062,272,Microservices,1
+1063,272,Node.js,0
+1064,272,C++,0
+1065,272,Git,0
+1066,273,User Stories,1
+1067,273,Data Analysis,0
+1068,273,Product Roadmapping,0
+1069,273,Agile,0
+1070,273,A/B Testing,0
+1071,274,Spring Boot,1
+1072,274,Git,0
+1073,274,Java,0
+1074,274,Node.js,0
+1075,275,Docker,1
+1076,275,Microservices,0
+1077,275,Node.js,0
+1078,275,Java,0
+1079,275,Kubernetes,0
+1080,276,Kubernetes,1
+1081,276,C++,0
+1082,276,Python,0
+1083,276,REST APIs,0
+1084,277,Kubernetes,1
+1085,277,C++,0
+1086,277,Java,0
+1087,277,REST APIs,0
+1088,278,Scikit-Learn,1
+1089,278,Power BI,0
+1090,278,SQL,0
+1091,278,Excel,0
+1092,279,Excel,1
+1093,279,Power BI,0
+1094,279,Statistics,0
+1095,279,Scikit-Learn,0
+1096,280,Docker,1
+1097,280,Python,0
+1098,280,Microservices,0
+1099,280,React,0
+1100,281,Tableau,1
+1101,281,Python,0
+1102,282,SQL,1
+1103,282,Tableau,0
+1104,282,Python,0
+1105,282,Power BI,0
+1106,282,Pandas,0
+1107,283,Docker,1
+1108,283,Node.js,0
+1109,283,Java,0
+1110,283,Microservices,0
+1111,283,REST APIs,0
+1112,284,User Stories,1
+1113,284,Data Analysis,0
+1114,285,Scikit-Learn,1
+1115,285,Excel,0
+1116,285,R,0
+1117,285,SQL,0
+1118,285,Tableau,0
+1119,286,R,1
+1120,286,Power BI,0
+1121,286,Pandas,0
+1122,287,Scikit-Learn,1
+1123,287,SQL,0
+1124,287,Tableau,0
+1125,287,R,0
+1126,287,Python,0
+1127,288,Pandas,1
+1128,288,Scikit-Learn,0
+1129,288,Tableau,0
+1130,288,Excel,0
+1131,289,React,1
+1132,289,Node.js,0
+1133,289,C++,0
+1134,289,REST APIs,0
+1135,289,Spring Boot,0
+1136,290,Power BI,1
+1137,290,Excel,0
+1138,290,R,0
+1139,290,Statistics,0
+1140,290,Python,0
+1141,290,Pandas,0
+1142,291,Git,1
+1143,291,Kubernetes,0
+1144,291,C++,0
+1145,291,Node.js,0
+1146,291,Spring Boot,0
+1147,291,Python,0
+1148,292,Pandas,1
+1149,292,Tableau,0
+1150,292,SQL,0
+1151,293,Git,1
+1152,293,Node.js,0
+1153,293,Docker,0
+1154,294,Git,1
+1155,294,REST APIs,0
+1156,294,C++,0
+1157,294,Docker,0
+1158,294,Node.js,0
+1159,294,Spring Boot,0
+1160,295,REST APIs,1
+1161,295,Java,0
+1162,295,Git,0
+1163,295,C++,0
+1164,295,Spring Boot,0
+1165,296,SQL,1
+1166,296,Pandas,0
+1167,296,R,0
+1168,296,Power BI,0
+1169,297,Tableau,1
+1170,297,Python,0
+1171,297,SQL,0
+1172,297,Scikit-Learn,0
+1173,297,Statistics,0
+1174,297,Power BI,0
+1175,298,Spring Boot,1
+1176,298,Docker,0
+1177,298,C++,0
+1178,299,Python,1
+1179,299,Java,0
+1180,299,Spring Boot,0
+1181,300,Scikit-Learn,1
+1182,300,SQL,0
+1183,300,Python,0
+1184,300,Power BI,0
+1185,300,Pandas,0
+1186,300,Statistics,0
+1187,301,SQL,1
+1188,301,Statistics,0
+1189,301,Scikit-Learn,0
+1190,301,Tableau,0
+1191,301,Power BI,0
+1192,301,Pandas,0
+1193,302,Java,1
+1194,302,Docker,0
+1195,302,Spring Boot,0
+1196,302,Node.js,0
+1197,302,Git,0
+1198,302,C++,0
+1199,303,Scikit-Learn,1
+1200,303,Pandas,0
+1201,303,SQL,0
+1202,303,Tableau,0
+1203,303,Excel,0
+1204,304,C++,1
+1205,304,Python,0
+1206,304,Spring Boot,0
+1207,304,Docker,0
+1208,304,Kubernetes,0
+1209,305,Statistics,1
+1210,305,SQL,0
+1211,305,Python,0
+1212,305,Tableau,0
+1213,305,Pandas,0
+1214,306,Kubernetes,1
+1215,306,Java,0
+1216,306,Spring Boot,0
+1217,306,React,0
+1218,306,Python,0
+1219,307,React,1
+1220,307,Docker,0
+1221,308,Excel,1
+1222,308,Power BI,0
+1223,308,Scikit-Learn,0
+1224,308,SQL,0
+1225,309,Excel,1
+1226,309,Scikit-Learn,0
+1227,309,R,0
+1228,309,Power BI,0
+1229,309,Statistics,0
+1230,309,Pandas,0
+1231,310,Power BI,1
+1232,310,Scikit-Learn,0
+1233,310,Statistics,0
+1234,310,Tableau,0
+1235,310,Pandas,0
+1236,311,C++,1
+1237,311,Kubernetes,0
+1238,311,Node.js,0
+1239,311,Git,0
+1240,311,Python,0
+1241,311,React,0
+1242,312,Product Roadmapping,1
+1243,312,Data Analysis,0
+1244,312,User Stories,0
+1245,313,REST APIs,1
+1246,313,Node.js,0
+1247,313,Kubernetes,0
+1248,313,React,0
+1249,314,Statistics,1
+1250,314,Tableau,0
+1251,314,Power BI,0
+1252,314,Python,0
+1253,315,React,1
+1254,315,Spring Boot,0
+1255,315,Microservices,0
+1256,315,Kubernetes,0
+1257,315,Git,0
+1258,315,C++,0
+1259,316,SQL,1
+1260,316,Excel,0
+1261,316,Statistics,0
+1262,317,C++,1
+1263,317,Git,0
+1264,317,REST APIs,0
+1265,317,Node.js,0
+1266,317,Docker,0
+1267,318,Pandas,1
+1268,318,R,0
+1269,319,REST APIs,1
+1270,319,Git,0
+1271,319,C++,0
+1272,319,React,0
+1273,319,Microservices,0
+1274,319,Docker,0
+1275,320,Statistics,1
+1276,320,Scikit-Learn,0
+1277,320,Pandas,0
+1278,320,Python,0
+1279,321,Git,1
+1280,321,Kubernetes,0
+1281,321,Docker,0
+1282,321,C++,0
+1283,321,Python,0
+1284,321,Java,0
+1285,322,Git,1
+1286,322,Java,0
+1287,322,REST APIs,0
+1288,322,Docker,0
+1289,322,React,0
+1290,323,Scikit-Learn,1
+1291,323,Tableau,0
+1292,323,Python,0
+1293,324,Tableau,1
+1294,324,Pandas,0
+1295,324,R,0
+1296,324,Statistics,0
+1297,324,Excel,0
+1298,324,Power BI,0
+1299,325,Tableau,1
+1300,325,Excel,0
+1301,325,Python,0
+1302,325,Statistics,0
+1303,326,Statistics,1
+1304,326,Excel,0
+1305,327,Adobe XD,1
+1306,327,Wireframing,0
+1307,327,Figma,0
+1308,327,User Research,0
+1309,327,Design Systems,0
+1310,328,Python,1
+1311,328,C++,0
+1312,328,REST APIs,0
+1313,329,SQL,1
+1314,329,Excel,0
+1315,329,Tableau,0
+1316,330,Python,1
+1317,330,R,0
+1318,330,Scikit-Learn,0
+1319,330,SQL,0
+1320,330,Statistics,0
+1321,331,Docker,1
+1322,331,Kubernetes,0
+1323,331,Spring Boot,0
+1324,332,Scikit-Learn,1
+1325,332,SQL,0
+1326,333,Python,1
+1327,333,Tableau,0
+1328,333,Statistics,0
+1329,333,Pandas,0
+1330,334,Spring Boot,1
+1331,334,C++,0
+1332,335,C++,1
+1333,335,Kubernetes,0
+1334,336,Excel,1
+1335,336,Python,0
+1336,336,Power BI,0
+1337,337,Python,1
+1338,337,Git,0
+1339,337,C++,0
+1340,338,Power BI,1
+1341,338,R,0
+1342,338,Pandas,0
+1343,338,Python,0
+1344,339,Java,1
+1345,339,C++,0
+1346,340,Excel,1
+1347,340,Python,0
+1348,340,Tableau,0
+1349,340,SQL,0
+1350,340,Scikit-Learn,0
+1351,340,Pandas,0
+1352,341,HTML/CSS,1
+1353,341,Wireframing,0
+1354,341,Figma,0
+1355,341,Design Systems,0
+1356,341,User Research,0
+1357,342,Git,1
+1358,342,Spring Boot,0
+1359,342,C++,0
+1360,343,Docker,1
+1361,343,Git,0
+1362,343,Node.js,0
+1363,343,C++,0
+1364,343,React,0
+1365,343,Microservices,0
+1366,344,Python,1
+1367,344,ISO 27001,0
+1368,344,Linux,0
+1369,344,SIEM,0
+1370,344,Penetration Testing,0
+1371,344,Ethical Hacking,0
+1372,345,Spring Boot,1
+1373,345,Microservices,0
+1374,345,Node.js,0
+1375,345,Java,0
+1376,346,REST APIs,1
+1377,346,Spring Boot,0
+1378,346,Microservices,0
+1379,346,React,0
+1380,347,Python,1
+1381,347,REST APIs,0
+1382,347,React,0
+1383,347,Java,0
+1384,347,Node.js,0
+1385,347,Git,0
+1386,348,Python,1
+1387,348,Excel,0
+1388,348,Pandas,0
+1389,348,Scikit-Learn,0
+1390,348,Tableau,0
+1391,349,Docker,1
+1392,349,React,0
+1393,349,Microservices,0
+1394,350,Scikit-Learn,1
+1395,350,Power BI,0
+1396,350,Pandas,0
+1397,350,Statistics,0
+1398,350,Excel,0
+1399,351,Microservices,1
+1400,351,Docker,0
+1401,352,REST APIs,1
+1402,352,C++,0
+1403,352,Kubernetes,0
+1404,352,Java,0
+1405,352,Docker,0
+1406,353,R,1
+1407,353,SQL,0
+1408,354,Microservices,1
+1409,354,Java,0
+1410,354,Docker,0
+1411,355,Microservices,1
+1412,355,Node.js,0
+1413,355,Python,0
+1414,355,Java,0
+1415,356,SQL,1
+1416,356,Tableau,0
+1417,356,Scikit-Learn,0
+1418,356,Excel,0
+1419,356,Power BI,0
+1420,356,Python,0
+1421,357,Excel,1
+1422,357,Python,0
+1423,357,R,0
+1424,357,Tableau,0
+1425,357,Power BI,0
+1426,357,Pandas,0
+1427,358,Tableau,1
+1428,358,Statistics,0
+1429,358,Scikit-Learn,0
+1430,359,Docker,1
+1431,359,C++,0
+1432,359,REST APIs,0
+1433,360,Pandas,1
+1434,360,Excel,0
+1435,360,SQL,0
+1436,360,Statistics,0
+1437,361,C++,1
+1438,361,Git,0
+1439,361,Kubernetes,0
+1440,361,Node.js,0
+1441,361,Python,0
+1442,362,Power BI,1
+1443,362,SQL,0
+1444,362,Pandas,0
+1445,363,Statistics,1
+1446,363,Python,0
+1447,363,Excel,0
+1448,363,Pandas,0
+1449,364,Spring Boot,1
+1450,364,React,0
+1451,365,Pandas,1
+1452,365,Scikit-Learn,0
+1453,365,Python,0
+1454,366,React,1
+1455,366,Node.js,0
+1456,367,Statistics,1
+1457,367,Python,0
+1458,367,Scikit-Learn,0
+1459,367,SQL,0
+1460,367,Tableau,0
+1461,367,R,0
+1462,368,SQL,1
+1463,368,Tableau,0
+1464,368,Scikit-Learn,0
+1465,369,Pandas,1
+1466,369,Scikit-Learn,0
+1467,369,Power BI,0
+1468,370,Microservices,1
+1469,370,Node.js,0
+1470,371,REST APIs,1
+1471,371,Microservices,0
+1472,371,Git,0
+1473,371,C++,0
+1474,372,Scrum,1
+1475,372,Jira,0
+1476,372,Product Roadmapping,0
+1477,372,A/B Testing,0
+1478,372,Agile,0
+1479,373,React,1
+1480,373,Docker,0
+1481,373,Node.js,0
+1482,373,Microservices,0
+1483,373,Kubernetes,0
+1484,373,REST APIs,0
+1485,374,Spring Boot,1
+1486,374,Java,0
+1487,374,Python,0
+1488,374,REST APIs,0
+1489,375,Microservices,1
+1490,375,Spring Boot,0
+1491,376,REST APIs,1
+1492,376,Java,0
+1493,376,C++,0
+1494,376,Spring Boot,0
+1495,376,Git,0
+1496,376,Docker,0
+1497,377,Statistics,1
+1498,377,Python,0
+1499,377,Scikit-Learn,0
+1500,377,Excel,0
+1501,377,Tableau,0
+1502,378,Microservices,1
+1503,378,Git,0
+1504,378,C++,0
+1505,378,Docker,0
+1506,378,Python,0
+1507,379,React,1
+1508,379,Spring Boot,0
+1509,379,Git,0
+1510,379,Microservices,0
+1511,379,Python,0
+1512,380,R,1
+1513,380,Pandas,0
+1514,380,Scikit-Learn,0
+1515,381,Scikit-Learn,1
+1516,381,SQL,0
+1517,381,Python,0
+1518,381,Tableau,0
+1519,381,Statistics,0
+1520,382,Stakeholder Management,1
+1521,382,Scrum,0
+1522,382,Data Analysis,0
+1523,383,SQL,1
+1524,383,Power BI,0
+1525,383,Excel,0
+1526,383,Tableau,0
+1527,383,Statistics,0
+1528,383,R,0
+1529,384,Python,1
+1530,384,Docker,0
+1531,385,Microservices,1
+1532,385,Git,0
+1533,385,Python,0
+1534,386,Spring Boot,1
+1535,386,C++,0
+1536,386,React,0
+1537,387,Kubernetes,1
+1538,387,Microservices,0
+1539,387,C++,0
+1540,387,React,0
+1541,388,Docker,1
+1542,388,REST APIs,0
+1543,388,Microservices,0
+1544,388,Spring Boot,0
+1545,388,React,0
+1546,389,Scikit-Learn,1
+1547,389,Power BI,0
+1548,389,SQL,0
+1549,389,R,0
+1550,390,Statistics,1
+1551,390,SQL,0
+1552,390,Excel,0
+1553,390,Python,0
+1554,391,C++,1
+1555,391,Microservices,0
+1556,392,Python,1
+1557,392,REST APIs,0
+1558,392,Java,0
+1559,392,Docker,0
+1560,393,Java,1
+1561,393,Spring Boot,0
+1562,393,Docker,0
+1563,393,Git,0
+1564,394,Docker,1
+1565,394,C++,0
+1566,394,React,0
+1567,394,REST APIs,0
+1568,395,REST APIs,1
+1569,395,Docker,0
+1570,395,C++,0
+1571,395,Kubernetes,0
+1572,395,React,0
+1573,396,Docker,1
+1574,396,Git,0
+1575,396,Node.js,0
+1576,396,Java,0
+1577,397,SQL,1
+1578,397,Scikit-Learn,0
+1579,397,Pandas,0
+1580,397,Power BI,0
+1581,397,Python,0
+1582,397,Tableau,0
+1583,398,Excel,1
+1584,398,Tableau,0
+1585,398,Python,0
+1586,398,R,0
+1587,399,Pandas,1
+1588,399,SQL,0
+1589,399,Scikit-Learn,0
+1590,399,Excel,0
+1591,400,Node.js,1
+1592,400,C++,0
+1593,400,React,0
+1594,400,Spring Boot,0
+1595,400,Kubernetes,0
+1596,401,Statistics,1
+1597,401,Power BI,0
+1598,401,R,0
+1599,401,Pandas,0
+1600,401,SQL,0
+1601,402,Git,1
+1602,402,Spring Boot,0
+1603,402,Docker,0
+1604,402,Microservices,0
+1605,402,REST APIs,0
+1606,403,R,1
+1607,403,Statistics,0
+1608,403,Excel,0
+1609,403,Scikit-Learn,0
+1610,403,Tableau,0
+1611,403,Pandas,0
+1612,404,R,1
+1613,404,Tableau,0
+1614,404,Pandas,0
+1615,404,Excel,0
+1616,404,Python,0
+1617,404,Scikit-Learn,0
+1618,405,REST APIs,1
+1619,405,Spring Boot,0
+1620,406,Excel,1
+1621,406,Scikit-Learn,0
+1622,406,Power BI,0
+1623,407,Excel,1
+1624,407,Python,0
+1625,408,C++,1
+1626,408,Kubernetes,0
+1627,408,Python,0
+1628,408,Microservices,0
+1629,408,React,0
+1630,409,Tableau,1
+1631,409,Python,0
+1632,409,Pandas,0
+1633,409,R,0
+1634,409,Power BI,0
+1635,410,Java,1
+1636,410,Docker,0
+1637,410,Kubernetes,0
+1638,411,Git,1
+1639,411,Node.js,0
+1640,411,Python,0
+1641,411,Kubernetes,0
+1642,412,SQL,1
+1643,412,Pandas,0
+1644,412,R,0
+1645,412,Scikit-Learn,0
+1646,412,Statistics,0
+1647,413,Node.js,1
+1648,413,Java,0
+1649,414,Spring Boot,1
+1650,414,Python,0
+1651,414,Java,0
+1652,414,C++,0
+1653,414,Microservices,0
+1654,414,Node.js,0
+1655,415,REST APIs,1
+1656,415,C++,0
+1657,415,Python,0
+1658,415,Git,0
+1659,415,Java,0
+1660,416,Python,1
+1661,416,REST APIs,0
+1662,416,Git,0
+1663,416,C++,0
+1664,417,Git,1
+1665,417,C++,0
+1666,417,Kubernetes,0
+1667,417,Spring Boot,0
+1668,418,Excel,1
+1669,418,Statistics,0
+1670,418,R,0
+1671,418,Power BI,0
+1672,418,SQL,0
+1673,418,Scikit-Learn,0
+1674,419,Microservices,1
+1675,419,React,0
+1676,420,ISO 27001,1
+1677,420,Cryptography,0
+1678,420,Penetration Testing,0
+1679,421,React,1
+1680,421,Spring Boot,0
+1681,421,Docker,0
+1682,421,Microservices,0
+1683,422,SQL,1
+1684,422,Scikit-Learn,0
+1685,422,Pandas,0
+1686,422,R,0
+1687,422,Power BI,0
+1688,422,Tableau,0
+1689,423,Kubernetes,1
+1690,423,REST APIs,0
+1691,424,Power BI,1
+1692,424,R,0
+1693,424,SQL,0
+1694,424,Python,0
+1695,425,Tableau,1
+1696,425,Power BI,0
+1697,425,Python,0
+1698,425,Pandas,0
+1699,425,Excel,0
+1700,425,R,0
+1701,426,Jira,1
+1702,426,User Stories,0
+1703,426,Agile,0
+1704,427,Product Roadmapping,1
+1705,427,Agile,0
+1706,427,User Stories,0
+1707,427,Data Analysis,0
+1708,427,A/B Testing,0
+1709,428,Tableau,1
+1710,428,Statistics,0
+1711,428,SQL,0
+1712,428,Scikit-Learn,0
+1713,428,Power BI,0
+1714,429,Node.js,1
+1715,429,Java,0
+1716,429,Git,0
+1717,429,Microservices,0
+1718,429,REST APIs,0
+1719,429,Docker,0
+1720,430,Power BI,1
+1721,430,SQL,0
+1722,430,R,0
+1723,430,Scikit-Learn,0
+1724,431,User Research,1
+1725,431,HTML/CSS,0
+1726,431,Prototyping,0
+1727,431,Figma,0
+1728,432,Python,1
+1729,432,Microservices,0
+1730,432,Docker,0
+1731,432,C++,0
+1732,432,Kubernetes,0
+1733,433,Pandas,1
+1734,433,R,0
+1735,433,Power BI,0
+1736,434,R,1
+1737,434,Scikit-Learn,0
+1738,434,Power BI,0
+1739,434,Excel,0
+1740,434,Pandas,0
+1741,434,Statistics,0
+1742,435,R,1
+1743,435,Excel,0
+1744,435,Power BI,0
+1745,436,Python,1
+1746,436,Java,0
+1747,436,Node.js,0
+1748,437,C++,1
+1749,437,Git,0
+1750,437,React,0
+1751,437,Python,0
+1752,437,Java,0
+1753,437,Spring Boot,0
+1754,438,Tableau,1
+1755,438,Pandas,0
+1756,438,Scikit-Learn,0
+1757,438,R,0
+1758,439,Python,1
+1759,439,Node.js,0
+1760,439,Java,0
+1761,439,Spring Boot,0
+1762,440,R,1
+1763,440,Python,0
+1764,440,Scikit-Learn,0
+1765,440,Tableau,0
+1766,440,Power BI,0
+1767,441,Power BI,1
+1768,441,Pandas,0
+1769,442,Linux,1
+1770,442,Python,0
+1771,442,ISO 27001,0
+1772,443,HTML/CSS,1
+1773,443,User Research,0
+1774,443,Wireframing,0
+1775,444,Excel,1
+1776,444,Statistics,0
+1777,445,Pandas,1
+1778,445,Statistics,0
+1779,445,Scikit-Learn,0
+1780,445,Tableau,0
+1781,446,A/B Testing,1
+1782,446,Stakeholder Management,0
+1783,446,Scrum,0
+1784,446,Jira,0
+1785,447,SQL,1
+1786,447,Tableau,0
+1787,447,Excel,0
+1788,448,C++,1
+1789,448,Java,0
+1790,448,Microservices,0
+1791,448,React,0
+1792,449,Scikit-Learn,1
+1793,449,SQL,0
+1794,449,Power BI,0
+1795,449,Statistics,0
+1796,449,Python,0
+1797,449,Excel,0
+1798,450,Python,1
+1799,450,SQL,0
+1800,450,Pandas,0
+1801,450,Statistics,0
+1802,451,Cryptography,1
+1803,451,Network Security,0
+1804,451,Ethical Hacking,0
+1805,451,ISO 27001,0
+1806,451,Linux,0
+1807,452,Power BI,1
+1808,452,Tableau,0
+1809,452,R,0
+1810,453,SQL,1
+1811,453,Scikit-Learn,0
+1812,453,Statistics,0
+1813,453,Excel,0
+1814,453,Python,0
+1815,453,Pandas,0
+1816,454,R,1
+1817,454,Tableau,0
+1818,454,Power BI,0
+1819,454,Scikit-Learn,0
+1820,454,Python,0
+1821,455,Scikit-Learn,1
+1822,455,Tableau,0
+1823,456,Pandas,1
+1824,456,Power BI,0
+1825,456,Excel,0
+1826,456,Scikit-Learn,0
+1827,457,User Research,1
+1828,457,HTML/CSS,0
+1829,458,Power BI,1
+1830,458,R,0
+1831,458,SQL,0
+1832,458,Excel,0
+1833,459,Stakeholder Management,1
+1834,459,Product Roadmapping,0
+1835,459,A/B Testing,0
+1836,459,User Stories,0
+1837,459,Data Analysis,0
+1838,460,Python,1
+1839,460,SQL,0
+1840,461,Kubernetes,1
+1841,461,Microservices,0
+1842,461,Spring Boot,0
+1843,461,React,0
+1844,461,Node.js,0
+1845,461,Git,0
+1846,462,Docker,1
+1847,462,Kubernetes,0
+1848,463,Tableau,1
+1849,463,Excel,0
+1850,463,R,0
+1851,463,Power BI,0
+1852,463,Statistics,0
+1853,464,React,1
+1854,464,Kubernetes,0
+1855,464,Docker,0
+1856,464,Node.js,0
+1857,464,Git,0
+1858,465,SQL,1
+1859,465,Statistics,0
+1860,465,Tableau,0
+1861,465,Pandas,0
+1862,465,Power BI,0
+1863,466,Scikit-Learn,1
+1864,466,R,0
+1865,467,Prototyping,1
+1866,467,User Research,0
+1867,467,Wireframing,0
+1868,467,Figma,0
+1869,467,Adobe XD,0
+1870,468,Kubernetes,1
+1871,468,Python,0
+1872,468,Git,0
+1873,469,R,1
+1874,469,Excel,0
+1875,469,Python,0
+1876,469,Pandas,0
+1877,469,Scikit-Learn,0
+1878,469,Power BI,0
+1879,470,Git,1
+1880,470,Kubernetes,0
+1881,470,Microservices,0
+1882,470,C++,0
+1883,470,Java,0
+1884,470,Node.js,0
+1885,471,Docker,1
+1886,471,REST APIs,0
+1887,471,Java,0
+1888,471,Spring Boot,0
+1889,471,C++,0
+1890,471,Kubernetes,0
+1891,472,Excel,1
+1892,472,Power BI,0
+1893,472,Pandas,0
+1894,473,Excel,1
+1895,473,Tableau,0
+1896,473,Python,0
+1897,474,Node.js,1
+1898,474,REST APIs,0
+1899,475,Scikit-Learn,1
+1900,475,SQL,0
+1901,476,Statistics,1
+1902,476,Power BI,0
+1903,476,Pandas,0
+1904,476,SQL,0
+1905,477,Docker,1
+1906,477,Kubernetes,0
+1907,477,Spring Boot,0
+1908,477,React,0
+1909,477,Microservices,0
+1910,477,Python,0
+1911,478,React,1
+1912,478,Git,0
+1913,478,Docker,0
+1914,479,React,1
+1915,479,Microservices,0
+1916,479,Python,0
+1917,479,Spring Boot,0
+1918,479,C++,0
+1919,480,Kubernetes,1
+1920,480,Docker,0
+1921,480,Node.js,0
+1922,480,REST APIs,0
+1923,480,Microservices,0
+1924,481,Python,1
+1925,481,Tableau,0
+1926,482,REST APIs,1
+1927,482,Docker,0
+1928,482,Node.js,0
+1929,483,Docker,1
+1930,483,Microservices,0
+1931,483,Spring Boot,0
+1932,484,REST APIs,1
+1933,484,Docker,0
+1934,484,React,0
+1935,484,C++,0
+1936,484,Java,0
+1937,485,Product Roadmapping,1
+1938,485,Data Analysis,0
+1939,485,Jira,0
+1940,486,Docker,1
+1941,486,C++,0
+1942,486,Java,0
+1943,487,Node.js,1
+1944,487,Docker,0
+1945,487,Spring Boot,0
+1946,488,Python,1
+1947,488,Scikit-Learn,0
+1948,488,Tableau,0
+1949,488,Excel,0
+1950,488,R,0
+1951,488,Power BI,0
+1952,489,User Research,1
+1953,489,Adobe XD,0
+1954,489,Figma,0
+1955,489,Wireframing,0
+1956,490,Linux,1
+1957,490,SIEM,0
+1958,490,ISO 27001,0
+1959,490,Cryptography,0
+1960,490,Penetration Testing,0
+1961,491,Jira,1
+1962,491,Agile,0
+1963,491,Scrum,0
+1964,492,ISO 27001,1
+1965,492,Network Security,0
+1966,492,Penetration Testing,0
+1967,492,Ethical Hacking,0
+1968,492,Cryptography,0
+1969,493,Tableau,1
+1970,493,Statistics,0
+1971,493,Python,0
+1972,493,SQL,0
+1973,493,Power BI,0
+1974,493,Pandas,0
+1975,494,Kubernetes,1
+1976,494,React,0
+1977,494,Java,0
+1978,494,Node.js,0
+1979,494,Git,0
+1980,495,Node.js,1
+1981,495,Java,0
+1982,495,Python,0
+1983,495,Docker,0
+1984,496,Tableau,1
+1985,496,SQL,0
+1986,496,Scikit-Learn,0
+1987,496,Power BI,0
+1988,497,Kubernetes,1
+1989,497,Docker,0
+1990,497,Microservices,0
+1991,497,React,0
+1992,497,Git,0
+1993,498,Pandas,1
+1994,498,SQL,0
+1995,498,Tableau,0
+1996,499,Excel,1
+1997,499,Python,0
+1998,499,Scikit-Learn,0
+1999,499,Pandas,0
+2000,499,R,0
+2001,500,Microservices,1
+2002,500,Kubernetes,0
+2003,501,Excel,1
+2004,501,R,0
+2005,501,Statistics,0
+2006,501,SQL,0
+2007,501,Pandas,0
+2008,502,Microservices,1
+2009,502,REST APIs,0
+2010,502,Kubernetes,0
+2011,502,React,0
+2012,502,Git,0
+2013,503,Java,1
+2014,503,Spring Boot,0
+2015,503,Kubernetes,0
+2016,504,Java,1
+2017,504,Python,0
+2018,504,C++,0
+2019,504,Git,0
+2020,504,Node.js,0
+2021,505,Java,1
+2022,505,Python,0
+2023,505,Docker,0
+2024,505,Git,0
+2025,506,Git,1
+2026,506,Java,0
+2027,507,Java,1
+2028,507,C++,0
+2029,507,React,0
+2030,507,Spring Boot,0
+2031,507,Kubernetes,0
+2032,508,Docker,1
+2033,508,Microservices,0
+2034,508,Node.js,0
+2035,508,Kubernetes,0
+2036,509,Kubernetes,1
+2037,509,React,0
+2038,509,Spring Boot,0
+2039,509,Git,0
+2040,509,REST APIs,0
+2041,510,Docker,1
+2042,510,Python,0
+2043,510,Spring Boot,0
+2044,510,REST APIs,0
+2045,511,Scrum,1
+2046,511,Stakeholder Management,0
+2047,511,Agile,0
+2048,511,Product Roadmapping,0
+2049,511,User Stories,0
+2050,511,Data Analysis,0
+2051,512,R,1
+2052,512,Tableau,0
+2053,512,Scikit-Learn,0
+2054,513,Pandas,1
+2055,513,Statistics,0
+2056,513,Scikit-Learn,0
+2057,514,Docker,1
+2058,514,Spring Boot,0
+2059,514,C++,0
+2060,514,Microservices,0
+2061,514,REST APIs,0
+2062,514,Kubernetes,0
+2063,515,Node.js,1
+2064,515,Microservices,0
+2065,516,User Stories,1
+2066,516,Product Roadmapping,0
+2067,516,Data Analysis,0
+2068,516,A/B Testing,0
+2069,516,Jira,0
+2070,516,Stakeholder Management,0
+2071,517,Pandas,1
+2072,517,R,0
+2073,517,Statistics,0
+2074,517,Scikit-Learn,0
+2075,517,Power BI,0
+2076,517,SQL,0
+2077,518,Excel,1
+2078,518,R,0
+2079,518,Statistics,0
+2080,518,Pandas,0
+2081,518,SQL,0
+2082,518,Python,0
+2083,519,R,1
+2084,519,Excel,0
+2085,520,Scikit-Learn,1
+2086,520,Power BI,0
+2087,520,Tableau,0
+2088,521,REST APIs,1
+2089,521,Spring Boot,0
+2090,521,Node.js,0
+2091,521,Kubernetes,0
+2092,521,Java,0
+2093,521,Python,0
+2094,522,Prototyping,1
+2095,522,HTML/CSS,0
+2096,522,User Research,0
+2097,522,Wireframing,0
+2098,522,Design Systems,0
+2099,522,Adobe XD,0
+2100,523,Jira,1
+2101,523,Stakeholder Management,0
+2102,523,User Stories,0
+2103,523,Data Analysis,0
+2104,523,Agile,0
+2105,524,React,1
+2106,524,Java,0
+2107,524,Git,0
+2108,524,C++,0
+2109,524,REST APIs,0
+2110,524,Kubernetes,0
+2111,525,C++,1
+2112,525,Kubernetes,0
+2113,525,Java,0
+2114,526,Tableau,1
+2115,526,Scikit-Learn,0
+2116,526,Excel,0
+2117,526,R,0
+2118,526,Power BI,0
+2119,527,Scikit-Learn,1
+2120,527,Python,0
+2121,527,R,0
+2122,527,Power BI,0
+2123,528,Python,1
+2124,528,Spring Boot,0
+2125,528,Git,0
+2126,528,Java,0
+2127,528,React,0
+2128,528,Docker,0
+2129,529,Kubernetes,1
+2130,529,Python,0
+2131,529,Git,0
+2132,529,Node.js,0
+2133,529,Spring Boot,0
+2134,529,React,0
+2135,530,Python,1
+2136,530,Git,0
+2137,531,Python,1
+2138,531,Excel,0
+2139,532,Kubernetes,1
+2140,532,Git,0
+2141,532,REST APIs,0
+2142,533,Git,1
+2143,533,REST APIs,0
+2144,533,Python,0
+2145,533,Spring Boot,0
+2146,534,Git,1
+2147,534,Docker,0
+2148,534,Microservices,0
+2149,535,Scikit-Learn,1
+2150,535,Excel,0
+2151,535,Python,0
+2152,536,Scikit-Learn,1
+2153,536,R,0
+2154,536,Pandas,0
+2155,537,Java,1
+2156,537,C++,0
+2157,537,Microservices,0
+2158,537,Kubernetes,0
+2159,538,Prototyping,1
+2160,538,Figma,0
+2161,539,R,1
+2162,539,Power BI,0
+2163,539,Pandas,0
+2164,539,Python,0
+2165,539,SQL,0
+2166,540,Node.js,1
+2167,540,Java,0
+2168,540,React,0
+2169,540,Kubernetes,0
+2170,540,Microservices,0
+2171,541,Tableau,1
+2172,541,SQL,0
+2173,541,Pandas,0
+2174,541,Scikit-Learn,0
+2175,541,Excel,0
+2176,541,Statistics,0
+2177,542,Python,1
+2178,542,R,0
+2179,542,Power BI,0
+2180,542,Statistics,0
+2181,542,Tableau,0
+2182,543,Stakeholder Management,1
+2183,543,Agile,0
+2184,543,Product Roadmapping,0
+2185,543,Scrum,0
+2186,543,Jira,0
+2187,544,Node.js,1
+2188,544,React,0
+2189,544,Python,0
+2190,545,Git,1
+2191,545,Spring Boot,0
+2192,545,Python,0
+2193,545,Kubernetes,0
+2194,546,Python,1
+2195,546,Pandas,0
+2196,546,Scikit-Learn,0
+2197,547,Power BI,1
+2198,547,Python,0
+2199,547,Scikit-Learn,0
+2200,547,Statistics,0
+2201,547,R,0
+2202,548,Java,1
+2203,548,REST APIs,0
+2204,549,Tableau,1
+2205,549,Python,0
+2206,549,Pandas,0
+2207,550,User Stories,1
+2208,550,A/B Testing,0
+2209,550,Jira,0
+2210,550,Stakeholder Management,0
+2211,550,Data Analysis,0
+2212,551,Python,1
+2213,551,Node.js,0
+2214,551,Spring Boot,0
+2215,552,C++,1
+2216,552,Python,0
+2217,552,Kubernetes,0
+2218,552,Java,0
+2219,553,Docker,1
+2220,553,C++,0
+2221,553,Java,0
+2222,554,Power BI,1
+2223,554,Excel,0
+2224,554,SQL,0
+2225,555,Microservices,1
+2226,555,C++,0
+2227,556,Docker,1
+2228,556,Python,0
+2229,556,REST APIs,0
+2230,556,C++,0
+2231,556,Git,0
+2232,556,Microservices,0
+2233,557,Excel,1
+2234,557,Tableau,0
+2235,557,Pandas,0
+2236,557,SQL,0
+2237,557,Python,0
+2238,557,Statistics,0
+2239,558,Docker,1
+2240,558,Git,0
+2241,558,Node.js,0
+2242,558,Kubernetes,0
+2243,558,React,0
+2244,558,Spring Boot,0
+2245,559,Spring Boot,1
+2246,559,Kubernetes,0
+2247,559,Microservices,0
+2248,560,R,1
+2249,560,Power BI,0
+2250,560,Excel,0
+2251,560,Python,0
+2252,560,Pandas,0
+2253,560,Tableau,0
+2254,561,R,1
+2255,561,SQL,0
+2256,562,Node.js,1
+2257,562,Spring Boot,0
+2258,562,Microservices,0
+2259,563,React,1
+2260,563,Microservices,0
+2261,564,Spring Boot,1
+2262,564,Microservices,0
+2263,564,Kubernetes,0
+2264,565,Spring Boot,1
+2265,565,Kubernetes,0
+2266,565,REST APIs,0
+2267,565,Java,0
+2268,565,C++,0
+2269,566,Scikit-Learn,1
+2270,566,Excel,0
+2271,566,Tableau,0
+2272,566,Pandas,0
+2273,566,Python,0
+2274,567,Spring Boot,1
+2275,567,Docker,0
+2276,567,Python,0
+2277,567,REST APIs,0
+2278,567,Git,0
+2279,568,Tableau,1
+2280,568,Power BI,0
+2281,569,Node.js,1
+2282,569,Docker,0
+2283,569,REST APIs,0
+2284,570,User Stories,1
+2285,570,Product Roadmapping,0
+2286,570,Stakeholder Management,0
+2287,571,REST APIs,1
+2288,571,Spring Boot,0
+2289,571,Git,0
+2290,571,Node.js,0
+2291,571,React,0
+2292,572,REST APIs,1
+2293,572,C++,0
+2294,572,Docker,0
+2295,572,Spring Boot,0
+2296,572,Python,0
+2297,573,React,1
+2298,573,Python,0
+2299,573,Spring Boot,0
+2300,573,Kubernetes,0
+2301,573,Git,0
+2302,573,Microservices,0
+2303,574,A/B Testing,1
+2304,574,Agile,0
+2305,575,Tableau,1
+2306,575,R,0
+2307,576,Java,1
+2308,576,REST APIs,0
+2309,576,Python,0
+2310,577,Power BI,1
+2311,577,Python,0
+2312,577,R,0
+2313,578,REST APIs,1
+2314,578,Java,0
+2315,579,Power BI,1
+2316,579,SQL,0
+2317,579,Pandas,0
+2318,579,Python,0
+2319,580,Docker,1
+2320,580,Python,0
+2321,580,Spring Boot,0
+2322,580,Git,0
+2323,580,Java,0
+2324,581,SQL,1
+2325,581,Power BI,0
+2326,582,SQL,1
+2327,582,R,0
+2328,582,Pandas,0
+2329,582,Statistics,0
+2330,583,Java,1
+2331,583,REST APIs,0
+2332,583,Kubernetes,0
+2333,583,Docker,0
+2334,584,Cryptography,1
+2335,584,ISO 27001,0
+2336,584,Ethical Hacking,0
+2337,585,C++,1
+2338,585,React,0
+2339,585,Node.js,0
+2340,585,Java,0
+2341,586,Agile,1
+2342,586,Stakeholder Management,0
+2343,586,Scrum,0
+2344,586,Data Analysis,0
+2345,586,Product Roadmapping,0
+2346,586,Jira,0
+2347,587,C++,1
+2348,587,REST APIs,0
+2349,588,Kubernetes,1
+2350,588,Spring Boot,0
+2351,588,React,0
+2352,588,Microservices,0
+2353,588,Java,0
+2354,588,C++,0
+2355,589,Docker,1
+2356,589,Python,0
+2357,589,React,0
+2358,589,C++,0
+2359,589,Git,0
+2360,590,Tableau,1
+2361,590,Power BI,0
+2362,590,Python,0
+2363,591,Excel,1
+2364,591,SQL,0
+2365,591,Power BI,0
+2366,591,Python,0
+2367,591,R,0
+2368,592,Java,1
+2369,592,Docker,0
+2370,592,REST APIs,0
+2371,592,Spring Boot,0
+2372,593,React,1
+2373,593,Spring Boot,0
+2374,593,C++,0
+2375,594,React,1
+2376,594,Microservices,0
+2377,594,Git,0
+2378,594,Docker,0
+2379,594,REST APIs,0
+2380,595,Power BI,1
+2381,595,Statistics,0
+2382,595,R,0
+2383,595,Tableau,0
+2384,596,Tableau,1
+2385,596,R,0
+2386,596,SQL,0
+2387,597,Kubernetes,1
+2388,597,REST APIs,0
+2389,597,Python,0
+2390,597,C++,0
+2391,597,Java,0
+2392,598,Microservices,1
+2393,598,REST APIs,0
+2394,599,Node.js,1
+2395,599,Microservices,0
+2396,599,REST APIs,0
+2397,599,Spring Boot,0
+2398,600,Tableau,1
+2399,600,Python,0
+2400,600,Excel,0
+2401,600,Pandas,0
+2402,600,Statistics,0
+2403,601,Python,1
+2404,601,R,0
+2405,601,Scikit-Learn,0
+2406,602,Kubernetes,1
+2407,602,Python,0
+2408,602,Docker,0
+2409,602,React,0
+2410,602,Microservices,0
+2411,603,Microservices,1
+2412,603,Git,0
+2413,603,Kubernetes,0
+2414,603,C++,0
+2415,604,Java,1
+2416,604,C++,0
+2417,604,Node.js,0
+2418,604,Docker,0
+2419,604,Kubernetes,0
+2420,605,Power BI,1
+2421,605,SQL,0
+2422,605,R,0
+2423,605,Tableau,0
+2424,606,Python,1
+2425,606,React,0
+2426,606,Microservices,0
+2427,606,Git,0
+2428,607,React,1
+2429,607,Java,0
+2430,608,Statistics,1
+2431,608,Python,0
+2432,609,REST APIs,1
+2433,609,Node.js,0
+2434,610,Python,1
+2435,610,R,0
+2436,610,SQL,0
+2437,610,Pandas,0
+2438,610,Statistics,0
+2439,611,Statistics,1
+2440,611,R,0
+2441,611,Power BI,0
+2442,611,Pandas,0
+2443,611,Scikit-Learn,0
+2444,611,Tableau,0
+2445,612,REST APIs,1
+2446,612,Java,0
+2447,612,React,0
+2448,612,Kubernetes,0
+2449,613,Figma,1
+2450,613,Design Systems,0
+2451,613,Adobe XD,0
+2452,613,User Research,0
+2453,613,Prototyping,0
+2454,613,HTML/CSS,0
+2455,614,Power BI,1
+2456,614,Python,0
+2457,614,Pandas,0
+2458,614,SQL,0
+2459,614,Scikit-Learn,0
+2460,615,Data Analysis,1
+2461,615,Jira,0
+2462,615,Stakeholder Management,0
+2463,615,Product Roadmapping,0
+2464,615,A/B Testing,0
+2465,616,Tableau,1
+2466,616,Statistics,0
+2467,617,Statistics,1
+2468,617,Python,0
+2469,617,Power BI,0
+2470,618,C++,1
+2471,618,Java,0
+2472,618,Git,0
+2473,618,Kubernetes,0
+2474,618,Docker,0
+2475,618,Microservices,0
+2476,619,Git,1
+2477,619,C++,0
+2478,619,Docker,0
+2479,619,Java,0
+2480,620,Node.js,1
+2481,620,REST APIs,0
+2482,620,Git,0
+2483,620,Spring Boot,0
+2484,620,Microservices,0
+2485,620,Java,0
+2486,621,Docker,1
+2487,621,Python,0
+2488,621,Git,0
+2489,621,React,0
+2490,621,C++,0
+2491,621,Spring Boot,0
+2492,622,R,1
+2493,622,Tableau,0
+2494,622,Power BI,0
+2495,623,Python,1
+2496,623,Node.js,0
+2497,623,Microservices,0
+2498,623,REST APIs,0
+2499,623,C++,0
+2500,624,React,1
+2501,624,REST APIs,0
+2502,624,Kubernetes,0
+2503,624,Python,0
+2504,624,Microservices,0
+2505,624,C++,0
+2506,625,Statistics,1
+2507,625,Pandas,0
+2508,625,Excel,0
+2509,625,SQL,0
+2510,625,Tableau,0
+2511,625,Python,0
+2512,626,Microservices,1
+2513,626,REST APIs,0
+2514,626,Docker,0
+2515,627,Excel,1
+2516,627,Statistics,0
+2517,628,Docker,1
+2518,628,Git,0
+2519,629,Design Systems,1
+2520,629,Prototyping,0
+2521,629,Wireframing,0
+2522,629,Adobe XD,0
+2523,629,HTML/CSS,0
+2524,630,Scikit-Learn,1
+2525,630,R,0
+2526,630,Python,0
+2527,631,Kubernetes,1
+2528,631,React,0
+2529,631,REST APIs,0
+2530,631,Spring Boot,0
+2531,632,Node.js,1
+2532,632,Java,0
+2533,633,Figma,1
+2534,633,Prototyping,0
+2535,633,Design Systems,0
+2536,634,Jira,1
+2537,634,User Stories,0
+2538,634,A/B Testing,0
+2539,634,Agile,0
+2540,634,Product Roadmapping,0
+2541,635,R,1
+2542,635,Python,0
+2543,635,SQL,0
+2544,635,Scikit-Learn,0
+2545,635,Statistics,0
+2546,636,Statistics,1
+2547,636,Tableau,0
+2548,636,Python,0
+2549,636,Scikit-Learn,0
+2550,636,R,0
+2551,636,SQL,0
+2552,637,Excel,1
+2553,637,Scikit-Learn,0
+2554,637,Power BI,0
+2555,637,Python,0
+2556,637,Statistics,0
+2557,638,Kubernetes,1
+2558,638,Python,0
+2559,638,Git,0
+2560,639,Power BI,1
+2561,639,SQL,0
+2562,640,Linux,1
+2563,640,Network Security,0
+2564,641,Kubernetes,1
+2565,641,React,0
+2566,641,Python,0
+2567,641,Docker,0
+2568,642,R,1
+2569,642,Scikit-Learn,0
+2570,642,SQL,0
+2571,642,Pandas,0
+2572,643,Scrum,1
+2573,643,Agile,0
+2574,643,User Stories,0
+2575,643,Stakeholder Management,0
+2576,643,Jira,0
+2577,644,Node.js,1
+2578,644,Kubernetes,0
+2579,644,Python,0
+2580,644,Docker,0
+2581,645,REST APIs,1
+2582,645,Java,0
+2583,646,Statistics,1
+2584,646,Excel,0
+2585,646,SQL,0
+2586,646,Scikit-Learn,0
+2587,646,Python,0
+2588,647,React,1
+2589,647,Microservices,0
+2590,647,Git,0
+2591,648,Power BI,1
+2592,648,SQL,0
+2593,648,Python,0
+2594,649,Java,1
+2595,649,Microservices,0
+2596,649,Node.js,0
+2597,649,Spring Boot,0
+2598,650,Microservices,1
+2599,650,REST APIs,0
+2600,650,Git,0
+2601,650,Spring Boot,0

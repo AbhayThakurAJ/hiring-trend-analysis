@@ -1,0 +1,13 @@
+role_id,role_title,role_category,seniority_band
+1,Data Analyst,Analytics,Fresher
+2,Software Engineer,Engineering,Fresher
+3,Data Scientist,Analytics,Mid-level
+4,Business Analyst,Analytics,Mid-level
+5,DevOps Engineer,Engineering,Mid-level
+6,Full Stack Developer,Engineering,Mid-level
+7,Product Manager,Management,Senior
+8,Cloud Architect,Engineering,Senior
+9,Machine Learning Engineer,Analytics,Mid-level
+10,UI/UX Designer,Design,Fresher
+11,QA Engineer,Engineering,Fresher
+12,Cyber Security Analyst,Security,Mid-level

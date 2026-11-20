@@ -1,0 +1,9 @@
+industry_id,industry_name,sector_category
+1,IT & Software,Services
+2,Banking & Financial Services,Services
+3,Healthcare & Lifesciences,Services
+4,Manufacturing & Automotive,Production
+5,E-Commerce & Retail,Services
+6,Telecommunications,Services
+7,Education & EdTech,Knowledge
+8,Media & Entertainment,Knowledge
