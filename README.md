@@ -1,6 +1,6 @@
 # 📊 P01 — Hiring Trend Analysis
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://2500320140004-hiringtrendanalysis.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://hiring-trend-analysis-recruit.streamlit.app/)
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/downloads/release/python-3120/)
 [![Tests](https://img.shields.io/badge/pytest-15%20passed-brightgreen.svg)](tests/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -16,7 +16,7 @@ An end-to-end Data Analytics platform built to analyze hiring trends, benchmark 
 - **Roll Number:** 2500320140004
 - **Academic Programme:** MCA 2nd Year (Data Analytics), ABES Engineering College
 - **Faculty Mentor:** Dinesh Sereno
-- **Live Demo Deployment:** [Streamlit Community Cloud Link](https://2500320140004-hiringtrendanalysis.streamlit.app/)
+- **Live Demo Deployment:** [Streamlit Community Cloud Link](https://hiring-trend-analysis-recruit.streamlit.app/)
 
 ---
 
@@ -56,8 +56,7 @@ flowchart TD
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/abhayjeet-singh/2500320140004-hiringtrendanalysis.git
-cd 2500320140004-hiringtrendanalysis
+git clone https://github.com/AbhayThakurAJ/hiring-trend-analysis
 ```
 
 ### 2. Set Up Virtual Environment
@@ -91,8 +90,8 @@ streamlit run app.py
 1. Push your repository to GitHub under your user profile.
 2. Sign in to [share.streamlit.io](https://share.streamlit.io/) with your GitHub account.
 3. Click **Create app** and configure:
-   - **Repository:** `<your-github-username>/2500320140004-hiringtrendanalysis`
+   - **Repository:** `<https://github.com/AbhayThakurAJ/hiring-trend-analysis`
    - **Branch:** `main`
    - **Main file path:** `app.py`
-   - **App URL:** `2500320140004-hiringtrendanalysis`
+   - **App URL:** `https://hiring-trend-analysis-recruit.streamlit.app/`
 4. Click **Deploy**. Build completes within 2–3 minutes.
