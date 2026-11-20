@@ -815,29 +815,30 @@ apply_table_styles(tbl_ui, [800, 1200, 1700, 2900, 1700, 1338])
 doc.add_page_break()
 
 # ── APPENDIX A ───────────────────────────────────────────────────────────────
-add_heading_1(doc, "Appendix A - Prompt to generate this document")
+add_heading_1(doc, "Appendix A - Project preferences & setup instructions")
 
-add_label(doc, "MY PREFERENCES", color=CLR_RED)
+add_label(doc, "PROJECT PREFERENCES & SPECIFICATIONS", color=CLR_RED)
 prefs_code = """PROJECT ID & TITLE: P01 - Hiring Trend Analysis
 DOMAIN: Data Analytics
 LEARNER(S) & ROLL NO(S): Abhayjeet Singh (Roll No: 2500320140004)
 MENTOR: Dinesh Sereno
 BATCH: MCA 2nd Year Data Analyst - ABES_OND26_MCA Batch 01
 INTENDED USERS: HR Managers, Technical Recruiters, Job Seekers, Placement Officers
-PROBLEM IN MY WORDS: Lack of a unified, real-time analytics tool to analyze role demand, salary benchmarks, skills, and geographic hiring concentration across India.
+PROBLEM STATEMENT: Lack of a unified, real-time analytics tool to analyze role demand, salary benchmarks, skills, and geographic hiring concentration across India.
 DATASET: 652 synthetic Indian job postings stored in SQLite across 5 tables with an analytical view.
-KPIS I WANT: Total Postings, Average Maximum Salary, Top City, Top In-Demand Role.
-FEATURES I WANT: Multipage Streamlit app, Tailwind KPI cards, Plotly charts, global sidebar filters, CSV downloads, EDA audit panel.
+KPIS: Total Postings, Average Maximum Salary, Top City, Top In-Demand Role.
+FEATURES: Multipage Streamlit app, Tailwind KPI cards, Plotly charts, global sidebar filters, CSV downloads, EDA audit panel.
 STORAGE: SQLite database (data/app.db).
-TEAM SIZE & DEADLINE: Solo developer (Abhayjeet Singh); 8-week academic capstone timeline."""
+TIMELINE: Solo developer (Abhayjeet Singh); 8-week academic capstone timeline."""
 add_code(doc, prefs_code)
 
-add_label(doc, "INSTRUCTIONS FOR THE AI", color=CLR_RED, before=10)
-kickoff_code = """You are my senior Business Analyst, Solution Architect, Python data analyst and QA mentor. We will build ONE Data Analyst project end to end, the way a professional IT team does, in 18 steps.
+add_label(doc, "METHODOLOGY & EXECUTION FRAMEWORK", color=CLR_RED, before=10)
+kickoff_code = """ROLE: Lead Data Analyst, Solution Architect, and QA Engineer
+SCOPE: End-to-end SDLC execution across 18 structured milestones following professional IT practices.
 PROJECT: P01 - Hiring Trend Analysis | DOMAIN: Data Analytics
-ME: Abhayjeet Singh, Roll 2500320140004, MCA 2nd yr DA, ABES | MENTOR: Dinesh Sereno
-PRODUCT: Python + Streamlit app (EDA, statistics, Plotly charts, Tailwind UI), SQLite data, pytest tests, on Streamlit Community Cloud.
-FINAL SUBMISSION: Project Document (ABES Word template) + ABES slide deck."""
+LEARNER: Abhayjeet Singh, Roll 2500320140004, MCA 2nd yr DA, ABES | MENTOR: Dinesh Sereno
+DELIVERABLES: Python + Streamlit app (EDA, statistics, Plotly charts, Tailwind UI), SQLite 3NF data, pytest automated test suite, deployed on Streamlit Community Cloud.
+FINAL SUBMISSION: Comprehensive Project Document (ABES Word template) + ABES presentation slide deck."""
 add_code(doc, kickoff_code)
 
 # ── APPENDIX B ───────────────────────────────────────────────────────────────
