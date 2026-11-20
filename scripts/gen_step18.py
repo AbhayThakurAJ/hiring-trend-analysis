@@ -212,18 +212,21 @@ def build_presentation():
     bg1.fill.fore_color.rgb = RGB_BLACK
     bg1.line.fill.background()
 
-    # [ABES logo] (.5, .35, 1.6, .5) italic 10 pink, middle, default insets
-    tb_logo = add_textbox(slide1, 0.5, 0.35, 1.6, 0.5, default_insets=True)
-    tf_l = tb_logo.text_frame
-    tf_l.vertical_anchor = MSO_ANCHOR.MIDDLE
-    p_l = tf_l.paragraphs[0]
-    p_l.alignment = PP_ALIGN.LEFT
-    r_l = p_l.add_run()
-    r_l.text = "[ABES logo]"
-    r_l.font.name = 'Calibri'
-    r_l.font.size = Pt(10)
-    r_l.font.italic = True
-    r_l.font.color.rgb = RGB_PINK
+    # ABES logo (.5, .35, 1.6, .5)
+    if os.path.exists('assets/abes_logo.png'):
+        slide1.shapes.add_picture('assets/abes_logo.png', Inches(0.5), Inches(0.28), width=Inches(0.65))
+    else:
+        tb_logo = add_textbox(slide1, 0.5, 0.35, 1.6, 0.5, default_insets=True)
+        tf_l = tb_logo.text_frame
+        tf_l.vertical_anchor = MSO_ANCHOR.MIDDLE
+        p_l = tf_l.paragraphs[0]
+        p_l.alignment = PP_ALIGN.LEFT
+        r_l = p_l.add_run()
+        r_l.text = "[ABES logo]"
+        r_l.font.name = 'Calibri'
+        r_l.font.size = Pt(10)
+        r_l.font.italic = True
+        r_l.font.color.rgb = RGB_PINK
 
     # Header right (2.2, .35, 7.3, .5) 11 pink, right, middle, default insets
     tb_hr = add_textbox(slide1, 2.2, 0.35, 7.3, 0.5, default_insets=True)
@@ -804,18 +807,21 @@ def build_presentation():
     bg11.fill.fore_color.rgb = RGB_BLACK
     bg11.line.fill.background()
 
-    # [ABES logo] (.5, .35, 1.6, .5) italic 10 pink, middle
-    tb_logo11 = add_textbox(slide11, 0.5, 0.35, 1.6, 0.5, default_insets=True)
-    tf_l11 = tb_logo11.text_frame
-    tf_l11.vertical_anchor = MSO_ANCHOR.MIDDLE
-    p_l11 = tf_l11.paragraphs[0]
-    p_l11.alignment = PP_ALIGN.LEFT
-    r_l11 = p_l11.add_run()
-    r_l11.text = "[ABES logo]"
-    r_l11.font.name = 'Calibri'
-    r_l11.font.size = Pt(10)
-    r_l11.font.italic = True
-    r_l11.font.color.rgb = RGB_PINK
+    # ABES logo (.5, .35, 1.6, .5)
+    if os.path.exists('assets/abes_logo.png'):
+        slide11.shapes.add_picture('assets/abes_logo.png', Inches(0.5), Inches(0.28), width=Inches(0.65))
+    else:
+        tb_logo11 = add_textbox(slide11, 0.5, 0.35, 1.6, 0.5, default_insets=True)
+        tf_l11 = tb_logo11.text_frame
+        tf_l11.vertical_anchor = MSO_ANCHOR.MIDDLE
+        p_l11 = tf_l11.paragraphs[0]
+        p_l11.alignment = PP_ALIGN.LEFT
+        r_l11 = p_l11.add_run()
+        r_l11.text = "[ABES logo]"
+        r_l11.font.name = 'Calibri'
+        r_l11.font.size = Pt(10)
+        r_l11.font.italic = True
+        r_l11.font.color.rgb = RGB_PINK
 
     # Header right (2.2, .35, 7.3, .5) 11 pink, right, middle
     tb_hr11 = add_textbox(slide11, 2.2, 0.35, 7.3, 0.5, default_insets=True)
@@ -849,8 +855,8 @@ def build_presentation():
     tf_lines11.vertical_anchor = MSO_ANCHOR.TOP
 
     lines11_data = [
-        ("App: https://abhayjeet-hiring-trends.streamlit.app  [To confirm]", RGB_CARD),
-        ("Code: https://github.com/abhayjeet/2500320140004-hiring-trend-analysis  [To confirm]", RGB_CARD),
+        ("App: https://hiring-trend-analysis-recruit.streamlit.app/", RGB_CARD),
+        ("Code: https://github.com/AbhayThakurAJ/hiring-trend-analysis", RGB_CARD),
         ("Thank you", RGB_PINK)
     ]
     for i, (txt, col) in enumerate(lines11_data):

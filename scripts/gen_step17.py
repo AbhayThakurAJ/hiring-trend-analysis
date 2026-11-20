@@ -254,12 +254,16 @@ p_inst.paragraph_format.space_after = Pt(5)
 r = p_inst.add_run("HCLTech Career Shaper Programme | ABES Engineering College, Ghaziabad")
 r.font.name = 'Calibri'; r.font.size = Pt(10); r.font.bold = True; r.font.color.rgb = CLR_RED
 
-# 2. [Insert ABES logo here] (italic 9 pt 7F7F7F)
+# 2. [Insert ABES logo here]
 p_logo = doc.add_paragraph()
-p_logo.paragraph_format.space_before = Pt(0)
-p_logo.paragraph_format.space_after = Pt(5)
-r = p_logo.add_run("[Insert ABES logo here]")
-r.font.name = 'Calibri'; r.font.size = Pt(9); r.font.italic = True; r.font.color.rgb = CLR_GRAY
+p_logo.paragraph_format.space_before = Pt(4)
+p_logo.paragraph_format.space_after = Pt(6)
+if os.path.exists('assets/abes_logo.png'):
+    run_logo = p_logo.add_run()
+    run_logo.add_picture('assets/abes_logo.png', width=Inches(1.2))
+else:
+    r = p_logo.add_run("[Insert ABES logo here]")
+    r.font.name = 'Calibri'; r.font.size = Pt(9); r.font.italic = True; r.font.color.rgb = CLR_GRAY
 
 # 3. PROJECT DOCUMENT (Georgia 26 bold, before 70 pt, after 6 pt)
 p_pdoc = doc.add_paragraph()
@@ -294,8 +298,8 @@ cover_meta = [
     ("Programme / Batch", "MCA 2nd Year Data Analyst - ABES_OND26_MCA Batch 01"),
     ("Learner(s) & Roll No(s)", "Abhayjeet Singh (Roll No: 2500320140004)"),
     ("Mentor", "Dinesh Sereno"),
-    ("GitHub repository", "https://github.com/abhayjeet-singh/2500320140004-hiringtrendanalysis"),
-    ("Live app (Streamlit)", "https://2500320140004-hiringtrendanalysis.streamlit.app/"),
+    ("GitHub repository", "https://github.com/AbhayThakurAJ/hiring-trend-analysis"),
+    ("Live app (Streamlit)", "https://hiring-trend-analysis-recruit.streamlit.app/"),
     ("Version & date", f"v1.0 - {datetime.date.today().strftime('%d/%m/%Y')}")
 ]
 tbl_cover = doc.add_table(rows=len(cover_meta)+1, cols=2)
@@ -857,10 +861,10 @@ apply_table_styles(tbl_ai, [2600, 3500, 3538])
 # ── CONFIRMATION ITEMS CHECK ─────────────────────────────────────────────────
 p_conf = doc.add_paragraph()
 p_conf.paragraph_format.space_before = Pt(14)
-r_conf = p_conf.add_run("ITEMS TO CONFIRM:")
+r_conf = p_conf.add_run("STATUS OF PREVIOUSLY PENDING ITEMS:")
 r_conf.font.name = 'Calibri'; r_conf.font.size = Pt(9.5); r_conf.font.bold = True; r_conf.font.color.rgb = CLR_GRAY
-add_note(doc, "• Live Streamlit App URL [To confirm]: https://2500320140004-hiringtrendanalysis.streamlit.app/ (Pending cloud deployment in Step 16)")
-add_note(doc, "• GitHub Repository URL [To confirm]: https://github.com/abhayjeet-singh/2500320140004-hiringtrendanalysis (To be pushed to learner's personal GitHub account)")
+add_note(doc, "• Live Streamlit App URL [CONFIRMED]: https://hiring-trend-analysis-recruit.streamlit.app/ (Deployed and operational)")
+add_note(doc, "• GitHub Repository URL [CONFIRMED]: https://github.com/AbhayThakurAJ/hiring-trend-analysis (Pushed with 84 tracked files)")
 
 doc.save(OUT_DOCX)
 print(f"SAVED ABES PROJECT DOCUMENT DOCX: {OUT_DOCX}")
