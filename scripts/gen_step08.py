@@ -1,6 +1,6 @@
 """
 Step 08 – Database Design Excel + RTM Update
-Project : P01 – Hiring Trend Analysis
+Project : P071 – Hiring Trend Analysis
 """
 import os, datetime
 from openpyxl import Workbook, load_workbook
@@ -62,10 +62,10 @@ wb=Workbook()
 # ══════════════════════════════════════════════════════════════════════════════
 ws=wb.active; ws.title="Overview"
 ws.sheet_view.showGridLines=False
-banner(ws,'P01 – Hiring Trend Analysis  |  Database Design  |  Step 08',8)
+banner(ws,'P071 – Hiring Trend Analysis  |  Database Design  |  Step 08',8)
 
 meta=[
-    ('Project','P01 – HTA'),('DB Engine','SQLite 3'),
+    ('Project','P071 – HTA'),('DB Engine','SQLite 3'),
     ('DB File','data/app.db'),('Tables','5'),
     ('Relationships','4 FK'),('Analysis View','1 (30+ cols)'),
     ('Date',datetime.date.today().strftime('%d %b %Y')),('Author','Abhayjeet Singh'),

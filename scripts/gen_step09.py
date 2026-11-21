@@ -1,6 +1,6 @@
 """
 Step 09 – ER Diagram PNG Generator & Word Document Builder
-Project : P01 – Hiring Trend Analysis
+Project : P071 – Hiring Trend Analysis
 Student : Abhayjeet Singh | Roll: 2500320140004
 Mentor  : Dinesh Sereno | ABES, MCA 2nd Yr DA
 """
@@ -37,7 +37,7 @@ except Exception:
 
 # Header Banner
 draw.rectangle([(0, 0), (W, 70)], fill="#1F3564")
-draw.text((30, 15), "ENTITY-RELATIONSHIP (ER) DIAGRAM — P01 HIRING TREND ANALYSIS", fill="#FFFFFF", font=font_title)
+draw.text((30, 15), "ENTITY-RELATIONSHIP (ER) DIAGRAM — P071 HIRING TREND ANALYSIS", fill="#FFFFFF", font=font_title)
 draw.text((30, 45), "Relational Model: 3 Dimension Masters + 1 Core Fact + 1 Bridge Junction", fill="#BDD5EE", font=font_sub)
 
 def draw_box(x, y, w, h, title, cols, header_color="#2E74B5"):
@@ -172,7 +172,7 @@ draw.text((520, 651), "• PK = Primary Key (Identity) | FK = Foreign Key (Refer
 
 # Footer banner
 draw.rectangle([(0, H-40), (W, H)], fill="#0F172A")
-draw.text((30, H-28), "Generated for ABES MCA Data Analytics Capstone | P01 Hiring Trend Analysis | Author: Abhayjeet Singh", fill="#94A3B8", font=font_code)
+draw.text((30, H-28), "Generated for ABES MCA Data Analytics Capstone | P071 Hiring Trend Analysis | Author: Abhayjeet Singh", fill="#94A3B8", font=font_code)
 
 img.save(PNG_FILE)
 print(f"SAVED PNG: {PNG_FILE}")
@@ -237,7 +237,7 @@ banner = doc.add_table(rows=1, cols=1); banner.alignment = WD_TABLE_ALIGNMENT.CE
 bc = banner.cell(0,0); set_cell_bg(bc, '1F3564')
 bp = bc.paragraphs[0]; bp.alignment = WD_ALIGN_PARAGRAPH.CENTER
 bp.paragraph_format.space_before = Pt(12); bp.paragraph_format.space_after = Pt(12)
-r1 = bp.add_run('P01 – HIRING TREND ANALYSIS\n'); r1.bold = True; r1.font.size = Pt(18); r1.font.color.rgb = WHITE
+r1 = bp.add_run('P071 – HIRING TREND ANALYSIS\n'); r1.bold = True; r1.font.size = Pt(18); r1.font.color.rgb = WHITE
 r2 = bp.add_run('Step 09 · Entity-Relationship (ER) Diagram Specification\n'); r2.font.size = Pt(12); r2.font.color.rgb = RGBColor(0xBD,0xD5,0xEE)
 r3 = bp.add_run('Abhayjeet Singh | Roll: 2500320140004 | Mentor: Dinesh Sereno | ABES MCA 2nd Yr DA'); r3.font.size = Pt(9); r3.font.color.rgb = RGBColor(0xBD,0xD5,0xEE)
 doc.add_paragraph()

@@ -1,6 +1,6 @@
 """
 Step 04 – Requirements Traceability Matrix (RTM) Excel Generator
-Project : P01 – Hiring Trend Analysis
+Project : P071 – Hiring Trend Analysis
 Student : Abhayjeet Singh | Roll: 2500320140004
 Mentor  : Dinesh Sereno | ABES, MCA 2nd Yr DA
 """
@@ -71,7 +71,7 @@ ws.freeze_panes = 'A4'          # freeze title rows
 # ── Title block (rows 1-2) ────────────────────────────────────────────────────
 ws.merge_cells('A1:N1')
 t1 = ws['A1']
-t1.value = 'P01 – HIRING TREND ANALYSIS  |  Requirements Traceability Matrix (RTM)  |  Step 04'
+t1.value = 'P071 – HIRING TREND ANALYSIS  |  Requirements Traceability Matrix (RTM)  |  Step 04'
 style_cell(t1, bg=C['dark_blue'], fg=C['hdr_txt'], bold=True, size=13,
            h_align='center', border_color=C['dark_blue'])
 ws.row_dimensions[1].height = 28
@@ -271,7 +271,7 @@ wc.sheet_view.showGridLines = False
 wc.merge_cells('A1:F1')
 style_cell(wc['A1'], bg=C['dark_blue'], fg=C['hdr_txt'], bold=True, size=13,
            h_align='center', border_color=C['dark_blue'])
-wc['A1'].value = 'P01 – RTM Coverage Check  |  Step 04'
+wc['A1'].value = 'P071 – RTM Coverage Check  |  Step 04'
 wc.row_dimensions[1].height = 26
 
 # ── Section A: OQ Coverage ────────────────────────────────────────────────────
@@ -411,7 +411,7 @@ wch.sheet_view.showGridLines = False
 wch.merge_cells('A1:E1')
 style_cell(wch['A1'], bg=C['dark_blue'], fg=C['hdr_txt'], bold=True,
            size=12, h_align='center', border_color=C['dark_blue'])
-wch['A1'].value = 'RTM Changelog — P01 Hiring Trend Analysis'
+wch['A1'].value = 'RTM Changelog — P071 Hiring Trend Analysis'
 wch.row_dimensions[1].height = 24
 
 ch_hdrs = ['Step','Date Updated','Columns Updated','Updated by','Notes']

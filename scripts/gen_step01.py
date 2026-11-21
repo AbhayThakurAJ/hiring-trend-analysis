@@ -1,6 +1,6 @@
 """
 Step 01 – Project Understanding Document Generator
-Project : P01 – Hiring Trend Analysis
+Project : P071 – Hiring Trend Analysis
 Student : Abhayjeet Singh | Roll: 2500320140004
 Mentor  : Dinesh Sereno | ABES, MCA 2nd Yr DA
 """
@@ -143,7 +143,7 @@ bp = bc.paragraphs[0]
 bp.alignment = WD_ALIGN_PARAGRAPH.CENTER
 bp.paragraph_format.space_before = Pt(10)
 bp.paragraph_format.space_after  = Pt(10)
-r1 = bp.add_run('P01 – HIRING TREND ANALYSIS\n')
+r1 = bp.add_run('P071 – HIRING TREND ANALYSIS\n')
 r1.bold = True; r1.font.size = Pt(18); r1.font.color.rgb = WHITE
 r2 = bp.add_run('Step 01 · Project Understanding Document\n')
 r2.font.size = Pt(12); r2.font.color.rgb = RGBColor(0xBD,0xD5,0xEE)
@@ -154,7 +154,7 @@ doc.add_paragraph()
 meta = doc.add_table(rows=3, cols=4)
 meta.alignment = WD_TABLE_ALIGNMENT.CENTER
 meta_data = [
-    ('Project ID','P01'),('Version','1.0'),
+    ('Project ID','P071'),('Version','1.0'),
     ('Date', datetime.date.today().strftime('%d %b %Y')),('Status','Draft'),
     ('Domain','Data Analytics'),('Platform','Python + Streamlit + SQLite'),
     ('Hosting','Streamlit Community Cloud'),('Step','01 of 18'),
@@ -539,7 +539,7 @@ set_cell_borders(dc_tbl)
 doc.add_paragraph()
 p = doc.add_paragraph()
 p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-run = p.add_run('P01 – Hiring Trend Analysis  |  Step 01 Project Understanding  |  ABES MCA 2nd Yr DA  |  Mentor: Dinesh Sereno')
+run = p.add_run('P071 – Hiring Trend Analysis  |  Step 01 Project Understanding  |  ABES MCA 2nd Yr DA  |  Mentor: Dinesh Sereno')
 run.font.size = Pt(8); run.font.color.rgb = RGBColor(0x88,0x88,0x88); run.italic = True
 
 # ── SAVE ─────────────────────────────────────────────────────────────────────

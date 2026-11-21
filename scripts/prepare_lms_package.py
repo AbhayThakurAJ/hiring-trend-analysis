@@ -29,9 +29,10 @@ STREAMLIT_URL = "https://hiring-trend-analysis-recruit.streamlit.app/"
 STUDENT_NAME = "Abhayjeet Singh"
 ROLL_NO = "2500320140004"
 MENTOR = "Dinesh Sereno"
-PROJECT_ID = "P01"
+PROJECT_ID = "P071"
 PROJECT_TITLE = "Hiring Trend Analysis"
 PROGRAMME = "MCA 2nd Year Data Analyst"
+BATCH_ID = "ABES_OND26_MCA 2nd Year_Data Analytics_Batch 01"
 COLLEGE = "ABES Engineering College, Ghaziabad"
 
 # Color Palette (RGB tuples 0.0 - 1.0)
@@ -207,7 +208,8 @@ def generate_project_document_pdf():
     cover_meta = [
         ["Project ID & Title", f"{PROJECT_ID} - {PROJECT_TITLE}"],
         ["Domain", "Data Analytics"],
-        ["Programme / Batch", f"{PROGRAMME} - ABES_OND26_MCA Batch 01"],
+        ["Batch ID", BATCH_ID],
+        ["Programme", PROGRAMME],
         ["Learner(s) & Roll No(s)", f"{STUDENT_NAME} (Roll No: {ROLL_NO})"],
         ["Faculty Mentor", MENTOR],
         ["GitHub Repository URL", GITHUB_URL],
@@ -266,7 +268,7 @@ def generate_presentation_pdf_and_ppt():
     doc = fitz.open()
 
     slides_info = [
-        {"title": f"{PROJECT_ID} - {PROJECT_TITLE}", "subtitle": f"{STUDENT_NAME} | Roll No: {ROLL_NO}\n{PROGRAMME} | Faculty Mentor: {MENTOR}\nVerified Live App: {STREAMLIT_URL}\nPublic GitHub: {GITHUB_URL}", "is_dark": True},
+        {"title": f"{PROJECT_ID} - {PROJECT_TITLE}", "subtitle": f"{STUDENT_NAME} | Roll No: {ROLL_NO}\n{PROGRAMME} | Faculty Mentor: {MENTOR}\nBatch ID: {BATCH_ID}\nVerified Live App: {STREAMLIT_URL}\nPublic GitHub: {GITHUB_URL}", "is_dark": True},
         {"title": "Problem Statement & How Might We", "subtitle": "Problem: Job seekers, recruiters, and placement offices struggle with fragmented hiring information.\nHMW-01: Benchmark salaries across experience levels.\nHMW-02: Map regional hiring demand across Indian metro hubs.\nHMW-03: Forecast in-demand technical competencies for curriculum alignment.", "is_dark": False},
         {"title": "Stakeholders and Users", "subtitle": "Primary User: Job Seeker / Data Analyst (High Influence) — Salary benchmarks & role trends.\nSecondary User: HR Recruiter / Talent Lead (Medium Influence) — In-demand skill requirements.\nAcademic Evaluator: College Faculty / Placement Head (High Influence) — Curriculum insights.", "is_dark": False},
         {"title": "Requirements and Traceability", "subtitle": "Every HMW statement traces 100% to a Business Requirement (BR-01..13), User Story (US-01..16),\nFunctional Requirement (FR-01..16), Test Case (TC-01..31), and Dashboard Screen (UI-01..10).\nFull bidirectional traceability verified with zero gaps.", "is_dark": False},
@@ -329,11 +331,12 @@ def generate_github_report_pdf():
 
     pdf.y = 140
     pdf.add_heading("GitHub Repository & Deployment Audit Report", level=1)
-    pdf.add_paragraph("This official report certifies that the entire source code, relational SQLite database, automated unit test suite, and 18-step documentation for Capstone Project P01 have been committed, audited, and successfully pushed to GitHub.", italic=False)
+    pdf.add_paragraph("This official report certifies that the entire source code, relational SQLite database, automated unit test suite, and 18-step documentation for Capstone Project P071 have been committed, audited, and successfully pushed to GitHub.", italic=False)
 
     pdf.add_heading("1. Repository & Deployment Credentials", level=2)
     meta_data = [
         ["Project ID & Title", f"{PROJECT_ID} - {PROJECT_TITLE}"],
+        ["Batch ID", BATCH_ID],
         ["Learner Name", STUDENT_NAME],
         ["University Roll No", ROLL_NO],
         ["Faculty Mentor", MENTOR],
@@ -405,7 +408,7 @@ def generate_complete_code_pdf():
         pdf.page.insert_image(fitz.Rect(50, 45, 120, 115), filename=LOGO_PATH)
     pdf.page.insert_text((135, 60), "HCLTech Career Shaper Programme", fontname="hebo", fontsize=11, color=CLR_RED)
     pdf.page.insert_text((135, 75), f"{COLLEGE}", fontname="helv", fontsize=9.5, color=CLR_TEXT)
-    pdf.page.insert_text((135, 90), f"{PROGRAMME} | Batch 01", fontname="helv", fontsize=8.5, color=CLR_GRAY)
+    pdf.page.insert_text((135, 90), f"{PROGRAMME} | Batch: {BATCH_ID}", fontname="helv", fontsize=7.5, color=CLR_GRAY)
     pdf.page.draw_line(fitz.Point(50, 125), fitz.Point(545, 125), color=CLR_RED, width=1.5)
 
     pdf.y = 170
@@ -480,13 +483,13 @@ def generate_all_step_documents_pdf():
         master_pdf.page.insert_image(fitz.Rect(50, 45, 120, 115), filename=LOGO_PATH)
     master_pdf.page.insert_text((135, 65), "HCLTech Career Shaper Programme", fontname="hebo", fontsize=11, color=CLR_RED)
     master_pdf.page.insert_text((135, 80), f"{COLLEGE}", fontname="helv", fontsize=9.5, color=CLR_TEXT)
-    master_pdf.page.insert_text((135, 95), f"{PROGRAMME} | Batch 01", fontname="helv", fontsize=8.5, color=CLR_GRAY)
+    master_pdf.page.insert_text((135, 95), f"{PROGRAMME} | Batch: {BATCH_ID}", fontname="helv", fontsize=7.5, color=CLR_GRAY)
     master_pdf.page.draw_line(fitz.Point(50, 125), fitz.Point(545, 125), color=CLR_RED, width=1.5)
 
     master_pdf.y = 180
     master_pdf.add_heading("STEP DOCUMENTS MASTER COMPILATION", level=1)
     master_pdf.add_heading(f"Step 01 Through Step 18 | {PROJECT_ID} - {PROJECT_TITLE}", level=2)
-    master_pdf.add_paragraph(f"Learner: {STUDENT_NAME} (Roll No: {ROLL_NO}) | Mentor: {MENTOR}")
+    master_pdf.add_paragraph(f"Batch ID: {BATCH_ID} | Learner: {STUDENT_NAME} ({ROLL_NO}) | Mentor: {MENTOR}")
     master_pdf.add_paragraph(f"Public GitHub: {GITHUB_URL} | Live App: {STREAMLIT_URL}")
     master_pdf.add_paragraph("This master document consolidates all deliverables created across the 18-step Software Development Lifecycle (SDLC) for the ABES Engineering College Capstone Project.", italic=True, space_after=15)
 

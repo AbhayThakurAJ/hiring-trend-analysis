@@ -1,6 +1,7 @@
 """
 Step 10 – Synthetic Dataset Generator
-Project : P01 – Hiring Trend Analysis
+Project : P071 – Hiring Trend Analysis
+Batch ID: ABES_OND26_MCA 2nd Year_Data Analytics_Batch 01
 Student : Abhayjeet Singh | Roll: 2500320140004
 Mentor  : Dinesh Sereno | ABES MCA 2nd Yr DA
 

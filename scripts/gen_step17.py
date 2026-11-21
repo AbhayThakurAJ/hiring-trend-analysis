@@ -1,6 +1,6 @@
 """
 Step 17 – ABES Project Document Generator
-Project: P01 – Hiring Trend Analysis
+Project: P071 – Hiring Trend Analysis
 Student: Abhayjeet Singh | Roll: 2500320140004
 Mentor: Dinesh Sereno | ABES Engineering College, MCA 2nd Yr DA
 """
@@ -221,7 +221,7 @@ def add_header_footer(doc):
         header = s.header
         hp = header.paragraphs[0]
         hp.alignment = WD_ALIGN_PARAGRAPH.RIGHT
-        hrun = hp.add_run("ABES Engineering College | Project Document | P01")
+        hrun = hp.add_run("ABES Engineering College | Project Document | P071")
         hrun.font.name = 'Calibri'
         hrun.font.size = Pt(8)
         hrun.font.color.rgb = CLR_GRAY
@@ -276,7 +276,7 @@ r.font.name = 'Georgia'; r.font.size = Pt(26); r.font.bold = True; r.font.color.
 p_title = doc.add_paragraph()
 p_title.paragraph_format.space_before = Pt(0)
 p_title.paragraph_format.space_after = Pt(12)
-r = p_title.add_run("P01 - Hiring Trend Analysis")
+r = p_title.add_run("P071 - Hiring Trend Analysis")
 r.font.name = 'Georgia'; r.font.size = Pt(18); r.font.color.rgb = CLR_RED
 
 # Add bottom border 1.5 pt (sz 12) A51C30
@@ -293,9 +293,10 @@ r.font.name = 'Calibri'; r.font.size = Pt(10); r.font.color.rgb = CLR_GRAY
 
 # 6. Cover Metadata Table (Field 2900 | Details 6738 = 9638 dxa)
 cover_meta = [
-    ("Project ID & Title", "P01 - Hiring Trend Analysis"),
+    ("Project ID & Title", "P071 - Hiring Trend Analysis"),
     ("Domain", "Data Analytics"),
-    ("Programme / Batch", "MCA 2nd Year Data Analyst - ABES_OND26_MCA Batch 01"),
+    ("Batch ID", "ABES_OND26_MCA 2nd Year_Data Analytics_Batch 01"),
+    ("Programme", "MCA 2nd Year Data Analyst"),
     ("Learner(s) & Roll No(s)", "Abhayjeet Singh (Roll No: 2500320140004)"),
     ("Mentor", "Dinesh Sereno"),
     ("GitHub repository", "https://github.com/AbhayThakurAJ/hiring-trend-analysis"),
@@ -818,11 +819,11 @@ doc.add_page_break()
 add_heading_1(doc, "Appendix A - Project preferences & setup instructions")
 
 add_label(doc, "PROJECT PREFERENCES & SPECIFICATIONS", color=CLR_RED)
-prefs_code = """PROJECT ID & TITLE: P01 - Hiring Trend Analysis
+prefs_code = """PROJECT ID & TITLE: P071 - Hiring Trend Analysis
 DOMAIN: Data Analytics
 LEARNER(S) & ROLL NO(S): Abhayjeet Singh (Roll No: 2500320140004)
 MENTOR: Dinesh Sereno
-BATCH: MCA 2nd Year Data Analyst - ABES_OND26_MCA Batch 01
+BATCH ID: ABES_OND26_MCA 2nd Year_Data Analytics_Batch 01
 INTENDED USERS: HR Managers, Technical Recruiters, Job Seekers, Placement Officers
 PROBLEM STATEMENT: Lack of a unified, real-time analytics tool to analyze role demand, salary benchmarks, skills, and geographic hiring concentration across India.
 DATASET: 652 synthetic Indian job postings stored in SQLite across 5 tables with an analytical view.
@@ -835,7 +836,8 @@ add_code(doc, prefs_code)
 add_label(doc, "METHODOLOGY & EXECUTION FRAMEWORK", color=CLR_RED, before=10)
 kickoff_code = """ROLE: Lead Data Analyst, Solution Architect, and QA Engineer
 SCOPE: End-to-end SDLC execution across 18 structured milestones following professional IT practices.
-PROJECT: P01 - Hiring Trend Analysis | DOMAIN: Data Analytics
+PROJECT: P071 - Hiring Trend Analysis | DOMAIN: Data Analytics
+BATCH ID: ABES_OND26_MCA 2nd Year_Data Analytics_Batch 01
 LEARNER: Abhayjeet Singh, Roll 2500320140004, MCA 2nd yr DA, ABES | MENTOR: Dinesh Sereno
 DELIVERABLES: Python + Streamlit app (EDA, statistics, Plotly charts, Tailwind UI), SQLite 3NF data, pytest automated test suite, deployed on Streamlit Community Cloud.
 FINAL SUBMISSION: Comprehensive Project Document (ABES Word template) + ABES presentation slide deck."""

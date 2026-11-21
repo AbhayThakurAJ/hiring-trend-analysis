@@ -20,7 +20,7 @@ import subprocess
 import datetime
 import fitz
 
-OUTPUT_PDF_PRIMARY = "P01_Hiring_Trend_Analysis_Complete_Source_Code.pdf"
+OUTPUT_PDF_PRIMARY = "P071_Hiring_Trend_Analysis_Complete_Source_Code.pdf"
 OUTPUT_PDF_LMS = "LMS_Submissions/04_Complete_Code.pdf"
 
 LOGO_PATH = "assets/abes_logo.png"
@@ -29,9 +29,10 @@ STREAMLIT_URL = "https://hiring-trend-analysis-recruit.streamlit.app/"
 STUDENT_NAME = "Abhayjeet Singh"
 ROLL_NO = "2500320140004"
 MENTOR = "Dinesh Sereno"
-PROJECT_ID = "P01"
+PROJECT_ID = "P071"
 PROJECT_TITLE = "Hiring Trend Analysis"
 PROGRAMME = "MCA 2nd Year Data Analyst"
+BATCH_ID = "ABES_OND26_MCA 2nd Year_Data Analytics_Batch 01"
 COLLEGE = "ABES Engineering College, Ghaziabad"
 
 # Theme colors (RGB 0.0 - 1.0)
@@ -253,10 +254,11 @@ class MasterCodePDF:
         # Repository Metadata Table
         meta_table = [
             ["Project Identifier", f"{PROJECT_ID} - {PROJECT_TITLE}"],
+            ["Batch ID", BATCH_ID],
             ["Domain", "Data Analytics & Enterprise Talent Intelligence"],
             ["Learner / Candidate", f"{STUDENT_NAME} (Roll No: {ROLL_NO})"],
             ["Academic Institution", f"{COLLEGE} (Code: 032)"],
-            ["Programme / Batch", f"{PROGRAMME} - ABES_OND26_MCA Batch 01"],
+            ["Academic Programme", f"{PROGRAMME}"],
             ["Faculty Mentor", MENTOR],
             ["Public GitHub Repository", GITHUB_URL],
             ["Production Live App", STREAMLIT_URL],

@@ -1,5 +1,5 @@
 """
-Step 18 Presentation Generator for P01 - Hiring Trend Analysis
+Step 18 Presentation Generator for P071 - Hiring Trend Analysis
 Generates docs/P01_HTA_Step18_Presentation.pptx and docs/P01_Presentation.pptx
 Adheres strictly to all layout, geometry, color, and font specifications.
 """
@@ -173,7 +173,7 @@ def create_content_slide_base(prs, title_text, slide_number):
     p_f = tf_f.paragraphs[0]
     p_f.alignment = PP_ALIGN.LEFT
     run_f = p_f.add_run()
-    run_f.text = "HCLTech Career Shaper ABES Engineering College | P01 - Hiring Trend Analysis"
+    run_f.text = "HCLTech Career Shaper ABES Engineering College | P071 - Hiring Trend Analysis"
     run_f.font.name = 'Calibri'
     run_f.font.size = Pt(9)
     run_f.font.color.rgb = RGB_GREY
@@ -247,7 +247,7 @@ def build_presentation():
     p_t1 = tf_t1.paragraphs[0]
     p_t1.alignment = PP_ALIGN.LEFT
     r_t1 = p_t1.add_run()
-    r_t1.text = "P01 - Hiring Trend Analysis"
+    r_t1.text = "P071 - Hiring Trend Analysis"
     r_t1.font.name = 'Cambria'
     r_t1.font.size = Pt(36)
     r_t1.font.bold = True
@@ -261,7 +261,8 @@ def build_presentation():
     lines_data = [
         ("Abhayjeet Singh | Roll No 2500320140004", RGB_CARD),
         ("MCA 2nd Year Data Analyst | Mentor: Dinesh Sereno", RGB_CARD),
-        ("20 November 2026", RGB_PINK)
+        ("Batch ID: ABES_OND26_MCA 2nd Year_Data Analytics_Batch 01", RGB_CARD),
+        ("21 November 2026", RGB_PINK)
     ]
     for i, (txt, col) in enumerate(lines_data):
         p = tf_lines1.paragraphs[0] if i == 0 else tf_lines1.add_paragraph()
@@ -275,8 +276,8 @@ def build_presentation():
 
     set_speaker_note(slide1,
         "Good morning respected mentor and evaluators. I am Abhayjeet Singh, MCA 2nd Year Data Analyst, "
-        "presenting Project P01, Hiring Trend Analysis. The purpose of this project is to provide data-driven "
-        "insights into Indian tech compensation, skill demands, and regional hiring patterns."
+        "presenting Project P071, Hiring Trend Analysis (Batch ID: ABES_OND26_MCA 2nd Year_Data Analytics_Batch 01). "
+        "The purpose of this project is to provide data-driven insights into Indian tech compensation, skill demands, and regional hiring patterns."
     )
 
     # ----------------------------------------------------

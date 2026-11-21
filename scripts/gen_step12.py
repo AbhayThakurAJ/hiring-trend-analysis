@@ -1,6 +1,6 @@
 """
 Step 12 – UI Framework Generator & RTM Updater
-Project : P01 – Hiring Trend Analysis
+Project : P071 – Hiring Trend Analysis
 Student : Abhayjeet Singh | Roll: 2500320140004
 Mentor  : Dinesh Sereno | ABES MCA 2nd Yr DA
 """
@@ -60,7 +60,7 @@ import streamlit.components.v1 as components
 
 TAILWIND_CDN = '<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">'
 
-def render_hero_header(title: str, subtitle: str, metadata: str = "P01 | MCA DA ABES"):
+def render_hero_header(title: str, subtitle: str, metadata: str = "P071 | MCA DA ABES"):
     """Render an executive Hero Banner styled with Tailwind CSS."""
     html_code = f"""
     {TAILWIND_CDN}
@@ -188,7 +188,7 @@ banner = doc.add_table(rows=1, cols=1); banner.alignment = WD_TABLE_ALIGNMENT.CE
 bc = banner.cell(0,0); set_cell_bg(bc, '1F3564')
 bp = bc.paragraphs[0]; bp.alignment = WD_ALIGN_PARAGRAPH.CENTER
 bp.paragraph_format.space_before = Pt(12); bp.paragraph_format.space_after = Pt(12)
-r1 = bp.add_run('P01 – HIRING TREND ANALYSIS\n'); r1.bold = True; r1.font.size = Pt(18); r1.font.color.rgb = WHITE
+r1 = bp.add_run('P071 – HIRING TREND ANALYSIS\n'); r1.bold = True; r1.font.size = Pt(18); r1.font.color.rgb = WHITE
 r2 = bp.add_run('Step 12 · Streamlit UI Framework & Tailwind Wireframe Specification\n'); r2.font.size = Pt(12); r2.font.color.rgb = RGBColor(0xBD,0xD5,0xEE)
 r3 = bp.add_run('Abhayjeet Singh | Roll: 2500320140004 | Mentor: Dinesh Sereno | ABES MCA 2nd Yr DA'); r3.font.size = Pt(9); r3.font.color.rgb = RGBColor(0xBD,0xD5,0xEE)
 doc.add_paragraph()

@@ -1,6 +1,6 @@
 """
 Step 07 – Technical Requirements Document (TRD) Generator
-Project : P01 – Hiring Trend Analysis
+Project : P071 – Hiring Trend Analysis
 Student : Abhayjeet Singh | Roll: 2500320140004
 Mentor  : Dinesh Sereno | ABES, MCA 2nd Yr DA
 NOTE    : Step 06 (PRD) skipped by learner — TRD proceeds from BRD (Step 05)
@@ -116,7 +116,7 @@ ban=doc.add_table(rows=1,cols=1);ban.alignment=WD_TABLE_ALIGNMENT.CENTER
 bc=ban.cell(0,0);bg(bc,'1F3564')
 bp=bc.paragraphs[0];bp.alignment=WD_ALIGN_PARAGRAPH.CENTER
 bp.paragraph_format.space_before=Pt(14);bp.paragraph_format.space_after=Pt(14)
-r1=bp.add_run('P01 – HIRING TREND ANALYSIS\n')
+r1=bp.add_run('P071 – HIRING TREND ANALYSIS\n')
 r1.bold=True;r1.font.size=Pt(20);r1.font.color.rgb=WHITE
 r2=bp.add_run('Technical Requirements Document (TRD)\n')
 r2.font.size=Pt(14);r2.font.color.rgb=RGBColor(0xBD,0xD5,0xEE)
@@ -128,7 +128,7 @@ doc.add_paragraph()
 
 # meta strip
 meta=doc.add_table(rows=2,cols=4);meta.alignment=WD_TABLE_ALIGNMENT.CENTER
-mdata=[('Project','P01 – Hiring Trend Analysis'),('Step','07 of 18'),
+mdata=[('Project','P071 – Hiring Trend Analysis'),('Step','07 of 18'),
        ('Date',datetime.date.today().strftime('%d %b %Y')),('Status','Draft'),
        ('Stack','Python 3.12 · Streamlit · Plotly · SQLite'),('DB','data/app.db'),
        ('Hosting','Streamlit Community Cloud'),('Note','Step 06 PRD skipped by learner')]
@@ -517,7 +517,7 @@ HERO_HTML = \"\"\"
 <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 <div class="bg-blue-900 text-white p-6 rounded-xl shadow-lg mb-4">
   <h1 class="text-3xl font-bold">📊 Hiring Trend Analysis</h1>
-  <p class="text-blue-200 mt-1">P01 · Abhayjeet Singh · ABES MCA 2nd Yr DA</p>
+  <p class="text-blue-200 mt-1">P071 · Abhayjeet Singh · ABES MCA 2nd Yr DA</p>
 </div>
 <div class="grid grid-cols-4 gap-4 mb-6">
   <div class="bg-blue-100 p-4 rounded-lg shadow text-center">
@@ -632,7 +632,7 @@ H(doc,'8. requirements.txt (Pinned)',1)
 P(doc,'All versions pinned to ensure reproducible builds on Streamlit Community Cloud.',size=9.5)
 doc.add_paragraph()
 code_block(doc,
-"""# requirements.txt  —  P01 Hiring Trend Analysis
+"""# requirements.txt  —  P071 Hiring Trend Analysis
 # Generated: """ + datetime.date.today().strftime('%d %b %Y') + """
 
 # ── Core app ──────────────────────────────────────────────────────────────
@@ -775,7 +775,7 @@ frow(dc,1,['1.0',datetime.date.today().strftime('%d %b %Y'),
 borders(dc)
 doc.add_paragraph()
 p=doc.add_paragraph();p.alignment=WD_ALIGN_PARAGRAPH.CENTER
-r=p.add_run('P01 – Hiring Trend Analysis  |  TRD v1.0  |  Step 07 of 18  |  ABES MCA 2nd Yr DA  |  Mentor: Dinesh Sereno')
+r=p.add_run('P071 – Hiring Trend Analysis  |  TRD v1.0  |  Step 07 of 18  |  ABES MCA 2nd Yr DA  |  Mentor: Dinesh Sereno')
 r.font.size=Pt(8);r.font.color.rgb=RGBColor(0x88,0x88,0x88);r.italic=True
 
 doc.save(OUT_FILE)

@@ -1,6 +1,7 @@
 # 🛠️ BUILD_PLAN.md — End-to-End Build & Implementation Blueprint
 
-**PROJECT:** P01 – Hiring Trend Analysis | **DOMAIN:** Data Analytics  
+**PROJECT:** P071 – Hiring Trend Analysis | **DOMAIN:** Data Analytics  
+**BATCH ID:** ABES_OND26_MCA 2nd Year_Data Analytics_Batch 01  
 **STUDENT:** Abhayjeet Singh | **ROLL:** 2500320140004 | **MENTOR:** Dinesh Sereno | **INSTITUTION:** ABES MCA 2nd Yr DA  
 **STACK:** Python 3.12, Streamlit Multipage, Plotly Express, Tailwind CSS CDN, SQLite 3 (`data/app.db`), Pytest  
 
@@ -8,7 +9,7 @@
 
 ## 1. Project Summary & Deliverable Traceability
 
-The **Hiring Trend Analysis (P01)** application is a full-stack data analytics product designed to eliminate fragmented spreadsheets and intuition-driven hiring decisions. Developed on a structured SQLite database containing 652 job postings across 15 Indian metropolitan areas and 8 industries, it delivers interactive exploratory data analysis, salary benchmarks, and demand forecasts. The system empowers HR leaders, technical recruiters, placement officers, and job seekers to extract actionable talent market intelligence in real time. It resolves 10 foundational Operational Questions (OQ-01 through OQ-10) with complete bidirectional traceability across all SDLC artifacts. Every user requirement is linked from business needs to database entities, UI screens, and automated test cases.
+The **Hiring Trend Analysis (P071)** application is a full-stack data analytics product designed to eliminate fragmented spreadsheets and intuition-driven hiring decisions. Developed on a structured SQLite database containing 652 job postings across 15 Indian metropolitan areas and 8 industries, it delivers interactive exploratory data analysis, salary benchmarks, and demand forecasts. The system empowers HR leaders, technical recruiters, placement officers, and job seekers to extract actionable talent market intelligence in real time. It resolves 10 foundational Operational Questions (OQ-01 through OQ-10) with complete bidirectional traceability across all SDLC artifacts. Every user requirement is linked from business needs to database entities, UI screens, and automated test cases.
 
 ### Project Document Registry:
 - [Step 01: Project Understanding (DOCX)](file:///C:/Hiring%20Trend%20Analysis/docs/P01_HTA_Step01_ProjectUnderstanding.docx)

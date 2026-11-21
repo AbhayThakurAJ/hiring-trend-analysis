@@ -1,4 +1,4 @@
-# 📊 P01 — Hiring Trend Analysis
+# 📊 P071 — Hiring Trend Analysis
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://hiring-trend-analysis-recruit.streamlit.app/)
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/downloads/release/python-3120/)
@@ -10,11 +10,12 @@ An end-to-end Data Analytics platform built to analyze hiring trends, benchmark 
 ---
 
 ## 👥 Project & Academic Metadata
-- **Project ID & Title:** P01 – Hiring Trend Analysis
+- **Project ID & Title:** P071 – Hiring Trend Analysis
 - **Domain:** Data Analytics
 - **Student Name:** Abhayjeet Singh
 - **Roll Number:** 2500320140004
 - **Academic Programme:** MCA 2nd Year (Data Analytics), ABES Engineering College
+- **Batch ID:** ABES_OND26_MCA 2nd Year_Data Analytics_Batch 01
 - **Faculty Mentor:** Dinesh Sereno
 - **Live Demo Deployment:** [Streamlit Community Cloud Link](https://hiring-trend-analysis-recruit.streamlit.app/)
 

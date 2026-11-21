@@ -8,7 +8,7 @@ import streamlit.components.v1 as components
 
 TAILWIND_CDN = '<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">'
 
-def render_hero_header(title: str, subtitle: str, metadata: str = "P01 | MCA DA ABES"):
+def render_hero_header(title: str, subtitle: str, metadata: str = "P071 | MCA DA ABES"):
     """Render an executive Hero Banner styled with Tailwind CSS."""
     html_code = f"""
     {TAILWIND_CDN}

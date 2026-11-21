@@ -81,8 +81,9 @@ if st.sidebar.button("🔄 Reset Global Filters", use_container_width=True):
     st.rerun()
 
 st.sidebar.markdown("---")
-st.sidebar.markdown("**Project P01 — MCA Data Analytics**")
+st.sidebar.markdown("**Project P071 — MCA Data Analytics**")
 st.sidebar.caption("Student: Abhayjeet Singh | ABES")
+st.sidebar.caption("Batch ID: ABES_OND26_MCA 2nd Year_Data Analytics_Batch 01")
 
 # 4. Filter Application Function for Pages
 def get_filtered_df(df: pd.DataFrame) -> pd.DataFrame:
@@ -121,7 +122,7 @@ import plotly.express as px
 render_hero_header(
     "Hiring Trend Analysis Dashboard",
     "Real-time Indian Recruitment Intelligence, Compensation Benchmarks & Skill Analytics",
-    "P01 | ABES MCA 2nd Yr"
+    "P071 | ABES MCA 2nd Yr"
 )
 
 kpis = get_kpi_metrics(st.session_state.filtered_df)

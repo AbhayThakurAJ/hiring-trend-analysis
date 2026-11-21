@@ -1,6 +1,6 @@
 """
 Step 05 – Business Requirements Document (BRD) Generator
-Project : P01 – Hiring Trend Analysis
+Project : P071 – Hiring Trend Analysis
 Student : Abhayjeet Singh | Roll: 2500320140004
 Mentor  : Dinesh Sereno | ABES, MCA 2nd Yr DA
 """
@@ -118,7 +118,7 @@ ban=doc.add_table(rows=1,cols=1); ban.alignment=WD_TABLE_ALIGNMENT.CENTER
 bc=ban.cell(0,0); bg(bc,'1F3564')
 bp=bc.paragraphs[0]; bp.alignment=WD_ALIGN_PARAGRAPH.CENTER
 bp.paragraph_format.space_before=Pt(14); bp.paragraph_format.space_after=Pt(14)
-r1=bp.add_run('P01 – HIRING TREND ANALYSIS\n')
+r1=bp.add_run('P071 – HIRING TREND ANALYSIS\n')
 r1.bold=True; r1.font.size=Pt(20); r1.font.color.rgb=WHITE
 r2=bp.add_run('Business Requirements Document (BRD)\n')
 r2.font.size=Pt(14); r2.font.color.rgb=RGBColor(0xBD,0xD5,0xEE)
@@ -132,8 +132,8 @@ doc.add_paragraph()
 H(doc,'1. Document Control',1)
 dc=doc.add_table(rows=8,cols=2); dc.alignment=WD_TABLE_ALIGNMENT.CENTER
 dc_data=[
-    ('Document Title','P01 – Hiring Trend Analysis: Business Requirements Document'),
-    ('Document ID','P01-BRD-001'),
+    ('Document Title','P071 – Hiring Trend Analysis: Business Requirements Document'),
+    ('Document ID','P071-BRD-001'),
     ('Version','1.0'),
     ('Status','Draft — Pending Mentor Review'),
     ('Prepared By','Abhayjeet Singh | Roll: 2500320140004 | ABES MCA 2nd Yr DA'),
@@ -813,7 +813,7 @@ borders(sign)
 doc.add_paragraph()
 # footer
 fp=doc.add_paragraph(); fp.alignment=WD_ALIGN_PARAGRAPH.CENTER
-fr=fp.add_run('P01 – Hiring Trend Analysis  |  BRD v1.0  |  Step 05 of 18  |  ABES MCA 2nd Yr DA  |  Mentor: Dinesh Sereno')
+fr=fp.add_run('P071 – Hiring Trend Analysis  |  BRD v1.0  |  Step 05 of 18  |  ABES MCA 2nd Yr DA  |  Mentor: Dinesh Sereno')
 fr.font.size=Pt(8); fr.font.color.rgb=RGBColor(0x88,0x88,0x88); fr.italic=True
 
 doc.save(OUT_FILE)

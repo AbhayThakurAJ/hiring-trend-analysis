@@ -34,7 +34,7 @@ def create_notebook():
     # =========================================================================
     add_md(
 """# 🎓 Comprehensive Exploratory Data Analysis (EDA) Masterclass
-## Project: P01 - Hiring Trend Analysis
+## Project: P071 - Hiring Trend Analysis
 **Author:** Abhayjeet Singh (Roll No: 2500320140004)  
 **Programme:** MCA 2nd Year Data Analyst, ABES Engineering College  
 **Mentor:** Dinesh Sereno  
